@@ -1,0 +1,14 @@
+erp:
+  authp:
+      roles: 
+      -
+        role: Adviser
+        permissions:
+              - hello
+              - test
+      -
+        role: Admin
+        permissions:
+              - hello
+              - test
+ 

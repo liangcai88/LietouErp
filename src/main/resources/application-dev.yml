@@ -1,0 +1,62 @@
+debug: true
+logging:
+  path: /var/log
+server:
+  port: ${port:8899}
+spring:
+  output:
+      ansi:
+       enabled: DETECT
+  velocity:
+    toolbox-config-location: velocity-toolbox.xml
+    suffix: .html 
+    cache: true
+    charset: uft8
+    content-type: text/html;charset=utf8
+    properties:
+      input: 
+        encoding: utf8
+      output: 
+        encoding: utf8
+  packagestoscan: com.ccai.lietouerp.db.entity
+  datasource: 
+    driver: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/lietouerp?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    username: root
+    password: 
+hibernate: 
+  dialect: org.hibernate.dialect.MySQLDialect
+  show:
+    sql: true
+  hbm2ddl: 
+    auto: update
+#图片验证码配置    
+kaptcha:  
+  session:  
+    key: kaptchacode
+  #border: no  
+  #渲染效果：水纹：WaterRipple；鱼眼：FishEyeGimpy；阴影：ShadowGimpy  
+  obscurificator:  
+    impl: com.google.code.kaptcha.impl.ShadowGimpy  
+  #不要噪点  
+  noise:  
+    impl: com.google.code.kaptcha.impl.NoNoise  
+  image:  
+    width: 120  
+    height: 34  
+  textproducer:  
+    font:  
+      size: 28  
+      color: blue
+    char:  
+      length: 5  
+      space: 5  
+  #和登录框背景颜色一致  
+  background:  
+    clear:  
+      from: 247,247,247  
+      to: 247,247,247  
+web: 
+  app:
+    static: 
+        path: file:F:/workspace2/LietouErp/static/

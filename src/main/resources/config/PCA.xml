@@ -1,0 +1,3897 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PCAroot>
+  <Province id="1" name="北京" level="0" pname="北京">
+    <City id="101" name="北京市" level="1" pname="北京">
+      <Area id="10101" level="2">东城区</Area>
+      <Area id="10102" level="2">西城区</Area>
+      <Area id="10103" level="2">崇文区</Area>
+      <Area id="10104" level="2">宣武区</Area>
+      <Area id="10105" level="2">朝阳区</Area>
+      <Area id="10106" level="2">丰台区</Area>
+      <Area id="10107" level="2">石景山区</Area>
+      <Area id="10108" level="2">海淀区</Area>
+      <Area id="10109" level="2">门头沟区</Area>
+      <Area id="10110" level="2">房山区</Area>
+      <Area id="10111" level="2">通州区</Area>
+      <Area id="10112" level="2">顺义区</Area>
+      <Area id="10113" level="2">昌平区</Area>
+      <Area id="10114" level="2">大兴区</Area>
+      <Area id="10115" level="2">怀柔区</Area>
+      <Area id="10116" level="2">平谷区</Area>
+       <Area id="10117" level="2">密云县</Area>
+      <Area id="10118" level="2">延庆县</Area>
+    </City>
+    
+  </Province> 
+  <Province id="2" name="天津" level="0" pname="天津">
+    <City id="201" name="天津市" level="1" pname="天津">
+      <Area id="20101" level="2">和平区</Area>
+      <Area id="20102" level="2">河东区</Area>
+      <Area id="20103" level="2">河西区</Area>
+      <Area id="20104" level="2">南开区</Area>
+      <Area id="20105" level="2">河北区</Area>
+      <Area id="20106" level="2">红桥区</Area>
+      <Area id="20107" level="2">塘沽区</Area>
+      <Area id="20108" level="2">汉沽区</Area>
+      <Area id="20109" level="2">大港区</Area>
+      <Area id="20110" level="2">东丽区</Area>
+      <Area id="20111" level="2">西青区</Area>
+      <Area id="20112" level="2">津南区</Area>
+      <Area id="20113" level="2">北辰区</Area>
+      <Area id="20114" level="2">武清区</Area>
+      <Area id="20115" level="2">宝坻区</Area>
+       <Area id="20116" level="2">宁河县</Area>
+      <Area id="20117" level="2">静海县</Area>
+      <Area id="20118" level="2">蓟　县</Area>
+    </City>
+  </Province>
+  <Province id="3" name="河北省" level="0" pname="河北">
+    <City id="301" name="石家庄市" level="1" pname="石家庄">
+      <Area id="30101" level="2">市辖区</Area>
+      <Area id="30102" level="2">长安区</Area>
+      <Area id="30103" level="2">桥东区</Area>
+      <Area id="30104" level="2">桥西区</Area>
+      <Area id="30105" level="2">新华区</Area>
+      <Area id="30106" level="2">井陉矿区</Area>
+      <Area id="30107" level="2">裕华区</Area>
+      <Area id="30108" level="2">井陉县</Area>
+      <Area id="30109" level="2">正定县</Area>
+      <Area id="30110" level="2">栾城县</Area>
+      <Area id="30111" level="2">行唐县</Area>
+      <Area id="30112" level="2">灵寿县</Area>
+      <Area id="30113" level="2">高邑县</Area>
+      <Area id="30114" level="2">深泽县</Area>
+      <Area id="30115" level="2">赞皇县</Area>
+      <Area id="30116" level="2">无极县</Area>
+      <Area id="30117" level="2">平山县</Area>
+      <Area id="30118" level="2">元氏县</Area>
+      <Area id="30119" level="2">赵　县</Area>
+      <Area id="30120" level="2">辛集市</Area>
+      <Area id="30121" level="2">藁城市</Area>
+      <Area id="30122" level="2">晋州市</Area>
+      <Area id="30123" level="2">新乐市</Area>
+      <Area id="30124" level="2">鹿泉市</Area>
+    </City>
+    <City id="302" name="唐山市" level="1" pname="唐山">
+      <Area id="30201" level="2">市辖区</Area>
+      <Area id="30202" level="2">路南区</Area>
+      <Area id="30203" level="2">路北区</Area>
+      <Area id="30204" level="2">古冶区</Area>
+      <Area id="30205" level="2">开平区</Area>
+      <Area id="30206" level="2">丰南区</Area>
+      <Area id="30207" level="2">丰润区</Area>
+      <Area id="30208" level="2">滦　县</Area>
+      <Area id="30209" level="2">滦南县</Area>
+      <Area id="30210" level="2">乐亭县</Area>
+      <Area id="30211" level="2">迁西县</Area>
+      <Area id="30212" level="2">玉田县</Area>
+      <Area id="30213" level="2">唐海县</Area>
+      <Area id="30214" level="2">遵化市</Area>
+      <Area id="30215" level="2">迁安市</Area>
+    </City>
+    <City id="303" name="秦皇岛市" level="1" pname="秦皇岛">
+      <Area id="30301" level="2">市辖区</Area>
+      <Area id="30302" level="2">海港区</Area>
+      <Area id="30303" level="2">山海关区</Area>
+      <Area id="30304" level="2">北戴河区</Area>
+      <Area id="30305" level="2">青龙满族自治县</Area>
+      <Area id="30306" level="2">昌黎县</Area>
+      <Area id="30307" level="2">抚宁县</Area>
+      <Area id="30308" level="2">卢龙县</Area>
+    </City>
+    <City id="304" name="邯郸市" level="1" pname="邯郸">
+      <Area id="30401" level="2">市辖区</Area>
+      <Area id="30402" level="2">邯山区</Area>
+      <Area id="30403" level="2">丛台区</Area>
+      <Area id="30404" level="2">复兴区</Area>
+      <Area id="30405" level="2">峰峰矿区</Area>
+      <Area id="30406" level="2">邯郸县</Area>
+      <Area id="30407" level="2">临漳县</Area>
+      <Area id="30408" level="2">成安县</Area>
+      <Area id="30409" level="2">大名县</Area>
+      <Area id="30410" level="2">涉　县</Area>
+      <Area id="30411" level="2">磁　县</Area>
+      <Area id="30412" level="2">肥乡县</Area>
+      <Area id="30413" level="2">永年县</Area>
+      <Area id="30414" level="2">邱　县</Area>
+      <Area id="30415" level="2">鸡泽县</Area>
+      <Area id="30416" level="2">广平县</Area>
+      <Area id="30417" level="2">馆陶县</Area>
+      <Area id="30418" level="2">魏　县</Area>
+      <Area id="30419" level="2">曲周县</Area>
+      <Area id="30420" level="2">武安市</Area>
+    </City>
+    <City id="305" name="邢台市" level="1" pname="邢台">
+      <Area id="30501" level="2">市辖区</Area>
+      <Area id="30502" level="2">桥东区</Area>
+      <Area id="30503" level="2">桥西区</Area>
+      <Area id="30504" level="2">邢台县</Area>
+      <Area id="30505" level="2">临城县</Area>
+      <Area id="30506" level="2">内丘县</Area>
+      <Area id="30507" level="2">柏乡县</Area>
+      <Area id="30508" level="2">隆尧县</Area>
+      <Area id="30509" level="2">任　县</Area>
+      <Area id="30510" level="2">南和县</Area>
+      <Area id="30511" level="2">宁晋县</Area>
+      <Area id="30512" level="2">巨鹿县</Area>
+      <Area id="30513" level="2">新河县</Area>
+      <Area id="30514" level="2">广宗县</Area>
+      <Area id="30515" level="2">平乡县</Area>
+      <Area id="30516" level="2">威　县</Area>
+      <Area id="30517" level="2">清河县</Area>
+      <Area id="30518" level="2">临西县</Area>
+      <Area id="30519" level="2">南宫市</Area>
+      <Area id="30520" level="2">沙河市</Area>
+    </City>
+    <City id="306" name="保定市" level="1" pname="保定">
+      <Area id="30601" level="2">市辖区</Area>
+      <Area id="30602" level="2">新市区</Area>
+      <Area id="30603" level="2">北市区</Area>
+      <Area id="30604" level="2">南市区</Area>
+      <Area id="30605" level="2">满城县</Area>
+      <Area id="30606" level="2">清苑县</Area>
+      <Area id="30607" level="2">涞水县</Area>
+      <Area id="30608" level="2">阜平县</Area>
+      <Area id="30609" level="2">徐水县</Area>
+      <Area id="30610" level="2">定兴县</Area>
+      <Area id="30611" level="2">唐　县</Area>
+      <Area id="30612" level="2">高阳县</Area>
+      <Area id="30613" level="2">容城县</Area>
+      <Area id="30614" level="2">涞源县</Area>
+      <Area id="30615" level="2">望都县</Area>
+      <Area id="30616" level="2">安新县</Area>
+      <Area id="30617" level="2">易　县</Area>
+      <Area id="30618" level="2">曲阳县</Area>
+      <Area id="30619" level="2">蠡　县</Area>
+      <Area id="30620" level="2">顺平县</Area>
+      <Area id="30621" level="2">博野县</Area>
+      <Area id="30622" level="2">雄　县</Area>
+      <Area id="30623" level="2">涿州市</Area>
+      <Area id="30624" level="2">定州市</Area>
+      <Area id="30625" level="2">安国市</Area>
+      <Area id="30626" level="2">高碑店市</Area>
+    </City>
+    <City id="307" name="张家口市" level="1" pname="张家口">
+      <Area id="30701" level="2">市辖区</Area>
+      <Area id="30702" level="2">桥东区</Area>
+      <Area id="30703" level="2">桥西区</Area>
+      <Area id="30704" level="2">宣化区</Area>
+      <Area id="30705" level="2">下花园区</Area>
+      <Area id="30706" level="2">宣化县</Area>
+      <Area id="30707" level="2">张北县</Area>
+      <Area id="30708" level="2">康保县</Area>
+      <Area id="30709" level="2">沽源县</Area>
+      <Area id="30710" level="2">尚义县</Area>
+      <Area id="30711" level="2">蔚　县</Area>
+      <Area id="30712" level="2">阳原县</Area>
+      <Area id="30713" level="2">怀安县</Area>
+      <Area id="30714" level="2">万全县</Area>
+      <Area id="30715" level="2">怀来县</Area>
+      <Area id="30716" level="2">涿鹿县</Area>
+      <Area id="30717" level="2">赤城县</Area>
+      <Area id="30718" level="2">崇礼县</Area>
+    </City>
+    <City id="308" name="承德市" level="1" pname="承德">
+      <Area id="30801" level="2">市辖区</Area>
+      <Area id="30802" level="2">双桥区</Area>
+      <Area id="30803" level="2">双滦区</Area>
+      <Area id="30804" level="2">鹰手营子矿区</Area>
+      <Area id="30805" level="2">承德县</Area>
+      <Area id="30806" level="2">兴隆县</Area>
+      <Area id="30807" level="2">平泉县</Area>
+      <Area id="30808" level="2">滦平县</Area>
+      <Area id="30809" level="2">隆化县</Area>
+      <Area id="30810" level="2">丰宁满族自治县</Area>
+      <Area id="30811" level="2">宽城满族自治县</Area>
+      <Area id="30812" level="2">围场满族蒙古族自治县</Area>
+    </City>
+    <City id="309" name="沧州市" level="1" pname="沧州">
+      <Area id="30901" level="2">市辖区</Area>
+      <Area id="30902" level="2">新华区</Area>
+      <Area id="30903" level="2">运河区</Area>
+      <Area id="30904" level="2">沧　县</Area>
+      <Area id="30905" level="2">青　县</Area>
+      <Area id="30906" level="2">东光县</Area>
+      <Area id="30907" level="2">海兴县</Area>
+      <Area id="30908" level="2">盐山县</Area>
+      <Area id="30909" level="2">肃宁县</Area>
+      <Area id="30910" level="2">南皮县</Area>
+      <Area id="30911" level="2">吴桥县</Area>
+      <Area id="30912" level="2">献　县</Area>
+      <Area id="30913" level="2">孟村回族自治县</Area>
+      <Area id="30914" level="2">泊头市</Area>
+      <Area id="30915" level="2">任丘市</Area>
+      <Area id="30916" level="2">黄骅市</Area>
+      <Area id="30917" level="2">河间市</Area>
+    </City>
+    <City id="310" name="廊坊市" level="1" pname="廊坊">
+      <Area id="31001" level="2">市辖区</Area>
+      <Area id="31002" level="2">安次区</Area>
+      <Area id="31003" level="2">广阳区</Area>
+      <Area id="31004" level="2">固安县</Area>
+      <Area id="31005" level="2">永清县</Area>
+      <Area id="31006" level="2">香河县</Area>
+      <Area id="31007" level="2">大城县</Area>
+      <Area id="31008" level="2">文安县</Area>
+      <Area id="31009" level="2">大厂回族自治县</Area>
+      <Area id="31010" level="2">霸州市</Area>
+      <Area id="31011" level="2">三河市</Area>
+    </City>
+    <City id="311" name="衡水市" level="1" pname="衡水">
+      <Area id="31101" level="2">市辖区</Area>
+      <Area id="31102" level="2">桃城区</Area>
+      <Area id="31103" level="2">枣强县</Area>
+      <Area id="31104" level="2">武邑县</Area>
+      <Area id="31105" level="2">武强县</Area>
+      <Area id="31106" level="2">饶阳县</Area>
+      <Area id="31107" level="2">安平县</Area>
+      <Area id="31108" level="2">故城县</Area>
+      <Area id="31109" level="2">景　县</Area>
+      <Area id="31110" level="2">阜城县</Area>
+      <Area id="31111" level="2">冀州市</Area>
+      <Area id="31112" level="2">深州市</Area>
+    </City>
+  </Province>
+  <Province id="4" name="山西省" level="0" pname="山西">
+    <City id="401" name="太原市" level="1" pname="太原">
+      <Area id="40101" level="2">市辖区</Area>
+      <Area id="40102" level="2">小店区</Area>
+      <Area id="40103" level="2">迎泽区</Area>
+      <Area id="40104" level="2">杏花岭区</Area>
+      <Area id="40105" level="2">尖草坪区</Area>
+      <Area id="40106" level="2">万柏林区</Area>
+      <Area id="40107" level="2">晋源区</Area>
+      <Area id="40108" level="2">清徐县</Area>
+      <Area id="40109" level="2">阳曲县</Area>
+      <Area id="40110" level="2">娄烦县</Area>
+      <Area id="40111" level="2">古交市</Area>
+    </City>
+    <City id="402" name="大同市" level="1" pname="大同">
+      <Area id="40201" level="2">市辖区</Area>
+      <Area id="40202" level="2">城　区</Area>
+      <Area id="40203" level="2">矿　区</Area>
+      <Area id="40204" level="2">南郊区</Area>
+      <Area id="40205" level="2">新荣区</Area>
+      <Area id="40206" level="2">阳高县</Area>
+      <Area id="40207" level="2">天镇县</Area>
+      <Area id="40208" level="2">广灵县</Area>
+      <Area id="40209" level="2">灵丘县</Area>
+      <Area id="40210" level="2">浑源县</Area>
+      <Area id="40211" level="2">左云县</Area>
+      <Area id="40212" level="2">大同县</Area>
+    </City>
+    <City id="403" name="阳泉市" level="1" pname="阳泉">
+      <Area id="40301" level="2">市辖区</Area>
+      <Area id="40302" level="2">城　区</Area>
+      <Area id="40303" level="2">矿　区</Area>
+      <Area id="40304" level="2">郊　区</Area>
+      <Area id="40305" level="2">平定县</Area>
+      <Area id="40306" level="2">盂　县</Area>
+    </City>
+    <City id="404" name="长治市" level="1" pname="">
+      <Area id="40401" level="2">市辖区</Area>
+      <Area id="40402" level="2">城　区</Area>
+      <Area id="40403" level="2">郊　区</Area>
+      <Area id="40404" level="2">长治县</Area>
+      <Area id="40405" level="2">襄垣县</Area>
+      <Area id="40406" level="2">屯留县</Area>
+      <Area id="40407" level="2">平顺县</Area>
+      <Area id="40408" level="2">黎城县</Area>
+      <Area id="40409" level="2">壶关县</Area>
+      <Area id="40410" level="2">长子县</Area>
+      <Area id="40411" level="2">武乡县</Area>
+      <Area id="40412" level="2">沁　县</Area>
+      <Area id="40413" level="2">沁源县</Area>
+      <Area id="40414" level="2">潞城市</Area>
+    </City>
+    <City id="405" name="晋城市" level="1" pname="">
+      <Area id="40501" level="2">市辖区</Area>
+      <Area id="40502" level="2">城　区</Area>
+      <Area id="40503" level="2">沁水县</Area>
+      <Area id="40504" level="2">阳城县</Area>
+      <Area id="40505" level="2">陵川县</Area>
+      <Area id="40506" level="2">泽州县</Area>
+      <Area id="40507" level="2">高平市</Area>
+    </City>
+    <City id="406" name="朔州市" level="1" pname="">
+      <Area id="40601" level="2">市辖区</Area>
+      <Area id="40602" level="2">朔城区</Area>
+      <Area id="40603" level="2">平鲁区</Area>
+      <Area id="40604" level="2">山阴县</Area>
+      <Area id="40605" level="2">应　县</Area>
+      <Area id="40606" level="2">右玉县</Area>
+      <Area id="40607" level="2">怀仁县</Area>
+    </City>
+    <City id="407" name="晋中市" level="1" pname="">
+      <Area id="40701" level="2">市辖区</Area>
+      <Area id="40702" level="2">榆次区</Area>
+      <Area id="40703" level="2">榆社县</Area>
+      <Area id="40704" level="2">左权县</Area>
+      <Area id="40705" level="2">和顺县</Area>
+      <Area id="40706" level="2">昔阳县</Area>
+      <Area id="40707" level="2">寿阳县</Area>
+      <Area id="40708" level="2">太谷县</Area>
+      <Area id="40709" level="2">祁　县</Area>
+      <Area id="40710" level="2">平遥县</Area>
+      <Area id="40711" level="2">灵石县</Area>
+      <Area id="40712" level="2">介休市</Area>
+    </City>
+    <City id="408" name="运城市" level="1" pname="">
+      <Area id="40801" level="2">市辖区</Area>
+      <Area id="40802" level="2">盐湖区</Area>
+      <Area id="40803" level="2">临猗县</Area>
+      <Area id="40804" level="2">万荣县</Area>
+      <Area id="40805" level="2">闻喜县</Area>
+      <Area id="40806" level="2">稷山县</Area>
+      <Area id="40807" level="2">新绛县</Area>
+      <Area id="40808" level="2">绛　县</Area>
+      <Area id="40809" level="2">垣曲县</Area>
+      <Area id="40810" level="2">夏　县</Area>
+      <Area id="40811" level="2">平陆县</Area>
+      <Area id="40812" level="2">芮城县</Area>
+      <Area id="40813" level="2">永济市</Area>
+      <Area id="40814" level="2">河津市</Area>
+    </City>
+    <City id="409" name="忻州市" level="1" pname="">
+      <Area id="40901" level="2">市辖区</Area>
+      <Area id="40902" level="2">忻府区</Area>
+      <Area id="40903" level="2">定襄县</Area>
+      <Area id="40904" level="2">五台县</Area>
+      <Area id="40905" level="2">代　县</Area>
+      <Area id="40906" level="2">繁峙县</Area>
+      <Area id="40907" level="2">宁武县</Area>
+      <Area id="40908" level="2">静乐县</Area>
+      <Area id="40909" level="2">神池县</Area>
+      <Area id="40910" level="2">五寨县</Area>
+      <Area id="40911" level="2">岢岚县</Area>
+      <Area id="40912" level="2">河曲县</Area>
+      <Area id="40913" level="2">保德县</Area>
+      <Area id="40914" level="2">偏关县</Area>
+      <Area id="40915" level="2">原平市</Area>
+    </City>
+    <City id="410" name="临汾市" level="1" pname="">
+      <Area id="41001" level="2">市辖区</Area>
+      <Area id="41002" level="2">尧都区</Area>
+      <Area id="41003" level="2">曲沃县</Area>
+      <Area id="41004" level="2">翼城县</Area>
+      <Area id="41005" level="2">襄汾县</Area>
+      <Area id="41006" level="2">洪洞县</Area>
+      <Area id="41007" level="2">古　县</Area>
+      <Area id="41008" level="2">安泽县</Area>
+      <Area id="41009" level="2">浮山县</Area>
+      <Area id="41010" level="2">吉　县</Area>
+      <Area id="41011" level="2">乡宁县</Area>
+      <Area id="41012" level="2">大宁县</Area>
+      <Area id="41013" level="2">隰　县</Area>
+      <Area id="41014" level="2">永和县</Area>
+      <Area id="41015" level="2">蒲　县</Area>
+      <Area id="41016" level="2">汾西县</Area>
+      <Area id="41017" level="2">侯马市</Area>
+      <Area id="41018" level="2">霍州市</Area>
+    </City>
+    <City id="411" name="吕梁市" level="1" pname="">
+      <Area id="41101" level="2">市辖区</Area>
+      <Area id="41102" level="2">离石区</Area>
+      <Area id="41103" level="2">文水县</Area>
+      <Area id="41104" level="2">交城县</Area>
+      <Area id="41105" level="2">兴　县</Area>
+      <Area id="41106" level="2">临　县</Area>
+      <Area id="41107" level="2">柳林县</Area>
+      <Area id="41108" level="2">石楼县</Area>
+      <Area id="41109" level="2">岚　县</Area>
+      <Area id="41110" level="2">方山县</Area>
+      <Area id="41111" level="2">中阳县</Area>
+      <Area id="41112" level="2">交口县</Area>
+      <Area id="41113" level="2">孝义市</Area>
+      <Area id="41114" level="2">汾阳市</Area>
+    </City>
+  </Province>
+  <Province id="5" name="内蒙古自治区" level="0">
+    <City id="501" name="呼和浩特市" level="1" pname="">
+      <Area id="50101" level="2">市辖区</Area>
+      <Area id="50102" level="2">新城区</Area>
+      <Area id="50103" level="2">回民区</Area>
+      <Area id="50104" level="2">玉泉区</Area>
+      <Area id="50105" level="2">赛罕区</Area>
+      <Area id="50106" level="2">土默特左旗</Area>
+      <Area id="50107" level="2">托克托县</Area>
+      <Area id="50108" level="2">和林格尔县</Area>
+      <Area id="50109" level="2">清水河县</Area>
+      <Area id="50110" level="2">武川县</Area>
+    </City>
+    <City id="502" name="包头市" level="1" pname="">
+      <Area id="50201" level="2">市辖区</Area>
+      <Area id="50202" level="2">东河区</Area>
+      <Area id="50203" level="2">昆都仑区</Area>
+      <Area id="50204" level="2">青山区</Area>
+      <Area id="50205" level="2">石拐区</Area>
+      <Area id="50206" level="2">白云矿区</Area>
+      <Area id="50207" level="2">九原区</Area>
+      <Area id="50208" level="2">土默特右旗</Area>
+      <Area id="50209" level="2">固阳县</Area>
+      <Area id="50210" level="2">达尔罕茂明安联合旗</Area>
+    </City>
+    <City id="503" name="乌海市" level="1" pname="">
+      <Area id="50301" level="2">市辖区</Area>
+      <Area id="50302" level="2">海勃湾区</Area>
+      <Area id="50303" level="2">海南区</Area>
+      <Area id="50304" level="2">乌达区</Area>
+    </City>
+    <City id="504" name="赤峰市" level="1" pname="">
+      <Area id="50401" level="2">市辖区</Area>
+      <Area id="50402" level="2">红山区</Area>
+      <Area id="50403" level="2">元宝山区</Area>
+      <Area id="50404" level="2">松山区</Area>
+      <Area id="50405" level="2">阿鲁科尔沁旗</Area>
+      <Area id="50406" level="2">巴林左旗</Area>
+      <Area id="50407" level="2">巴林右旗</Area>
+      <Area id="50408" level="2">林西县</Area>
+      <Area id="50409" level="2">克什克腾旗</Area>
+      <Area id="50410" level="2">翁牛特旗</Area>
+      <Area id="50411" level="2">喀喇沁旗</Area>
+      <Area id="50412" level="2">宁城县</Area>
+      <Area id="50413" level="2">敖汉旗</Area>
+    </City>
+    <City id="505" name="通辽市" level="1" pname="">
+      <Area id="50501" level="2">市辖区</Area>
+      <Area id="50502" level="2">科尔沁区</Area>
+      <Area id="50503" level="2">科尔沁左翼中旗</Area>
+      <Area id="50504" level="2">科尔沁左翼后旗</Area>
+      <Area id="50505" level="2">开鲁县</Area>
+      <Area id="50506" level="2">库伦旗</Area>
+      <Area id="50507" level="2">奈曼旗</Area>
+      <Area id="50508" level="2">扎鲁特旗</Area>
+      <Area id="50509" level="2">霍林郭勒市</Area>
+    </City>
+    <City id="506" name="鄂尔多斯市" level="1" pname="">
+      <Area id="50601" level="2">东胜区</Area>
+      <Area id="50602" level="2">达拉特旗</Area>
+      <Area id="50603" level="2">准格尔旗</Area>
+      <Area id="50604" level="2">鄂托克前旗</Area>
+      <Area id="50605" level="2">鄂托克旗</Area>
+      <Area id="50606" level="2">杭锦旗</Area>
+      <Area id="50607" level="2">乌审旗</Area>
+      <Area id="50608" level="2">伊金霍洛旗</Area>
+    </City>
+    <City id="507" name="呼伦贝尔市" level="1" pname="">
+      <Area id="50701" level="2">市辖区</Area>
+      <Area id="50702" level="2">海拉尔区</Area>
+      <Area id="50703" level="2">阿荣旗</Area>
+      <Area id="50704" level="2">莫力达瓦达斡尔族自治旗</Area>
+      <Area id="50705" level="2">鄂伦春自治旗</Area>
+      <Area id="50706" level="2">鄂温克族自治旗</Area>
+      <Area id="50707" level="2">陈巴尔虎旗</Area>
+      <Area id="50708" level="2">新巴尔虎左旗</Area>
+      <Area id="50709" level="2">新巴尔虎右旗</Area>
+      <Area id="50710" level="2">满洲里市</Area>
+      <Area id="50711" level="2">牙克石市</Area>
+      <Area id="50712" level="2">扎兰屯市</Area>
+      <Area id="50713" level="2">额尔古纳市</Area>
+      <Area id="50714" level="2">根河市</Area>
+    </City>
+    <City id="508" name="巴彦淖尔市" level="1" pname="">
+      <Area id="50801" level="2">市辖区</Area>
+      <Area id="50802" level="2">临河区</Area>
+      <Area id="50803" level="2">五原县</Area>
+      <Area id="50804" level="2">磴口县</Area>
+      <Area id="50805" level="2">乌拉特前旗</Area>
+      <Area id="50806" level="2">乌拉特中旗</Area>
+      <Area id="50807" level="2">乌拉特后旗</Area>
+      <Area id="50808" level="2">杭锦后旗</Area>
+    </City>
+    <City id="509" name="乌兰察布市" level="1" pname="">
+      <Area id="50901" level="2">市辖区</Area>
+      <Area id="50902" level="2">集宁区</Area>
+      <Area id="50903" level="2">卓资县</Area>
+      <Area id="50904" level="2">化德县</Area>
+      <Area id="50905" level="2">商都县</Area>
+      <Area id="50906" level="2">兴和县</Area>
+      <Area id="50907" level="2">凉城县</Area>
+      <Area id="50908" level="2">察哈尔右翼前旗</Area>
+      <Area id="50909" level="2">察哈尔右翼中旗</Area>
+      <Area id="50910" level="2">察哈尔右翼后旗</Area>
+      <Area id="50911" level="2">四子王旗</Area>
+      <Area id="50912" level="2">丰镇市</Area>
+    </City>
+    <City id="510" name="兴安盟" level="1" pname="">
+      <Area id="51001" level="2">乌兰浩特市</Area>
+      <Area id="51002" level="2">阿尔山市</Area>
+      <Area id="51003" level="2">科尔沁右翼前旗</Area>
+      <Area id="51004" level="2">科尔沁右翼中旗</Area>
+      <Area id="51005" level="2">扎赉特旗</Area>
+      <Area id="51006" level="2">突泉县</Area>
+    </City>
+    <City id="511" name="锡林郭勒盟" level="1" pname="">
+      <Area id="51101" level="2">二连浩特市</Area>
+      <Area id="51102" level="2">锡林浩特市</Area>
+      <Area id="51103" level="2">阿巴嘎旗</Area>
+      <Area id="51104" level="2">苏尼特左旗</Area>
+      <Area id="51105" level="2">苏尼特右旗</Area>
+      <Area id="51106" level="2">东乌珠穆沁旗</Area>
+      <Area id="51107" level="2">西乌珠穆沁旗</Area>
+      <Area id="51108" level="2">太仆寺旗</Area>
+      <Area id="51109" level="2">镶黄旗</Area>
+      <Area id="51110" level="2">正镶白旗</Area>
+      <Area id="51111" level="2">正蓝旗</Area>
+      <Area id="51112" level="2">多伦县</Area>
+    </City>
+    <City id="512" name="阿拉善盟" level="1" pname="">
+      <Area id="51201" level="2">阿拉善左旗</Area>
+      <Area id="51202" level="2">阿拉善右旗</Area>
+      <Area id="51203" level="2">额济纳旗</Area>
+    </City>
+  </Province>
+  <Province id="6" name="辽宁省" level="0">
+    <City id="601" name="沈阳市" level="1" pname="">
+      <Area id="60101" level="2">市辖区</Area>
+      <Area id="60102" level="2">和平区</Area>
+      <Area id="60103" level="2">沈河区</Area>
+      <Area id="60104" level="2">大东区</Area>
+      <Area id="60105" level="2">皇姑区</Area>
+      <Area id="60106" level="2">铁西区</Area>
+      <Area id="60107" level="2">苏家屯区</Area>
+      <Area id="60108" level="2">东陵区</Area>
+      <Area id="60109" level="2">新城子区</Area>
+      <Area id="60110" level="2">于洪区</Area>
+      <Area id="60111" level="2">辽中县</Area>
+      <Area id="60112" level="2">康平县</Area>
+      <Area id="60113" level="2">法库县</Area>
+      <Area id="60114" level="2">新民市</Area>
+    </City>
+    <City id="602" name="大连市" level="1" pname="">
+      <Area id="60201" level="2">市辖区</Area>
+      <Area id="60202" level="2">中山区</Area>
+      <Area id="60203" level="2">西岗区</Area>
+      <Area id="60204" level="2">沙河口区</Area>
+      <Area id="60205" level="2">甘井子区</Area>
+      <Area id="60206" level="2">旅顺口区</Area>
+      <Area id="60207" level="2">金州区</Area>
+      <Area id="60208" level="2">长海县</Area>
+      <Area id="60209" level="2">瓦房店市</Area>
+      <Area id="60210" level="2">普兰店市</Area>
+      <Area id="60211" level="2">庄河市</Area>
+    </City>
+    <City id="603" name="鞍山市" level="1" pname="">
+      <Area id="60301" level="2">市辖区</Area>
+      <Area id="60302" level="2">铁东区</Area>
+      <Area id="60303" level="2">铁西区</Area>
+      <Area id="60304" level="2">立山区</Area>
+      <Area id="60305" level="2">千山区</Area>
+      <Area id="60306" level="2">台安县</Area>
+      <Area id="60307" level="2">岫岩满族自治县</Area>
+      <Area id="60308" level="2">海城市</Area>
+    </City>
+    <City id="604" name="抚顺市" level="1" pname="">
+      <Area id="60401" level="2">市辖区</Area>
+      <Area id="60402" level="2">新抚区</Area>
+      <Area id="60403" level="2">东洲区</Area>
+      <Area id="60404" level="2">望花区</Area>
+      <Area id="60405" level="2">顺城区</Area>
+      <Area id="60406" level="2">抚顺县</Area>
+      <Area id="60407" level="2">新宾满族自治县</Area>
+      <Area id="60408" level="2">清原满族自治县</Area>
+    </City>
+    <City id="605" name="本溪市" level="1" pname="">
+      <Area id="60501" level="2">市辖区</Area>
+      <Area id="60502" level="2">平山区</Area>
+      <Area id="60503" level="2">溪湖区</Area>
+      <Area id="60504" level="2">明山区</Area>
+      <Area id="60505" level="2">南芬区</Area>
+      <Area id="60506" level="2">本溪满族自治县</Area>
+      <Area id="60507" level="2">桓仁满族自治县</Area>
+    </City>
+    <City id="606" name="丹东市" level="1" pname="">
+      <Area id="60601" level="2">市辖区</Area>
+      <Area id="60602" level="2">元宝区</Area>
+      <Area id="60603" level="2">振兴区</Area>
+      <Area id="60604" level="2">振安区</Area>
+      <Area id="60605" level="2">宽甸满族自治县</Area>
+      <Area id="60606" level="2">东港市</Area>
+      <Area id="60607" level="2">凤城市</Area>
+    </City>
+    <City id="607" name="锦州市" level="1" pname="">
+      <Area id="60701" level="2">市辖区</Area>
+      <Area id="60702" level="2">古塔区</Area>
+      <Area id="60703" level="2">凌河区</Area>
+      <Area id="60704" level="2">太和区</Area>
+      <Area id="60705" level="2">黑山县</Area>
+      <Area id="60706" level="2">义　县</Area>
+      <Area id="60707" level="2">凌海市</Area>
+      <Area id="60708" level="2">北宁市</Area>
+    </City>
+    <City id="608" name="营口市" level="1" pname="">
+      <Area id="60801" level="2">市辖区</Area>
+      <Area id="60802" level="2">站前区</Area>
+      <Area id="60803" level="2">西市区</Area>
+      <Area id="60804" level="2">鲅鱼圈区</Area>
+      <Area id="60805" level="2">老边区</Area>
+      <Area id="60806" level="2">盖州市</Area>
+      <Area id="60807" level="2">大石桥市</Area>
+    </City>
+    <City id="609" name="阜新市" level="1" pname="">
+      <Area id="60901" level="2">市辖区</Area>
+      <Area id="60902" level="2">海州区</Area>
+      <Area id="60903" level="2">新邱区</Area>
+      <Area id="60904" level="2">太平区</Area>
+      <Area id="60905" level="2">清河门区</Area>
+      <Area id="60906" level="2">细河区</Area>
+      <Area id="60907" level="2">阜新蒙古族自治县</Area>
+      <Area id="60908" level="2">彰武县</Area>
+    </City>
+    <City id="610" name="辽阳市" level="1" pname="">
+      <Area id="61001" level="2">市辖区</Area>
+      <Area id="61002" level="2">白塔区</Area>
+      <Area id="61003" level="2">文圣区</Area>
+      <Area id="61004" level="2">宏伟区</Area>
+      <Area id="61005" level="2">弓长岭区</Area>
+      <Area id="61006" level="2">太子河区</Area>
+      <Area id="61007" level="2">辽阳县</Area>
+      <Area id="61008" level="2">灯塔市</Area>
+    </City>
+    <City id="611" name="盘锦市" level="1" pname="">
+      <Area id="61101" level="2">市辖区</Area>
+      <Area id="61102" level="2">双台子区</Area>
+      <Area id="61103" level="2">兴隆台区</Area>
+      <Area id="61104" level="2">大洼县</Area>
+      <Area id="61105" level="2">盘山县</Area>
+    </City>
+    <City id="612" name="铁岭市" level="1" pname="">
+      <Area id="61201" level="2">市辖区</Area>
+      <Area id="61202" level="2">银州区</Area>
+      <Area id="61203" level="2">清河区</Area>
+      <Area id="61204" level="2">铁岭县</Area>
+      <Area id="61205" level="2">西丰县</Area>
+      <Area id="61206" level="2">昌图县</Area>
+      <Area id="61207" level="2">调兵山市</Area>
+      <Area id="61208" level="2">开原市</Area>
+    </City>
+    <City id="613" name="朝阳市" level="1" pname="">
+      <Area id="61301" level="2">市辖区</Area>
+      <Area id="61302" level="2">双塔区</Area>
+      <Area id="61303" level="2">龙城区</Area>
+      <Area id="61304" level="2">朝阳县</Area>
+      <Area id="61305" level="2">建平县</Area>
+      <Area id="61306" level="2">喀喇沁左翼蒙古族自治县</Area>
+      <Area id="61307" level="2">北票市</Area>
+      <Area id="61308" level="2">凌源市</Area>
+    </City>
+    <City id="614" name="葫芦岛市" level="1" pname="">
+      <Area id="61401" level="2">市辖区</Area>
+      <Area id="61402" level="2">连山区</Area>
+      <Area id="61403" level="2">龙港区</Area>
+      <Area id="61404" level="2">南票区</Area>
+      <Area id="61405" level="2">绥中县</Area>
+      <Area id="61406" level="2">建昌县</Area>
+      <Area id="61407" level="2">兴城市</Area>
+    </City>
+  </Province>
+  <Province id="7" name="吉林省" level="0">
+    <City id="701" name="长春市" level="1" pname="">
+      <Area id="70101" level="2">市辖区</Area>
+      <Area id="70102" level="2">南关区</Area>
+      <Area id="70103" level="2">宽城区</Area>
+      <Area id="70104" level="2">朝阳区</Area>
+      <Area id="70105" level="2">二道区</Area>
+      <Area id="70106" level="2">绿园区</Area>
+      <Area id="70107" level="2">双阳区</Area>
+      <Area id="70108" level="2">农安县</Area>
+      <Area id="70109" level="2">九台市</Area>
+      <Area id="70110" level="2">榆树市</Area>
+      <Area id="70111" level="2">德惠市</Area>
+    </City>
+    <City id="702" name="吉林市" level="1" pname="">
+      <Area id="70201" level="2">市辖区</Area>
+      <Area id="70202" level="2">昌邑区</Area>
+      <Area id="70203" level="2">龙潭区</Area>
+      <Area id="70204" level="2">船营区</Area>
+      <Area id="70205" level="2">丰满区</Area>
+      <Area id="70206" level="2">永吉县</Area>
+      <Area id="70207" level="2">蛟河市</Area>
+      <Area id="70208" level="2">桦甸市</Area>
+      <Area id="70209" level="2">舒兰市</Area>
+      <Area id="70210" level="2">磐石市</Area>
+    </City>
+    <City id="703" name="四平市" level="1" pname="">
+      <Area id="70301" level="2">市辖区</Area>
+      <Area id="70302" level="2">铁西区</Area>
+      <Area id="70303" level="2">铁东区</Area>
+      <Area id="70304" level="2">梨树县</Area>
+      <Area id="70305" level="2">伊通满族自治县</Area>
+      <Area id="70306" level="2">公主岭市</Area>
+      <Area id="70307" level="2">双辽市</Area>
+    </City>
+    <City id="704" name="辽源市" level="1" pname="">
+      <Area id="70401" level="2">市辖区</Area>
+      <Area id="70402" level="2">龙山区</Area>
+      <Area id="70403" level="2">西安区</Area>
+      <Area id="70404" level="2">东丰县</Area>
+      <Area id="70405" level="2">东辽县</Area>
+    </City>
+    <City id="705" name="通化市" level="1" pname="">
+      <Area id="70501" level="2">市辖区</Area>
+      <Area id="70502" level="2">东昌区</Area>
+      <Area id="70503" level="2">二道江区</Area>
+      <Area id="70504" level="2">通化县</Area>
+      <Area id="70505" level="2">辉南县</Area>
+      <Area id="70506" level="2">柳河县</Area>
+      <Area id="70507" level="2">梅河口市</Area>
+      <Area id="70508" level="2">集安市</Area>
+    </City>
+    <City id="706" name="白山市" level="1" pname="">
+      <Area id="70601" level="2">市辖区</Area>
+      <Area id="70602" level="2">八道江区</Area>
+      <Area id="70603" level="2">抚松县</Area>
+      <Area id="70604" level="2">靖宇县</Area>
+      <Area id="70605" level="2">长白朝鲜族自治县</Area>
+      <Area id="70606" level="2">江源县</Area>
+      <Area id="70607" level="2">临江市</Area>
+    </City>
+    <City id="707" name="松原市" level="1" pname="">
+      <Area id="70701" level="2">市辖区</Area>
+      <Area id="70702" level="2">宁江区</Area>
+      <Area id="70703" level="2">前郭尔罗斯蒙古族自治县</Area>
+      <Area id="70704" level="2">长岭县</Area>
+      <Area id="70705" level="2">乾安县</Area>
+      <Area id="70706" level="2">扶余县</Area>
+    </City>
+    <City id="708" name="白城市" level="1" pname="">
+      <Area id="70801" level="2">市辖区</Area>
+      <Area id="70802" level="2">洮北区</Area>
+      <Area id="70803" level="2">镇赉县</Area>
+      <Area id="70804" level="2">通榆县</Area>
+      <Area id="70805" level="2">洮南市</Area>
+      <Area id="70806" level="2">大安市</Area>
+    </City>
+    <City id="709" name="延边朝鲜族自治州" level="1" pname="">
+      <Area id="70901" level="2">延吉市</Area>
+      <Area id="70902" level="2">图们市</Area>
+      <Area id="70903" level="2">敦化市</Area>
+      <Area id="70904" level="2">珲春市</Area>
+      <Area id="70905" level="2">龙井市</Area>
+      <Area id="70906" level="2">和龙市</Area>
+      <Area id="70907" level="2">汪清县</Area>
+      <Area id="70908" level="2">安图县</Area>
+    </City>
+  </Province>
+  <Province id="8" name="黑龙江省" level="0">
+    <City id="801" name="哈尔滨市" level="1" pname="">
+      <Area id="80101" level="2">市辖区</Area>
+      <Area id="80102" level="2">道里区</Area>
+      <Area id="80103" level="2">南岗区</Area>
+      <Area id="80104" level="2">道外区</Area>
+      <Area id="80105" level="2">香坊区</Area>
+      <Area id="80106" level="2">动力区</Area>
+      <Area id="80107" level="2">平房区</Area>
+      <Area id="80108" level="2">松北区</Area>
+      <Area id="80109" level="2">呼兰区</Area>
+      <Area id="80110" level="2">依兰县</Area>
+      <Area id="80111" level="2">方正县</Area>
+      <Area id="80112" level="2">宾　县</Area>
+      <Area id="80113" level="2">巴彦县</Area>
+      <Area id="80114" level="2">木兰县</Area>
+      <Area id="80115" level="2">通河县</Area>
+      <Area id="80116" level="2">延寿县</Area>
+      <Area id="80117" level="2">阿城市</Area>
+      <Area id="80118" level="2">双城市</Area>
+      <Area id="80119" level="2">尚志市</Area>
+      <Area id="80120" level="2">五常市</Area>
+    </City>
+    <City id="802" name="齐齐哈尔市" level="1" pname="">
+      <Area id="80201" level="2">市辖区</Area>
+      <Area id="80202" level="2">龙沙区</Area>
+      <Area id="80203" level="2">建华区</Area>
+      <Area id="80204" level="2">铁锋区</Area>
+      <Area id="80205" level="2">昂昂溪区</Area>
+      <Area id="80206" level="2">富拉尔基区</Area>
+      <Area id="80207" level="2">碾子山区</Area>
+      <Area id="80208" level="2">梅里斯达斡尔族区</Area>
+      <Area id="80209" level="2">龙江县</Area>
+      <Area id="80210" level="2">依安县</Area>
+      <Area id="80211" level="2">泰来县</Area>
+      <Area id="80212" level="2">甘南县</Area>
+      <Area id="80213" level="2">富裕县</Area>
+      <Area id="80214" level="2">克山县</Area>
+      <Area id="80215" level="2">克东县</Area>
+      <Area id="80216" level="2">拜泉县</Area>
+      <Area id="80217" level="2">讷河市</Area>
+    </City>
+    <City id="803" name="鸡西市" level="1" pname="">
+      <Area id="80301" level="2">市辖区</Area>
+      <Area id="80302" level="2">鸡冠区</Area>
+      <Area id="80303" level="2">恒山区</Area>
+      <Area id="80304" level="2">滴道区</Area>
+      <Area id="80305" level="2">梨树区</Area>
+      <Area id="80306" level="2">城子河区</Area>
+      <Area id="80307" level="2">麻山区</Area>
+      <Area id="80308" level="2">鸡东县</Area>
+      <Area id="80309" level="2">虎林市</Area>
+      <Area id="80310" level="2">密山市</Area>
+    </City>
+    <City id="804" name="鹤岗市" level="1" pname="">
+      <Area id="80401" level="2">市辖区</Area>
+      <Area id="80402" level="2">向阳区</Area>
+      <Area id="80403" level="2">工农区</Area>
+      <Area id="80404" level="2">南山区</Area>
+      <Area id="80405" level="2">兴安区</Area>
+      <Area id="80406" level="2">东山区</Area>
+      <Area id="80407" level="2">兴山区</Area>
+      <Area id="80408" level="2">萝北县</Area>
+      <Area id="80409" level="2">绥滨县</Area>
+    </City>
+    <City id="805" name="双鸭山市" level="1" pname="">
+      <Area id="80501" level="2">市辖区</Area>
+      <Area id="80502" level="2">尖山区</Area>
+      <Area id="80503" level="2">岭东区</Area>
+      <Area id="80504" level="2">四方台区</Area>
+      <Area id="80505" level="2">宝山区</Area>
+      <Area id="80506" level="2">集贤县</Area>
+      <Area id="80507" level="2">友谊县</Area>
+      <Area id="80508" level="2">宝清县</Area>
+      <Area id="80509" level="2">饶河县</Area>
+    </City>
+    <City id="806" name="大庆市" level="1" pname="">
+      <Area id="80601" level="2">市辖区</Area>
+      <Area id="80602" level="2">萨尔图区</Area>
+      <Area id="80603" level="2">龙凤区</Area>
+      <Area id="80604" level="2">让胡路区</Area>
+      <Area id="80605" level="2">红岗区</Area>
+      <Area id="80606" level="2">大同区</Area>
+      <Area id="80607" level="2">肇州县</Area>
+      <Area id="80608" level="2">肇源县</Area>
+      <Area id="80609" level="2">林甸县</Area>
+      <Area id="80610" level="2">杜尔伯特蒙古族自治县</Area>
+    </City>
+    <City id="807" name="伊春市" level="1" pname="">
+      <Area id="80701" level="2">市辖区</Area>
+      <Area id="80702" level="2">伊春区</Area>
+      <Area id="80703" level="2">南岔区</Area>
+      <Area id="80704" level="2">友好区</Area>
+      <Area id="80705" level="2">西林区</Area>
+      <Area id="80706" level="2">翠峦区</Area>
+      <Area id="80707" level="2">新青区</Area>
+      <Area id="80708" level="2">美溪区</Area>
+      <Area id="80709" level="2">金山屯区</Area>
+      <Area id="80710" level="2">五营区</Area>
+      <Area id="80711" level="2">乌马河区</Area>
+      <Area id="80712" level="2">汤旺河区</Area>
+      <Area id="80713" level="2">带岭区</Area>
+      <Area id="80714" level="2">乌伊岭区</Area>
+      <Area id="80715" level="2">红星区</Area>
+      <Area id="80716" level="2">上甘岭区</Area>
+      <Area id="80717" level="2">嘉荫县</Area>
+      <Area id="80718" level="2">铁力市</Area>
+    </City>
+    <City id="808" name="佳木斯市" level="1" pname="">
+      <Area id="80801" level="2">市辖区</Area>
+      <Area id="80802" level="2">永红区</Area>
+      <Area id="80803" level="2">向阳区</Area>
+      <Area id="80804" level="2">前进区</Area>
+      <Area id="80805" level="2">东风区</Area>
+      <Area id="80806" level="2">郊　区</Area>
+      <Area id="80807" level="2">桦南县</Area>
+      <Area id="80808" level="2">桦川县</Area>
+      <Area id="80809" level="2">汤原县</Area>
+      <Area id="80810" level="2">抚远县</Area>
+      <Area id="80811" level="2">同江市</Area>
+      <Area id="80812" level="2">富锦市</Area>
+    </City>
+    <City id="809" name="七台河市" level="1" pname="">
+      <Area id="80901" level="2">市辖区</Area>
+      <Area id="80902" level="2">新兴区</Area>
+      <Area id="80903" level="2">桃山区</Area>
+      <Area id="80904" level="2">茄子河区</Area>
+      <Area id="80905" level="2">勃利县</Area>
+    </City>
+    <City id="810" name="牡丹江市" level="1" pname="">
+      <Area id="81001" level="2">市辖区</Area>
+      <Area id="81002" level="2">东安区</Area>
+      <Area id="81003" level="2">阳明区</Area>
+      <Area id="81004" level="2">爱民区</Area>
+      <Area id="81005" level="2">西安区</Area>
+      <Area id="81006" level="2">东宁县</Area>
+      <Area id="81007" level="2">林口县</Area>
+      <Area id="81008" level="2">绥芬河市</Area>
+      <Area id="81009" level="2">海林市</Area>
+      <Area id="81010" level="2">宁安市</Area>
+      <Area id="81011" level="2">穆棱市</Area>
+    </City>
+    <City id="811" name="黑河市" level="1" pname="">
+      <Area id="81101" level="2">市辖区</Area>
+      <Area id="81102" level="2">爱辉区</Area>
+      <Area id="81103" level="2">嫩江县</Area>
+      <Area id="81104" level="2">逊克县</Area>
+      <Area id="81105" level="2">孙吴县</Area>
+      <Area id="81106" level="2">北安市</Area>
+      <Area id="81107" level="2">五大连池市</Area>
+    </City>
+    <City id="812" name="绥化市" level="1" pname="">
+      <Area id="81201" level="2">市辖区</Area>
+      <Area id="81202" level="2">北林区</Area>
+      <Area id="81203" level="2">望奎县</Area>
+      <Area id="81204" level="2">兰西县</Area>
+      <Area id="81205" level="2">青冈县</Area>
+      <Area id="81206" level="2">庆安县</Area>
+      <Area id="81207" level="2">明水县</Area>
+      <Area id="81208" level="2">绥棱县</Area>
+      <Area id="81209" level="2">安达市</Area>
+      <Area id="81210" level="2">肇东市</Area>
+      <Area id="81211" level="2">海伦市</Area>
+    </City>
+    <City id="813" name="大兴安岭地区" level="1" pname="">
+      <Area id="81301" level="2">呼玛县</Area>
+      <Area id="81302" level="2">塔河县</Area>
+      <Area id="81303" level="2">漠河县</Area>
+    </City>
+  </Province>
+  <Province id="9" name="上海" level="0">
+    <City id="901" name="上海市" level="1" pname="">
+      <Area id="90101" level="2">黄浦区</Area>
+      <Area id="90102" level="2">卢湾区</Area>
+      <Area id="90103" level="2">徐汇区</Area>
+      <Area id="90104" level="2">长宁区</Area>
+      <Area id="90105" level="2">静安区</Area>
+      <Area id="90106" level="2">普陀区</Area>
+      <Area id="90107" level="2">闸北区</Area>
+      <Area id="90108" level="2">虹口区</Area>
+      <Area id="90109" level="2">杨浦区</Area>
+      <Area id="90110" level="2">闵行区</Area>
+      <Area id="90111" level="2">宝山区</Area>
+      <Area id="90112" level="2">嘉定区</Area>
+      <Area id="90113" level="2">浦东新区</Area>
+      <Area id="90114" level="2">金山区</Area>
+      <Area id="90115" level="2">松江区</Area>
+      <Area id="90116" level="2">青浦区</Area>
+      <Area id="90117" level="2">南汇区</Area>
+      <Area id="90118" level="2">奉贤区</Area>
+       <Area id="90119" level="2">崇明县</Area>
+    </City>
+  </Province>
+  <Province id="10" name="江苏省" level="0">
+    <City id="1001" name="南京市" level="1" pname="">
+      <Area id="100101" level="2">市辖区</Area>
+      <Area id="100102" level="2">玄武区</Area>
+      <Area id="100103" level="2">白下区</Area>
+      <Area id="100104" level="2">秦淮区</Area>
+      <Area id="100105" level="2">建邺区</Area>
+      <Area id="100106" level="2">鼓楼区</Area>
+      <Area id="100107" level="2">下关区</Area>
+      <Area id="100108" level="2">浦口区</Area>
+      <Area id="100109" level="2">栖霞区</Area>
+      <Area id="100110" level="2">雨花台区</Area>
+      <Area id="100111" level="2">江宁区</Area>
+      <Area id="100112" level="2">六合区</Area>
+      <Area id="100113" level="2">溧水县</Area>
+      <Area id="100114" level="2">高淳县</Area>
+    </City>
+    <City id="1002" name="无锡市" level="1" pname="">
+      <Area id="100201" level="2">市辖区</Area>
+      <Area id="100202" level="2">崇安区</Area>
+      <Area id="100203" level="2">南长区</Area>
+      <Area id="100204" level="2">北塘区</Area>
+      <Area id="100205" level="2">锡山区</Area>
+      <Area id="100206" level="2">惠山区</Area>
+      <Area id="100207" level="2">滨湖区</Area>
+      <Area id="100208" level="2">江阴市</Area>
+      <Area id="100209" level="2">宜兴市</Area>
+    </City>
+    <City id="1003" name="徐州市" level="1" pname="">
+      <Area id="100301" level="2">市辖区</Area>
+      <Area id="100302" level="2">鼓楼区</Area>
+      <Area id="100303" level="2">云龙区</Area>
+      <Area id="100304" level="2">九里区</Area>
+      <Area id="100305" level="2">贾汪区</Area>
+      <Area id="100306" level="2">泉山区</Area>
+      <Area id="100307" level="2">丰　县</Area>
+      <Area id="100308" level="2">沛　县</Area>
+      <Area id="100309" level="2">铜山县</Area>
+      <Area id="100310" level="2">睢宁县</Area>
+      <Area id="100311" level="2">新沂市</Area>
+      <Area id="100312" level="2">邳州市</Area>
+    </City>
+    <City id="1004" name="常州市" level="1" pname="">
+      <Area id="100401" level="2">市辖区</Area>
+      <Area id="100402" level="2">天宁区</Area>
+      <Area id="100403" level="2">钟楼区</Area>
+      <Area id="100404" level="2">戚墅堰区</Area>
+      <Area id="100405" level="2">新北区</Area>
+      <Area id="100406" level="2">武进区</Area>
+      <Area id="100407" level="2">溧阳市</Area>
+      <Area id="100408" level="2">金坛市</Area>
+    </City>
+    <City id="1005" name="苏州市" level="1" pname="">
+      <Area id="100501" level="2">市辖区</Area>
+      <Area id="100502" level="2">沧浪区</Area>
+      <Area id="100503" level="2">平江区</Area>
+      <Area id="100504" level="2">金阊区</Area>
+      <Area id="100505" level="2">虎丘区</Area>
+      <Area id="100506" level="2">吴中区</Area>
+      <Area id="100507" level="2">相城区</Area>
+      <Area id="100508" level="2">常熟市</Area>
+      <Area id="100509" level="2">张家港市</Area>
+      <Area id="100510" level="2">昆山市</Area>
+      <Area id="100511" level="2">吴江市</Area>
+      <Area id="100512" level="2">太仓市</Area>
+    </City>
+    <City id="1006" name="南通市" level="1" pname="">
+      <Area id="100601" level="2">市辖区</Area>
+      <Area id="100602" level="2">崇川区</Area>
+      <Area id="100603" level="2">港闸区</Area>
+      <Area id="100604" level="2">海安县</Area>
+      <Area id="100605" level="2">如东县</Area>
+      <Area id="100606" level="2">启东市</Area>
+      <Area id="100607" level="2">如皋市</Area>
+      <Area id="100608" level="2">通州市</Area>
+      <Area id="100609" level="2">海门市</Area>
+    </City>
+    <City id="1007" name="连云港市" level="1" pname="">
+      <Area id="100701" level="2">市辖区</Area>
+      <Area id="100702" level="2">连云区</Area>
+      <Area id="100703" level="2">新浦区</Area>
+      <Area id="100704" level="2">海州区</Area>
+      <Area id="100705" level="2">赣榆县</Area>
+      <Area id="100706" level="2">东海县</Area>
+      <Area id="100707" level="2">灌云县</Area>
+      <Area id="100708" level="2">灌南县</Area>
+    </City>
+    <City id="1008" name="淮安市" level="1" pname="">
+      <Area id="100801" level="2">市辖区</Area>
+      <Area id="100802" level="2">清河区</Area>
+      <Area id="100803" level="2">楚州区</Area>
+      <Area id="100804" level="2">淮阴区</Area>
+      <Area id="100805" level="2">清浦区</Area>
+      <Area id="100806" level="2">涟水县</Area>
+      <Area id="100807" level="2">洪泽县</Area>
+      <Area id="100808" level="2">盱眙县</Area>
+      <Area id="100809" level="2">金湖县</Area>
+    </City>
+    <City id="1009" name="盐城市" level="1" pname="">
+      <Area id="100901" level="2">市辖区</Area>
+      <Area id="100902" level="2">亭湖区</Area>
+      <Area id="100903" level="2">盐都区</Area>
+      <Area id="100904" level="2">响水县</Area>
+      <Area id="100905" level="2">滨海县</Area>
+      <Area id="100906" level="2">阜宁县</Area>
+      <Area id="100907" level="2">射阳县</Area>
+      <Area id="100908" level="2">建湖县</Area>
+      <Area id="100909" level="2">东台市</Area>
+      <Area id="100910" level="2">大丰市</Area>
+    </City>
+    <City id="1010" name="扬州市" level="1" pname="">
+      <Area id="101001" level="2">市辖区</Area>
+      <Area id="101002" level="2">广陵区</Area>
+      <Area id="101003" level="2">邗江区</Area>
+      <Area id="101004" level="2">郊　区</Area>
+      <Area id="101005" level="2">宝应县</Area>
+      <Area id="101006" level="2">仪征市</Area>
+      <Area id="101007" level="2">高邮市</Area>
+      <Area id="101008" level="2">江都市</Area>
+    </City>
+    <City id="1011" name="镇江市" level="1" pname="">
+      <Area id="101101" level="2">市辖区</Area>
+      <Area id="101102" level="2">京口区</Area>
+      <Area id="101103" level="2">润州区</Area>
+      <Area id="101104" level="2">丹徒区</Area>
+      <Area id="101105" level="2">丹阳市</Area>
+      <Area id="101106" level="2">扬中市</Area>
+      <Area id="101107" level="2">句容市</Area>
+    </City>
+    <City id="1012" name="泰州市" level="1" pname="">
+      <Area id="101201" level="2">市辖区</Area>
+      <Area id="101202" level="2">海陵区</Area>
+      <Area id="101203" level="2">高港区</Area>
+      <Area id="101204" level="2">兴化市</Area>
+      <Area id="101205" level="2">靖江市</Area>
+      <Area id="101206" level="2">泰兴市</Area>
+      <Area id="101207" level="2">姜堰市</Area>
+    </City>
+    <City id="1013" name="宿迁市" level="1" pname="">
+      <Area id="101301" level="2">市辖区</Area>
+      <Area id="101302" level="2">宿城区</Area>
+      <Area id="101303" level="2">宿豫区</Area>
+      <Area id="101304" level="2">沭阳县</Area>
+      <Area id="101305" level="2">泗阳县</Area>
+      <Area id="101306" level="2">泗洪县</Area>
+    </City>
+  </Province>
+  <Province id="11" name="浙江省" level="0">
+    <City id="1101" name="杭州市" level="1" pname="">
+      <Area id="110101" level="2">市辖区</Area>
+      <Area id="110102" level="2">上城区</Area>
+      <Area id="110103" level="2">下城区</Area>
+      <Area id="110104" level="2">江干区</Area>
+      <Area id="110105" level="2">拱墅区</Area>
+      <Area id="110106" level="2">西湖区</Area>
+      <Area id="110107" level="2">滨江区</Area>
+      <Area id="110108" level="2">萧山区</Area>
+      <Area id="110109" level="2">余杭区</Area>
+      <Area id="110110" level="2">桐庐县</Area>
+      <Area id="110111" level="2">淳安县</Area>
+      <Area id="110112" level="2">建德市</Area>
+      <Area id="110113" level="2">富阳市</Area>
+      <Area id="110114" level="2">临安市</Area>
+    </City>
+    <City id="1102" name="宁波市" level="1" pname="">
+      <Area id="110201" level="2">市辖区</Area>
+      <Area id="110202" level="2">海曙区</Area>
+      <Area id="110203" level="2">江东区</Area>
+      <Area id="110204" level="2">江北区</Area>
+      <Area id="110205" level="2">北仑区</Area>
+      <Area id="110206" level="2">镇海区</Area>
+      <Area id="110207" level="2">鄞州区</Area>
+      <Area id="110208" level="2">象山县</Area>
+      <Area id="110209" level="2">宁海县</Area>
+      <Area id="110210" level="2">余姚市</Area>
+      <Area id="110211" level="2">慈溪市</Area>
+      <Area id="110212" level="2">奉化市</Area>
+    </City>
+    <City id="1103" name="温州市" level="1" pname="">
+      <Area id="110301" level="2">市辖区</Area>
+      <Area id="110302" level="2">鹿城区</Area>
+      <Area id="110303" level="2">龙湾区</Area>
+      <Area id="110304" level="2">瓯海区</Area>
+      <Area id="110305" level="2">洞头县</Area>
+      <Area id="110306" level="2">永嘉县</Area>
+      <Area id="110307" level="2">平阳县</Area>
+      <Area id="110308" level="2">苍南县</Area>
+      <Area id="110309" level="2">文成县</Area>
+      <Area id="110310" level="2">泰顺县</Area>
+      <Area id="110311" level="2">瑞安市</Area>
+      <Area id="110312" level="2">乐清市</Area>
+    </City>
+    <City id="1104" name="嘉兴市" level="1" pname="">
+      <Area id="110401" level="2">市辖区</Area>
+      <Area id="110402" level="2">秀城区</Area>
+      <Area id="110403" level="2">秀洲区</Area>
+      <Area id="110404" level="2">嘉善县</Area>
+      <Area id="110405" level="2">海盐县</Area>
+      <Area id="110406" level="2">海宁市</Area>
+      <Area id="110407" level="2">平湖市</Area>
+      <Area id="110408" level="2">桐乡市</Area>
+    </City>
+    <City id="1105" name="湖州市" level="1" pname="">
+      <Area id="110501" level="2">市辖区</Area>
+      <Area id="110502" level="2">吴兴区</Area>
+      <Area id="110503" level="2">南浔区</Area>
+      <Area id="110504" level="2">德清县</Area>
+      <Area id="110505" level="2">长兴县</Area>
+      <Area id="110506" level="2">安吉县</Area>
+    </City>
+    <City id="1106" name="绍兴市" level="1" pname="">
+      <Area id="110601" level="2">市辖区</Area>
+      <Area id="110602" level="2">越城区</Area>
+      <Area id="110603" level="2">绍兴县</Area>
+      <Area id="110604" level="2">新昌县</Area>
+      <Area id="110605" level="2">诸暨市</Area>
+      <Area id="110606" level="2">上虞市</Area>
+      <Area id="110607" level="2">嵊州市</Area>
+    </City>
+    <City id="1107" name="金华市" level="1" pname="">
+      <Area id="110701" level="2">市辖区</Area>
+      <Area id="110702" level="2">婺城区</Area>
+      <Area id="110703" level="2">金东区</Area>
+      <Area id="110704" level="2">武义县</Area>
+      <Area id="110705" level="2">浦江县</Area>
+      <Area id="110706" level="2">磐安县</Area>
+      <Area id="110707" level="2">兰溪市</Area>
+      <Area id="110708" level="2">义乌市</Area>
+      <Area id="110709" level="2">东阳市</Area>
+      <Area id="110710" level="2">永康市</Area>
+    </City>
+    <City id="1108" name="衢州市" level="1" pname="">
+      <Area id="110801" level="2">市辖区</Area>
+      <Area id="110802" level="2">柯城区</Area>
+      <Area id="110803" level="2">衢江区</Area>
+      <Area id="110804" level="2">常山县</Area>
+      <Area id="110805" level="2">开化县</Area>
+      <Area id="110806" level="2">龙游县</Area>
+      <Area id="110807" level="2">江山市</Area>
+    </City>
+    <City id="1109" name="舟山市" level="1" pname="">
+      <Area id="110901" level="2">市辖区</Area>
+      <Area id="110902" level="2">定海区</Area>
+      <Area id="110903" level="2">普陀区</Area>
+      <Area id="110904" level="2">岱山县</Area>
+      <Area id="110905" level="2">嵊泗县</Area>
+    </City>
+    <City id="1110" name="台州市" level="1" pname="">
+      <Area id="111001" level="2">市辖区</Area>
+      <Area id="111002" level="2">椒江区</Area>
+      <Area id="111003" level="2">黄岩区</Area>
+      <Area id="111004" level="2">路桥区</Area>
+      <Area id="111005" level="2">玉环县</Area>
+      <Area id="111006" level="2">三门县</Area>
+      <Area id="111007" level="2">天台县</Area>
+      <Area id="111008" level="2">仙居县</Area>
+      <Area id="111009" level="2">温岭市</Area>
+      <Area id="111010" level="2">临海市</Area>
+    </City>
+    <City id="1111" name="丽水市" level="1" pname="">
+      <Area id="111101" level="2">市辖区</Area>
+      <Area id="111102" level="2">莲都区</Area>
+      <Area id="111103" level="2">青田县</Area>
+      <Area id="111104" level="2">缙云县</Area>
+      <Area id="111105" level="2">遂昌县</Area>
+      <Area id="111106" level="2">松阳县</Area>
+      <Area id="111107" level="2">云和县</Area>
+      <Area id="111108" level="2">庆元县</Area>
+      <Area id="111109" level="2">景宁畲族自治县</Area>
+      <Area id="111110" level="2">龙泉市</Area>
+    </City>
+  </Province>
+  <Province id="12" name="安徽省" level="0">
+    <City id="1201" name="合肥市" level="1" pname="">
+      <Area id="120101" level="2">市辖区</Area>
+      <Area id="120102" level="2">瑶海区</Area>
+      <Area id="120103" level="2">庐阳区</Area>
+      <Area id="120104" level="2">蜀山区</Area>
+      <Area id="120105" level="2">包河区</Area>
+      <Area id="120106" level="2">长丰县</Area>
+      <Area id="120107" level="2">肥东县</Area>
+      <Area id="120108" level="2">肥西县</Area>
+    </City>
+    <City id="1202" name="芜湖市" level="1" pname="">
+      <Area id="120201" level="2">市辖区</Area>
+      <Area id="120202" level="2">镜湖区</Area>
+      <Area id="120203" level="2">马塘区</Area>
+      <Area id="120204" level="2">新芜区</Area>
+      <Area id="120205" level="2">鸠江区</Area>
+      <Area id="120206" level="2">芜湖县</Area>
+      <Area id="120207" level="2">繁昌县</Area>
+      <Area id="120208" level="2">南陵县</Area>
+    </City>
+    <City id="1203" name="蚌埠市" level="1" pname="">
+      <Area id="120301" level="2">市辖区</Area>
+      <Area id="120302" level="2">龙子湖区</Area>
+      <Area id="120303" level="2">蚌山区</Area>
+      <Area id="120304" level="2">禹会区</Area>
+      <Area id="120305" level="2">淮上区</Area>
+      <Area id="120306" level="2">怀远县</Area>
+      <Area id="120307" level="2">五河县</Area>
+      <Area id="120308" level="2">固镇县</Area>
+    </City>
+    <City id="1204" name="淮南市" level="1" pname="">
+      <Area id="120401" level="2">市辖区</Area>
+      <Area id="120402" level="2">大通区</Area>
+      <Area id="120403" level="2">田家庵区</Area>
+      <Area id="120404" level="2">谢家集区</Area>
+      <Area id="120405" level="2">八公山区</Area>
+      <Area id="120406" level="2">潘集区</Area>
+      <Area id="120407" level="2">凤台县</Area>
+    </City>
+    <City id="1205" name="马鞍山市" level="1" pname="">
+      <Area id="120501" level="2">市辖区</Area>
+      <Area id="120502" level="2">金家庄区</Area>
+      <Area id="120503" level="2">花山区</Area>
+      <Area id="120504" level="2">雨山区</Area>
+      <Area id="120505" level="2">当涂县</Area>
+    </City>
+    <City id="1206" name="淮北市" level="1" pname="">
+      <Area id="120601" level="2">市辖区</Area>
+      <Area id="120602" level="2">杜集区</Area>
+      <Area id="120603" level="2">相山区</Area>
+      <Area id="120604" level="2">烈山区</Area>
+      <Area id="120605" level="2">濉溪县</Area>
+    </City>
+    <City id="1207" name="铜陵市" level="1" pname="">
+      <Area id="120701" level="2">市辖区</Area>
+      <Area id="120702" level="2">铜官山区</Area>
+      <Area id="120703" level="2">狮子山区</Area>
+      <Area id="120704" level="2">郊　区</Area>
+      <Area id="120705" level="2">铜陵县</Area>
+    </City>
+    <City id="1208" name="安庆市" level="1" pname="">
+      <Area id="120801" level="2">市辖区</Area>
+      <Area id="120802" level="2">迎江区</Area>
+      <Area id="120803" level="2">大观区</Area>
+      <Area id="120804" level="2">郊　区</Area>
+      <Area id="120805" level="2">怀宁县</Area>
+      <Area id="120806" level="2">枞阳县</Area>
+      <Area id="120807" level="2">潜山县</Area>
+      <Area id="120808" level="2">太湖县</Area>
+      <Area id="120809" level="2">宿松县</Area>
+      <Area id="120810" level="2">望江县</Area>
+      <Area id="120811" level="2">岳西县</Area>
+      <Area id="120812" level="2">桐城市</Area>
+    </City>
+    <City id="1209" name="黄山市" level="1" pname="">
+      <Area id="120901" level="2">市辖区</Area>
+      <Area id="120902" level="2">屯溪区</Area>
+      <Area id="120903" level="2">黄山区</Area>
+      <Area id="120904" level="2">徽州区</Area>
+      <Area id="120905" level="2">歙　县</Area>
+      <Area id="120906" level="2">休宁县</Area>
+      <Area id="120907" level="2">黟　县</Area>
+      <Area id="120908" level="2">祁门县</Area>
+    </City>
+    <City id="1210" name="滁州市" level="1" pname="">
+      <Area id="121001" level="2">市辖区</Area>
+      <Area id="121002" level="2">琅琊区</Area>
+      <Area id="121003" level="2">南谯区</Area>
+      <Area id="121004" level="2">来安县</Area>
+      <Area id="121005" level="2">全椒县</Area>
+      <Area id="121006" level="2">定远县</Area>
+      <Area id="121007" level="2">凤阳县</Area>
+      <Area id="121008" level="2">天长市</Area>
+      <Area id="121009" level="2">明光市</Area>
+    </City>
+    <City id="1211" name="阜阳市" level="1" pname="">
+      <Area id="121101" level="2">市辖区</Area>
+      <Area id="121102" level="2">颍州区</Area>
+      <Area id="121103" level="2">颍东区</Area>
+      <Area id="121104" level="2">颍泉区</Area>
+      <Area id="121105" level="2">临泉县</Area>
+      <Area id="121106" level="2">太和县</Area>
+      <Area id="121107" level="2">阜南县</Area>
+      <Area id="121108" level="2">颍上县</Area>
+      <Area id="121109" level="2">界首市</Area>
+    </City>
+    <City id="1212" name="宿州市" level="1" pname="">
+      <Area id="121201" level="2">市辖区</Area>
+      <Area id="121202" level="2">墉桥区</Area>
+      <Area id="121203" level="2">砀山县</Area>
+      <Area id="121204" level="2">萧　县</Area>
+      <Area id="121205" level="2">灵璧县</Area>
+      <Area id="121206" level="2">泗　县</Area>
+    </City>
+    <City id="1213" name="巢湖市" level="1" pname="">
+      <Area id="121301" level="2">市辖区</Area>
+      <Area id="121302" level="2">居巢区</Area>
+      <Area id="121303" level="2">庐江县</Area>
+      <Area id="121304" level="2">无为县</Area>
+      <Area id="121305" level="2">含山县</Area>
+      <Area id="121306" level="2">和　县</Area>
+    </City>
+    <City id="1214" name="六安市" level="1" pname="">
+      <Area id="121401" level="2">市辖区</Area>
+      <Area id="121402" level="2">金安区</Area>
+      <Area id="121403" level="2">裕安区</Area>
+      <Area id="121404" level="2">寿　县</Area>
+      <Area id="121405" level="2">霍邱县</Area>
+      <Area id="121406" level="2">舒城县</Area>
+      <Area id="121407" level="2">金寨县</Area>
+      <Area id="121408" level="2">霍山县</Area>
+    </City>
+    <City id="1215" name="亳州市" level="1" pname="">
+      <Area id="121501" level="2">市辖区</Area>
+      <Area id="121502" level="2">谯城区</Area>
+      <Area id="121503" level="2">涡阳县</Area>
+      <Area id="121504" level="2">蒙城县</Area>
+      <Area id="121505" level="2">利辛县</Area>
+    </City>
+    <City id="1216" name="池州市" level="1" pname="">
+      <Area id="121601" level="2">市辖区</Area>
+      <Area id="121602" level="2">贵池区</Area>
+      <Area id="121603" level="2">东至县</Area>
+      <Area id="121604" level="2">石台县</Area>
+      <Area id="121605" level="2">青阳县</Area>
+    </City>
+    <City id="1217" name="宣城市" level="1" pname="">
+      <Area id="121701" level="2">市辖区</Area>
+      <Area id="121702" level="2">宣州区</Area>
+      <Area id="121703" level="2">郎溪县</Area>
+      <Area id="121704" level="2">广德县</Area>
+      <Area id="121705" level="2">泾　县</Area>
+      <Area id="121706" level="2">绩溪县</Area>
+      <Area id="121707" level="2">旌德县</Area>
+      <Area id="121708" level="2">宁国市</Area>
+    </City>
+  </Province>
+  <Province id="13" name="福建省" level="0">
+    <City id="1301" name="福州市" level="1" pname="">
+      <Area id="130101" level="2">市辖区</Area>
+      <Area id="130102" level="2">鼓楼区</Area>
+      <Area id="130103" level="2">台江区</Area>
+      <Area id="130104" level="2">仓山区</Area>
+      <Area id="130105" level="2">马尾区</Area>
+      <Area id="130106" level="2">晋安区</Area>
+      <Area id="130107" level="2">闽侯县</Area>
+      <Area id="130108" level="2">连江县</Area>
+      <Area id="130109" level="2">罗源县</Area>
+      <Area id="130110" level="2">闽清县</Area>
+      <Area id="130111" level="2">永泰县</Area>
+      <Area id="130112" level="2">平潭县</Area>
+      <Area id="130113" level="2">福清市</Area>
+      <Area id="130114" level="2">长乐市</Area>
+    </City>
+    <City id="1302" name="厦门市" level="1" pname="">
+      <Area id="130201" level="2">市辖区</Area>
+      <Area id="130202" level="2">思明区</Area>
+      <Area id="130203" level="2">海沧区</Area>
+      <Area id="130204" level="2">湖里区</Area>
+      <Area id="130205" level="2">集美区</Area>
+      <Area id="130206" level="2">同安区</Area>
+      <Area id="130207" level="2">翔安区</Area>
+    </City>
+    <City id="1303" name="莆田市" level="1" pname="">
+      <Area id="130301" level="2">市辖区</Area>
+      <Area id="130302" level="2">城厢区</Area>
+      <Area id="130303" level="2">涵江区</Area>
+      <Area id="130304" level="2">荔城区</Area>
+      <Area id="130305" level="2">秀屿区</Area>
+      <Area id="130306" level="2">仙游县</Area>
+    </City>
+    <City id="1304" name="三明市" level="1" pname="">
+      <Area id="130401" level="2">市辖区</Area>
+      <Area id="130402" level="2">梅列区</Area>
+      <Area id="130403" level="2">三元区</Area>
+      <Area id="130404" level="2">明溪县</Area>
+      <Area id="130405" level="2">清流县</Area>
+      <Area id="130406" level="2">宁化县</Area>
+      <Area id="130407" level="2">大田县</Area>
+      <Area id="130408" level="2">尤溪县</Area>
+      <Area id="130409" level="2">沙　县</Area>
+      <Area id="130410" level="2">将乐县</Area>
+      <Area id="130411" level="2">泰宁县</Area>
+      <Area id="130412" level="2">建宁县</Area>
+      <Area id="130413" level="2">永安市</Area>
+    </City>
+    <City id="1305" name="泉州市" level="1" pname="">
+      <Area id="130501" level="2">市辖区</Area>
+      <Area id="130502" level="2">鲤城区</Area>
+      <Area id="130503" level="2">丰泽区</Area>
+      <Area id="130504" level="2">洛江区</Area>
+      <Area id="130505" level="2">泉港区</Area>
+      <Area id="130506" level="2">惠安县</Area>
+      <Area id="130507" level="2">安溪县</Area>
+      <Area id="130508" level="2">永春县</Area>
+      <Area id="130509" level="2">德化县</Area>
+      <Area id="130510" level="2">金门县</Area>
+      <Area id="130511" level="2">石狮市</Area>
+      <Area id="130512" level="2">晋江市</Area>
+      <Area id="130513" level="2">南安市</Area>
+    </City>
+    <City id="1306" name="漳州市" level="1" pname="">
+      <Area id="130601" level="2">市辖区</Area>
+      <Area id="130602" level="2">芗城区</Area>
+      <Area id="130603" level="2">龙文区</Area>
+      <Area id="130604" level="2">云霄县</Area>
+      <Area id="130605" level="2">漳浦县</Area>
+      <Area id="130606" level="2">诏安县</Area>
+      <Area id="130607" level="2">长泰县</Area>
+      <Area id="130608" level="2">东山县</Area>
+      <Area id="130609" level="2">南靖县</Area>
+      <Area id="130610" level="2">平和县</Area>
+      <Area id="130611" level="2">华安县</Area>
+      <Area id="130612" level="2">龙海市</Area>
+    </City>
+    <City id="1307" name="南平市" level="1" pname="">
+      <Area id="130701" level="2">市辖区</Area>
+      <Area id="130702" level="2">延平区</Area>
+      <Area id="130703" level="2">顺昌县</Area>
+      <Area id="130704" level="2">浦城县</Area>
+      <Area id="130705" level="2">光泽县</Area>
+      <Area id="130706" level="2">松溪县</Area>
+      <Area id="130707" level="2">政和县</Area>
+      <Area id="130708" level="2">邵武市</Area>
+      <Area id="130709" level="2">武夷山市</Area>
+      <Area id="130710" level="2">建瓯市</Area>
+      <Area id="130711" level="2">建阳市</Area>
+    </City>
+    <City id="1308" name="龙岩市" level="1" pname="">
+      <Area id="130801" level="2">市辖区</Area>
+      <Area id="130802" level="2">新罗区</Area>
+      <Area id="130803" level="2">长汀县</Area>
+      <Area id="130804" level="2">永定县</Area>
+      <Area id="130805" level="2">上杭县</Area>
+      <Area id="130806" level="2">武平县</Area>
+      <Area id="130807" level="2">连城县</Area>
+      <Area id="130808" level="2">漳平市</Area>
+    </City>
+    <City id="1309" name="宁德市" level="1" pname="">
+      <Area id="130901" level="2">市辖区</Area>
+      <Area id="130902" level="2">蕉城区</Area>
+      <Area id="130903" level="2">霞浦县</Area>
+      <Area id="130904" level="2">古田县</Area>
+      <Area id="130905" level="2">屏南县</Area>
+      <Area id="130906" level="2">寿宁县</Area>
+      <Area id="130907" level="2">周宁县</Area>
+      <Area id="130908" level="2">柘荣县</Area>
+      <Area id="130909" level="2">福安市</Area>
+      <Area id="130910" level="2">福鼎市</Area>
+    </City>
+  </Province>
+  <Province id="14" name="江西省" level="0">
+    <City id="1401" name="南昌市" level="1" pname="">
+      <Area id="140101" level="2">市辖区</Area>
+      <Area id="140102" level="2">东湖区</Area>
+      <Area id="140103" level="2">西湖区</Area>
+      <Area id="140104" level="2">青云谱区</Area>
+      <Area id="140105" level="2">湾里区</Area>
+      <Area id="140106" level="2">青山湖区</Area>
+      <Area id="140107" level="2">南昌县</Area>
+      <Area id="140108" level="2">新建县</Area>
+      <Area id="140109" level="2">安义县</Area>
+      <Area id="140110" level="2">进贤县</Area>
+    </City>
+    <City id="1402" name="景德镇市" level="1" pname="">
+      <Area id="140201" level="2">市辖区</Area>
+      <Area id="140202" level="2">昌江区</Area>
+      <Area id="140203" level="2">珠山区</Area>
+      <Area id="140204" level="2">浮梁县</Area>
+      <Area id="140205" level="2">乐平市</Area>
+    </City>
+    <City id="1403" name="萍乡市" level="1" pname="">
+      <Area id="140301" level="2">市辖区</Area>
+      <Area id="140302" level="2">安源区</Area>
+      <Area id="140303" level="2">湘东区</Area>
+      <Area id="140304" level="2">莲花县</Area>
+      <Area id="140305" level="2">上栗县</Area>
+      <Area id="140306" level="2">芦溪县</Area>
+    </City>
+    <City id="1404" name="九江市" level="1" pname="">
+      <Area id="140401" level="2">市辖区</Area>
+      <Area id="140402" level="2">庐山区</Area>
+      <Area id="140403" level="2">浔阳区</Area>
+      <Area id="140404" level="2">九江县</Area>
+      <Area id="140405" level="2">武宁县</Area>
+      <Area id="140406" level="2">修水县</Area>
+      <Area id="140407" level="2">永修县</Area>
+      <Area id="140408" level="2">德安县</Area>
+      <Area id="140409" level="2">星子县</Area>
+      <Area id="140410" level="2">都昌县</Area>
+      <Area id="140411" level="2">湖口县</Area>
+      <Area id="140412" level="2">彭泽县</Area>
+      <Area id="140413" level="2">瑞昌市</Area>
+    </City>
+    <City id="1405" name="新余市" level="1" pname="">
+      <Area id="140501" level="2">市辖区</Area>
+      <Area id="140502" level="2">渝水区</Area>
+      <Area id="140503" level="2">分宜县</Area>
+    </City>
+    <City id="1406" name="鹰潭市" level="1" pname="">
+      <Area id="140601" level="2">市辖区</Area>
+      <Area id="140602" level="2">月湖区</Area>
+      <Area id="140603" level="2">余江县</Area>
+      <Area id="140604" level="2">贵溪市</Area>
+    </City>
+    <City id="1407" name="赣州市" level="1" pname="">
+      <Area id="140701" level="2">市辖区</Area>
+      <Area id="140702" level="2">章贡区</Area>
+      <Area id="140703" level="2">赣　县</Area>
+      <Area id="140704" level="2">信丰县</Area>
+      <Area id="140705" level="2">大余县</Area>
+      <Area id="140706" level="2">上犹县</Area>
+      <Area id="140707" level="2">崇义县</Area>
+      <Area id="140708" level="2">安远县</Area>
+      <Area id="140709" level="2">龙南县</Area>
+      <Area id="140710" level="2">定南县</Area>
+      <Area id="140711" level="2">全南县</Area>
+      <Area id="140712" level="2">宁都县</Area>
+      <Area id="140713" level="2">于都县</Area>
+      <Area id="140714" level="2">兴国县</Area>
+      <Area id="140715" level="2">会昌县</Area>
+      <Area id="140716" level="2">寻乌县</Area>
+      <Area id="140717" level="2">石城县</Area>
+      <Area id="140718" level="2">瑞金市</Area>
+      <Area id="140719" level="2">南康市</Area>
+    </City>
+    <City id="1408" name="吉安市" level="1" pname="">
+      <Area id="140801" level="2">市辖区</Area>
+      <Area id="140802" level="2">吉州区</Area>
+      <Area id="140803" level="2">青原区</Area>
+      <Area id="140804" level="2">吉安县</Area>
+      <Area id="140805" level="2">吉水县</Area>
+      <Area id="140806" level="2">峡江县</Area>
+      <Area id="140807" level="2">新干县</Area>
+      <Area id="140808" level="2">永丰县</Area>
+      <Area id="140809" level="2">泰和县</Area>
+      <Area id="140810" level="2">遂川县</Area>
+      <Area id="140811" level="2">万安县</Area>
+      <Area id="140812" level="2">安福县</Area>
+      <Area id="140813" level="2">永新县</Area>
+      <Area id="140814" level="2">井冈山市</Area>
+    </City>
+    <City id="1409" name="宜春市" level="1" pname="">
+      <Area id="140901" level="2">市辖区</Area>
+      <Area id="140902" level="2">袁州区</Area>
+      <Area id="140903" level="2">奉新县</Area>
+      <Area id="140904" level="2">万载县</Area>
+      <Area id="140905" level="2">上高县</Area>
+      <Area id="140906" level="2">宜丰县</Area>
+      <Area id="140907" level="2">靖安县</Area>
+      <Area id="140908" level="2">铜鼓县</Area>
+      <Area id="140909" level="2">丰城市</Area>
+      <Area id="140910" level="2">樟树市</Area>
+      <Area id="140911" level="2">高安市</Area>
+    </City>
+    <City id="1410" name="抚州市" level="1" pname="">
+      <Area id="141001" level="2">市辖区</Area>
+      <Area id="141002" level="2">临川区</Area>
+      <Area id="141003" level="2">南城县</Area>
+      <Area id="141004" level="2">黎川县</Area>
+      <Area id="141005" level="2">南丰县</Area>
+      <Area id="141006" level="2">崇仁县</Area>
+      <Area id="141007" level="2">乐安县</Area>
+      <Area id="141008" level="2">宜黄县</Area>
+      <Area id="141009" level="2">金溪县</Area>
+      <Area id="141010" level="2">资溪县</Area>
+      <Area id="141011" level="2">东乡县</Area>
+      <Area id="141012" level="2">广昌县</Area>
+    </City>
+    <City id="1411" name="上饶市" level="1" pname="">
+      <Area id="141101" level="2">市辖区</Area>
+      <Area id="141102" level="2">信州区</Area>
+      <Area id="141103" level="2">上饶县</Area>
+      <Area id="141104" level="2">广丰县</Area>
+      <Area id="141105" level="2">玉山县</Area>
+      <Area id="141106" level="2">铅山县</Area>
+      <Area id="141107" level="2">横峰县</Area>
+      <Area id="141108" level="2">弋阳县</Area>
+      <Area id="141109" level="2">余干县</Area>
+      <Area id="141110" level="2">鄱阳县</Area>
+      <Area id="141111" level="2">万年县</Area>
+      <Area id="141112" level="2">婺源县</Area>
+      <Area id="141113" level="2">德兴市</Area>
+    </City>
+  </Province>
+  <Province id="15" name="山东省" level="0">
+    <City id="1501" name="济南市" level="1" pname="">
+      <Area id="150101" level="2">市辖区</Area>
+      <Area id="150102" level="2">历下区</Area>
+      <Area id="150103" level="2">市中区</Area>
+      <Area id="150104" level="2">槐荫区</Area>
+      <Area id="150105" level="2">天桥区</Area>
+      <Area id="150106" level="2">历城区</Area>
+      <Area id="150107" level="2">长清区</Area>
+      <Area id="150108" level="2">平阴县</Area>
+      <Area id="150109" level="2">济阳县</Area>
+      <Area id="150110" level="2">商河县</Area>
+      <Area id="150111" level="2">章丘市</Area>
+    </City>
+    <City id="1502" name="青岛市" level="1" pname="">
+      <Area id="150201" level="2">市辖区</Area>
+      <Area id="150202" level="2">市南区</Area>
+      <Area id="150203" level="2">市北区</Area>
+      <Area id="150204" level="2">四方区</Area>
+      <Area id="150205" level="2">黄岛区</Area>
+      <Area id="150206" level="2">崂山区</Area>
+      <Area id="150207" level="2">李沧区</Area>
+      <Area id="150208" level="2">城阳区</Area>
+      <Area id="150209" level="2">胶州市</Area>
+      <Area id="150210" level="2">即墨市</Area>
+      <Area id="150211" level="2">平度市</Area>
+      <Area id="150212" level="2">胶南市</Area>
+      <Area id="150213" level="2">莱西市</Area>
+    </City>
+    <City id="1503" name="淄博市" level="1" pname="">
+      <Area id="150301" level="2">市辖区</Area>
+      <Area id="150302" level="2">淄川区</Area>
+      <Area id="150303" level="2">张店区</Area>
+      <Area id="150304" level="2">博山区</Area>
+      <Area id="150305" level="2">临淄区</Area>
+      <Area id="150306" level="2">周村区</Area>
+      <Area id="150307" level="2">桓台县</Area>
+      <Area id="150308" level="2">高青县</Area>
+      <Area id="150309" level="2">沂源县</Area>
+    </City>
+    <City id="1504" name="枣庄市" level="1" pname="">
+      <Area id="150401" level="2">市辖区</Area>
+      <Area id="150402" level="2">市中区</Area>
+      <Area id="150403" level="2">薛城区</Area>
+      <Area id="150404" level="2">峄城区</Area>
+      <Area id="150405" level="2">台儿庄区</Area>
+      <Area id="150406" level="2">山亭区</Area>
+      <Area id="150407" level="2">滕州市</Area>
+    </City>
+    <City id="1505" name="东营市" level="1" pname="">
+      <Area id="150501" level="2">市辖区</Area>
+      <Area id="150502" level="2">东营区</Area>
+      <Area id="150503" level="2">河口区</Area>
+      <Area id="150504" level="2">垦利县</Area>
+      <Area id="150505" level="2">利津县</Area>
+      <Area id="150506" level="2">广饶县</Area>
+    </City>
+    <City id="1506" name="烟台市" level="1" pname="">
+      <Area id="150601" level="2">市辖区</Area>
+      <Area id="150602" level="2">芝罘区</Area>
+      <Area id="150603" level="2">福山区</Area>
+      <Area id="150604" level="2">牟平区</Area>
+      <Area id="150605" level="2">莱山区</Area>
+      <Area id="150606" level="2">长岛县</Area>
+      <Area id="150607" level="2">龙口市</Area>
+      <Area id="150608" level="2">莱阳市</Area>
+      <Area id="150609" level="2">莱州市</Area>
+      <Area id="150610" level="2">蓬莱市</Area>
+      <Area id="150611" level="2">招远市</Area>
+      <Area id="150612" level="2">栖霞市</Area>
+      <Area id="150613" level="2">海阳市</Area>
+    </City>
+    <City id="1507" name="潍坊市" level="1" pname="">
+      <Area id="150701" level="2">市辖区</Area>
+      <Area id="150702" level="2">潍城区</Area>
+      <Area id="150703" level="2">寒亭区</Area>
+      <Area id="150704" level="2">坊子区</Area>
+      <Area id="150705" level="2">奎文区</Area>
+      <Area id="150706" level="2">临朐县</Area>
+      <Area id="150707" level="2">昌乐县</Area>
+      <Area id="150708" level="2">青州市</Area>
+      <Area id="150709" level="2">诸城市</Area>
+      <Area id="150710" level="2">寿光市</Area>
+      <Area id="150711" level="2">安丘市</Area>
+      <Area id="150712" level="2">高密市</Area>
+      <Area id="150713" level="2">昌邑市</Area>
+    </City>
+    <City id="1508" name="济宁市" level="1" pname="">
+      <Area id="150801" level="2">市辖区</Area>
+      <Area id="150802" level="2">市中区</Area>
+      <Area id="150803" level="2">任城区</Area>
+      <Area id="150804" level="2">微山县</Area>
+      <Area id="150805" level="2">鱼台县</Area>
+      <Area id="150806" level="2">金乡县</Area>
+      <Area id="150807" level="2">嘉祥县</Area>
+      <Area id="150808" level="2">汶上县</Area>
+      <Area id="150809" level="2">泗水县</Area>
+      <Area id="150810" level="2">梁山县</Area>
+      <Area id="150811" level="2">曲阜市</Area>
+      <Area id="150812" level="2">兖州市</Area>
+      <Area id="150813" level="2">邹城市</Area>
+    </City>
+    <City id="1509" name="泰安市" level="1" pname="">
+      <Area id="150901" level="2">市辖区</Area>
+      <Area id="150902" level="2">泰山区</Area>
+      <Area id="150903" level="2">岱岳区</Area>
+      <Area id="150904" level="2">宁阳县</Area>
+      <Area id="150905" level="2">东平县</Area>
+      <Area id="150906" level="2">新泰市</Area>
+      <Area id="150907" level="2">肥城市</Area>
+    </City>
+    <City id="1510" name="威海市" level="1" pname="">
+      <Area id="151001" level="2">市辖区</Area>
+      <Area id="151002" level="2">环翠区</Area>
+      <Area id="151003" level="2">文登市</Area>
+      <Area id="151004" level="2">荣成市</Area>
+      <Area id="151005" level="2">乳山市</Area>
+    </City>
+    <City id="1511" name="日照市" level="1" pname="">
+      <Area id="151101" level="2">市辖区</Area>
+      <Area id="151102" level="2">东港区</Area>
+      <Area id="151103" level="2">岚山区</Area>
+      <Area id="151104" level="2">五莲县</Area>
+      <Area id="151105" level="2">莒　县</Area>
+    </City>
+    <City id="1512" name="莱芜市" level="1" pname="">
+      <Area id="151201" level="2">市辖区</Area>
+      <Area id="151202" level="2">莱城区</Area>
+      <Area id="151203" level="2">钢城区</Area>
+    </City>
+    <City id="1513" name="临沂市" level="1" pname="">
+      <Area id="151301" level="2">市辖区</Area>
+      <Area id="151302" level="2">兰山区</Area>
+      <Area id="151303" level="2">罗庄区</Area>
+      <Area id="151304" level="2">河东区</Area>
+      <Area id="151305" level="2">沂南县</Area>
+      <Area id="151306" level="2">郯城县</Area>
+      <Area id="151307" level="2">沂水县</Area>
+      <Area id="151308" level="2">苍山县</Area>
+      <Area id="151309" level="2">费　县</Area>
+      <Area id="151310" level="2">平邑县</Area>
+      <Area id="151311" level="2">莒南县</Area>
+      <Area id="151312" level="2">蒙阴县</Area>
+      <Area id="151313" level="2">临沭县</Area>
+    </City>
+    <City id="1514" name="德州市" level="1" pname="">
+      <Area id="151401" level="2">市辖区</Area>
+      <Area id="151402" level="2">德城区</Area>
+      <Area id="151403" level="2">陵　县</Area>
+      <Area id="151404" level="2">宁津县</Area>
+      <Area id="151405" level="2">庆云县</Area>
+      <Area id="151406" level="2">临邑县</Area>
+      <Area id="151407" level="2">齐河县</Area>
+      <Area id="151408" level="2">平原县</Area>
+      <Area id="151409" level="2">夏津县</Area>
+      <Area id="151410" level="2">武城县</Area>
+      <Area id="151411" level="2">乐陵市</Area>
+      <Area id="151412" level="2">禹城市</Area>
+    </City>
+    <City id="1515" name="聊城市" level="1" pname="">
+      <Area id="151501" level="2">市辖区</Area>
+      <Area id="151502" level="2">东昌府区</Area>
+      <Area id="151503" level="2">阳谷县</Area>
+      <Area id="151504" level="2">莘　县</Area>
+      <Area id="151505" level="2">茌平县</Area>
+      <Area id="151506" level="2">东阿县</Area>
+      <Area id="151507" level="2">冠　县</Area>
+      <Area id="151508" level="2">高唐县</Area>
+      <Area id="151509" level="2">临清市</Area>
+    </City>
+    <City id="1516" name="滨州市" level="1" pname="">
+      <Area id="151601" level="2">市辖区</Area>
+      <Area id="151602" level="2">滨城区</Area>
+      <Area id="151603" level="2">惠民县</Area>
+      <Area id="151604" level="2">阳信县</Area>
+      <Area id="151605" level="2">无棣县</Area>
+      <Area id="151606" level="2">沾化县</Area>
+      <Area id="151607" level="2">博兴县</Area>
+      <Area id="151608" level="2">邹平县</Area>
+    </City>
+    <City id="1517" name="荷泽市" level="1" pname="">
+      <Area id="151701" level="2">市辖区</Area>
+      <Area id="151702" level="2">牡丹区</Area>
+      <Area id="151703" level="2">曹　县</Area>
+      <Area id="151704" level="2">单　县</Area>
+      <Area id="151705" level="2">成武县</Area>
+      <Area id="151706" level="2">巨野县</Area>
+      <Area id="151707" level="2">郓城县</Area>
+      <Area id="151708" level="2">鄄城县</Area>
+      <Area id="151709" level="2">定陶县</Area>
+      <Area id="151710" level="2">东明县</Area>
+    </City>
+  </Province>
+  <Province id="16" name="河南省" level="0">
+    <City id="1601" name="郑州市" level="1" pname="">
+      <Area id="160101" level="2">市辖区</Area>
+      <Area id="160102" level="2">中原区</Area>
+      <Area id="160103" level="2">二七区</Area>
+      <Area id="160104" level="2">管城回族区</Area>
+      <Area id="160105" level="2">金水区</Area>
+      <Area id="160106" level="2">上街区</Area>
+      <Area id="160107" level="2">邙山区</Area>
+      <Area id="160108" level="2">中牟县</Area>
+      <Area id="160109" level="2">巩义市</Area>
+      <Area id="160110" level="2">荥阳市</Area>
+      <Area id="160111" level="2">新密市</Area>
+      <Area id="160112" level="2">新郑市</Area>
+      <Area id="160113" level="2">登封市</Area>
+    </City>
+    <City id="1602" name="开封市" level="1" pname="">
+      <Area id="160201" level="2">市辖区</Area>
+      <Area id="160202" level="2">龙亭区</Area>
+      <Area id="160203" level="2">顺河回族区</Area>
+      <Area id="160204" level="2">鼓楼区</Area>
+      <Area id="160205" level="2">南关区</Area>
+      <Area id="160206" level="2">郊　区</Area>
+      <Area id="160207" level="2">杞　县</Area>
+      <Area id="160208" level="2">通许县</Area>
+      <Area id="160209" level="2">尉氏县</Area>
+      <Area id="160210" level="2">开封县</Area>
+      <Area id="160211" level="2">兰考县</Area>
+    </City>
+    <City id="1603" name="洛阳市" level="1" pname="">
+      <Area id="160301" level="2">市辖区</Area>
+      <Area id="160302" level="2">老城区</Area>
+      <Area id="160303" level="2">西工区</Area>
+      <Area id="160304" level="2">廛河回族区</Area>
+      <Area id="160305" level="2">涧西区</Area>
+      <Area id="160306" level="2">吉利区</Area>
+      <Area id="160307" level="2">洛龙区</Area>
+      <Area id="160308" level="2">孟津县</Area>
+      <Area id="160309" level="2">新安县</Area>
+      <Area id="160310" level="2">栾川县</Area>
+      <Area id="160311" level="2">嵩　县</Area>
+      <Area id="160312" level="2">汝阳县</Area>
+      <Area id="160313" level="2">宜阳县</Area>
+      <Area id="160314" level="2">洛宁县</Area>
+      <Area id="160315" level="2">伊川县</Area>
+      <Area id="160316" level="2">偃师市</Area>
+    </City>
+    <City id="1604" name="平顶山市" level="1" pname="">
+      <Area id="160401" level="2">市辖区</Area>
+      <Area id="160402" level="2">新华区</Area>
+      <Area id="160403" level="2">卫东区</Area>
+      <Area id="160404" level="2">石龙区</Area>
+      <Area id="160405" level="2">湛河区</Area>
+      <Area id="160406" level="2">宝丰县</Area>
+      <Area id="160407" level="2">叶　县</Area>
+      <Area id="160408" level="2">鲁山县</Area>
+      <Area id="160409" level="2">郏　县</Area>
+      <Area id="160410" level="2">舞钢市</Area>
+      <Area id="160411" level="2">汝州市</Area>
+    </City>
+    <City id="1605" name="安阳市" level="1" pname="">
+      <Area id="160501" level="2">市辖区</Area>
+      <Area id="160502" level="2">文峰区</Area>
+      <Area id="160503" level="2">北关区</Area>
+      <Area id="160504" level="2">殷都区</Area>
+      <Area id="160505" level="2">龙安区</Area>
+      <Area id="160506" level="2">安阳县</Area>
+      <Area id="160507" level="2">汤阴县</Area>
+      <Area id="160508" level="2">滑　县</Area>
+      <Area id="160509" level="2">内黄县</Area>
+      <Area id="160510" level="2">林州市</Area>
+    </City>
+    <City id="1606" name="鹤壁市" level="1" pname="">
+      <Area id="160601" level="2">市辖区</Area>
+      <Area id="160602" level="2">鹤山区</Area>
+      <Area id="160603" level="2">山城区</Area>
+      <Area id="160604" level="2">淇滨区</Area>
+      <Area id="160605" level="2">浚　县</Area>
+      <Area id="160606" level="2">淇　县</Area>
+    </City>
+    <City id="1607" name="新乡市" level="1" pname="">
+      <Area id="160701" level="2">市辖区</Area>
+      <Area id="160702" level="2">红旗区</Area>
+      <Area id="160703" level="2">卫滨区</Area>
+      <Area id="160704" level="2">凤泉区</Area>
+      <Area id="160705" level="2">牧野区</Area>
+      <Area id="160706" level="2">新乡县</Area>
+      <Area id="160707" level="2">获嘉县</Area>
+      <Area id="160708" level="2">原阳县</Area>
+      <Area id="160709" level="2">延津县</Area>
+      <Area id="160710" level="2">封丘县</Area>
+      <Area id="160711" level="2">长垣县</Area>
+      <Area id="160712" level="2">卫辉市</Area>
+      <Area id="160713" level="2">辉县市</Area>
+    </City>
+    <City id="1608" name="焦作市" level="1" pname="">
+      <Area id="160801" level="2">市辖区</Area>
+      <Area id="160802" level="2">解放区</Area>
+      <Area id="160803" level="2">中站区</Area>
+      <Area id="160804" level="2">马村区</Area>
+      <Area id="160805" level="2">山阳区</Area>
+      <Area id="160806" level="2">修武县</Area>
+      <Area id="160807" level="2">博爱县</Area>
+      <Area id="160808" level="2">武陟县</Area>
+      <Area id="160809" level="2">温　县</Area>
+      <Area id="160810" level="2">济源市</Area>
+      <Area id="160811" level="2">沁阳市</Area>
+      <Area id="160812" level="2">孟州市</Area>
+    </City>
+    <City id="1609" name="濮阳市" level="1" pname="">
+      <Area id="160901" level="2">市辖区</Area>
+      <Area id="160902" level="2">华龙区</Area>
+      <Area id="160903" level="2">清丰县</Area>
+      <Area id="160904" level="2">南乐县</Area>
+      <Area id="160905" level="2">范　县</Area>
+      <Area id="160906" level="2">台前县</Area>
+      <Area id="160907" level="2">濮阳县</Area>
+    </City>
+    <City id="1610" name="许昌市" level="1" pname="">
+      <Area id="161001" level="2">市辖区</Area>
+      <Area id="161002" level="2">魏都区</Area>
+      <Area id="161003" level="2">许昌县</Area>
+      <Area id="161004" level="2">鄢陵县</Area>
+      <Area id="161005" level="2">襄城县</Area>
+      <Area id="161006" level="2">禹州市</Area>
+      <Area id="161007" level="2">长葛市</Area>
+    </City>
+    <City id="1611" name="漯河市" level="1" pname="">
+      <Area id="161101" level="2">市辖区</Area>
+      <Area id="161102" level="2">源汇区</Area>
+      <Area id="161103" level="2">郾城区</Area>
+      <Area id="161104" level="2">召陵区</Area>
+      <Area id="161105" level="2">舞阳县</Area>
+      <Area id="161106" level="2">临颍县</Area>
+    </City>
+    <City id="1612" name="三门峡市" level="1" pname="">
+      <Area id="161201" level="2">市辖区</Area>
+      <Area id="161202" level="2">湖滨区</Area>
+      <Area id="161203" level="2">渑池县</Area>
+      <Area id="161204" level="2">陕　县</Area>
+      <Area id="161205" level="2">卢氏县</Area>
+      <Area id="161206" level="2">义马市</Area>
+      <Area id="161207" level="2">灵宝市</Area>
+    </City>
+    <City id="1613" name="南阳市" level="1" pname="">
+      <Area id="161301" level="2">市辖区</Area>
+      <Area id="161302" level="2">宛城区</Area>
+      <Area id="161303" level="2">卧龙区</Area>
+      <Area id="161304" level="2">南召县</Area>
+      <Area id="161305" level="2">方城县</Area>
+      <Area id="161306" level="2">西峡县</Area>
+      <Area id="161307" level="2">镇平县</Area>
+      <Area id="161308" level="2">内乡县</Area>
+      <Area id="161309" level="2">淅川县</Area>
+      <Area id="161310" level="2">社旗县</Area>
+      <Area id="161311" level="2">唐河县</Area>
+      <Area id="161312" level="2">新野县</Area>
+      <Area id="161313" level="2">桐柏县</Area>
+      <Area id="161314" level="2">邓州市</Area>
+    </City>
+    <City id="1614" name="商丘市" level="1" pname="">
+      <Area id="161401" level="2">市辖区</Area>
+      <Area id="161402" level="2">梁园区</Area>
+      <Area id="161403" level="2">睢阳区</Area>
+      <Area id="161404" level="2">民权县</Area>
+      <Area id="161405" level="2">睢　县</Area>
+      <Area id="161406" level="2">宁陵县</Area>
+      <Area id="161407" level="2">柘城县</Area>
+      <Area id="161408" level="2">虞城县</Area>
+      <Area id="161409" level="2">夏邑县</Area>
+      <Area id="161410" level="2">永城市</Area>
+    </City>
+    <City id="1615" name="信阳市" level="1" pname="">
+      <Area id="161501" level="2">市辖区</Area>
+      <Area id="161502" level="2">师河区</Area>
+      <Area id="161503" level="2">平桥区</Area>
+      <Area id="161504" level="2">罗山县</Area>
+      <Area id="161505" level="2">光山县</Area>
+      <Area id="161506" level="2">新　县</Area>
+      <Area id="161507" level="2">商城县</Area>
+      <Area id="161508" level="2">固始县</Area>
+      <Area id="161509" level="2">潢川县</Area>
+      <Area id="161510" level="2">淮滨县</Area>
+      <Area id="161511" level="2">息　县</Area>
+    </City>
+    <City id="1616" name="周口市" level="1" pname="">
+      <Area id="161601" level="2">市辖区</Area>
+      <Area id="161602" level="2">川汇区</Area>
+      <Area id="161603" level="2">扶沟县</Area>
+      <Area id="161604" level="2">西华县</Area>
+      <Area id="161605" level="2">商水县</Area>
+      <Area id="161606" level="2">沈丘县</Area>
+      <Area id="161607" level="2">郸城县</Area>
+      <Area id="161608" level="2">淮阳县</Area>
+      <Area id="161609" level="2">太康县</Area>
+      <Area id="161610" level="2">鹿邑县</Area>
+      <Area id="161611" level="2">项城市</Area>
+    </City>
+    <City id="1617" name="驻马店市" level="1" pname="">
+      <Area id="161701" level="2">市辖区</Area>
+      <Area id="161702" level="2">驿城区</Area>
+      <Area id="161703" level="2">西平县</Area>
+      <Area id="161704" level="2">上蔡县</Area>
+      <Area id="161705" level="2">平舆县</Area>
+      <Area id="161706" level="2">正阳县</Area>
+      <Area id="161707" level="2">确山县</Area>
+      <Area id="161708" level="2">泌阳县</Area>
+      <Area id="161709" level="2">汝南县</Area>
+      <Area id="161710" level="2">遂平县</Area>
+      <Area id="161711" level="2">新蔡县</Area>
+    </City>
+  </Province>
+  <Province id="17" name="湖北省" level="0">
+    <City id="1701" name="武汉市" level="1" pname="">
+      <Area id="170101" level="2">市辖区</Area>
+      <Area id="170102" level="2">江岸区</Area>
+      <Area id="170103" level="2">江汉区</Area>
+      <Area id="170104" level="2">乔口区</Area>
+      <Area id="170105" level="2">汉阳区</Area>
+      <Area id="170106" level="2">武昌区</Area>
+      <Area id="170107" level="2">青山区</Area>
+      <Area id="170108" level="2">洪山区</Area>
+      <Area id="170109" level="2">东西湖区</Area>
+      <Area id="170110" level="2">汉南区</Area>
+      <Area id="170111" level="2">蔡甸区</Area>
+      <Area id="170112" level="2">江夏区</Area>
+      <Area id="170113" level="2">黄陂区</Area>
+      <Area id="170114" level="2">新洲区</Area>
+    </City>
+    <City id="1702" name="黄石市" level="1" pname="">
+      <Area id="170201" level="2">市辖区</Area>
+      <Area id="170202" level="2">黄石港区</Area>
+      <Area id="170203" level="2">西塞山区</Area>
+      <Area id="170204" level="2">下陆区</Area>
+      <Area id="170205" level="2">铁山区</Area>
+      <Area id="170206" level="2">阳新县</Area>
+      <Area id="170207" level="2">大冶市</Area>
+    </City>
+    <City id="1703" name="十堰市" level="1" pname="">
+      <Area id="170301" level="2">市辖区</Area>
+      <Area id="170302" level="2">茅箭区</Area>
+      <Area id="170303" level="2">张湾区</Area>
+      <Area id="170304" level="2">郧　县</Area>
+      <Area id="170305" level="2">郧西县</Area>
+      <Area id="170306" level="2">竹山县</Area>
+      <Area id="170307" level="2">竹溪县</Area>
+      <Area id="170308" level="2">房　县</Area>
+      <Area id="170309" level="2">丹江口市</Area>
+    </City>
+    <City id="1704" name="宜昌市" level="1" pname="">
+      <Area id="170401" level="2">市辖区</Area>
+      <Area id="170402" level="2">西陵区</Area>
+      <Area id="170403" level="2">伍家岗区</Area>
+      <Area id="170404" level="2">点军区</Area>
+      <Area id="170405" level="2">猇亭区</Area>
+      <Area id="170406" level="2">夷陵区</Area>
+      <Area id="170407" level="2">远安县</Area>
+      <Area id="170408" level="2">兴山县</Area>
+      <Area id="170409" level="2">秭归县</Area>
+      <Area id="170410" level="2">长阳土家族自治县</Area>
+      <Area id="170411" level="2">五峰土家族自治县</Area>
+      <Area id="170412" level="2">宜都市</Area>
+      <Area id="170413" level="2">当阳市</Area>
+      <Area id="170414" level="2">枝江市</Area>
+    </City>
+    <City id="1705" name="襄樊市" level="1" pname="">
+      <Area id="170501" level="2">市辖区</Area>
+      <Area id="170502" level="2">襄城区</Area>
+      <Area id="170503" level="2">樊城区</Area>
+      <Area id="170504" level="2">襄阳区</Area>
+      <Area id="170505" level="2">南漳县</Area>
+      <Area id="170506" level="2">谷城县</Area>
+      <Area id="170507" level="2">保康县</Area>
+      <Area id="170508" level="2">老河口市</Area>
+      <Area id="170509" level="2">枣阳市</Area>
+      <Area id="170510" level="2">宜城市</Area>
+    </City>
+    <City id="1706" name="鄂州市" level="1" pname="">
+      <Area id="170601" level="2">市辖区</Area>
+      <Area id="170602" level="2">梁子湖区</Area>
+      <Area id="170603" level="2">华容区</Area>
+      <Area id="170604" level="2">鄂城区</Area>
+    </City>
+    <City id="1707" name="荆门市" level="1" pname="">
+      <Area id="170701" level="2">市辖区</Area>
+      <Area id="170702" level="2">东宝区</Area>
+      <Area id="170703" level="2">掇刀区</Area>
+      <Area id="170704" level="2">京山县</Area>
+      <Area id="170705" level="2">沙洋县</Area>
+      <Area id="170706" level="2">钟祥市</Area>
+    </City>
+    <City id="1708" name="孝感市" level="1" pname="">
+      <Area id="170801" level="2">市辖区</Area>
+      <Area id="170802" level="2">孝南区</Area>
+      <Area id="170803" level="2">孝昌县</Area>
+      <Area id="170804" level="2">大悟县</Area>
+      <Area id="170805" level="2">云梦县</Area>
+      <Area id="170806" level="2">应城市</Area>
+      <Area id="170807" level="2">安陆市</Area>
+      <Area id="170808" level="2">汉川市</Area>
+    </City>
+    <City id="1709" name="荆州市" level="1" pname="">
+      <Area id="170901" level="2">市辖区</Area>
+      <Area id="170902" level="2">沙市区</Area>
+      <Area id="170903" level="2">荆州区</Area>
+      <Area id="170904" level="2">公安县</Area>
+      <Area id="170905" level="2">监利县</Area>
+      <Area id="170906" level="2">江陵县</Area>
+      <Area id="170907" level="2">石首市</Area>
+      <Area id="170908" level="2">洪湖市</Area>
+      <Area id="170909" level="2">松滋市</Area>
+    </City>
+    <City id="1710" name="黄冈市" level="1" pname="">
+      <Area id="171001" level="2">市辖区</Area>
+      <Area id="171002" level="2">黄州区</Area>
+      <Area id="171003" level="2">团风县</Area>
+      <Area id="171004" level="2">红安县</Area>
+      <Area id="171005" level="2">罗田县</Area>
+      <Area id="171006" level="2">英山县</Area>
+      <Area id="171007" level="2">浠水县</Area>
+      <Area id="171008" level="2">蕲春县</Area>
+      <Area id="171009" level="2">黄梅县</Area>
+      <Area id="171010" level="2">麻城市</Area>
+      <Area id="171011" level="2">武穴市</Area>
+    </City>
+    <City id="1711" name="咸宁市" level="1" pname="">
+      <Area id="171101" level="2">市辖区</Area>
+      <Area id="171102" level="2">咸安区</Area>
+      <Area id="171103" level="2">嘉鱼县</Area>
+      <Area id="171104" level="2">通城县</Area>
+      <Area id="171105" level="2">崇阳县</Area>
+      <Area id="171106" level="2">通山县</Area>
+      <Area id="171107" level="2">赤壁市</Area>
+    </City>
+    <City id="1712" name="随州市" level="1" pname="">
+      <Area id="171201" level="2">市辖区</Area>
+      <Area id="171202" level="2">曾都区</Area>
+      <Area id="171203" level="2">广水市</Area>
+    </City>
+    <City id="1713" name="恩施土家族苗族自治州" level="1" pname="">
+      <Area id="171301" level="2">恩施市</Area>
+      <Area id="171302" level="2">利川市</Area>
+      <Area id="171303" level="2">建始县</Area>
+      <Area id="171304" level="2">巴东县</Area>
+      <Area id="171305" level="2">宣恩县</Area>
+      <Area id="171306" level="2">咸丰县</Area>
+      <Area id="171307" level="2">来凤县</Area>
+      <Area id="171308" level="2">鹤峰县</Area>
+    </City>
+    <City id="1714" name="省直辖行政单位" level="1" pname="">
+      <Area id="171401" level="2">仙桃市</Area>
+      <Area id="171402" level="2">潜江市</Area>
+      <Area id="171403" level="2">天门市</Area>
+      <Area id="171404" level="2">神农架林区</Area>
+    </City>
+  </Province>
+  <Province id="18" name="湖南省" level="0">
+    <City id="1801" name="长沙市" level="1" pname="">
+      <Area id="180101" level="2">市辖区</Area>
+      <Area id="180102" level="2">芙蓉区</Area>
+      <Area id="180103" level="2">天心区</Area>
+      <Area id="180104" level="2">岳麓区</Area>
+      <Area id="180105" level="2">开福区</Area>
+      <Area id="180106" level="2">雨花区</Area>
+      <Area id="180107" level="2">长沙县</Area>
+      <Area id="180108" level="2">望城县</Area>
+      <Area id="180109" level="2">宁乡县</Area>
+      <Area id="180110" level="2">浏阳市</Area>
+    </City>
+    <City id="1802" name="株洲市" level="1" pname="">
+      <Area id="180201" level="2">市辖区</Area>
+      <Area id="180202" level="2">荷塘区</Area>
+      <Area id="180203" level="2">芦淞区</Area>
+      <Area id="180204" level="2">石峰区</Area>
+      <Area id="180205" level="2">天元区</Area>
+      <Area id="180206" level="2">株洲县</Area>
+      <Area id="180207" level="2">攸　县</Area>
+      <Area id="180208" level="2">茶陵县</Area>
+      <Area id="180209" level="2">炎陵县</Area>
+      <Area id="180210" level="2">醴陵市</Area>
+    </City>
+    <City id="1803" name="湘潭市" level="1" pname="">
+      <Area id="180301" level="2">市辖区</Area>
+      <Area id="180302" level="2">雨湖区</Area>
+      <Area id="180303" level="2">岳塘区</Area>
+      <Area id="180304" level="2">湘潭县</Area>
+      <Area id="180305" level="2">湘乡市</Area>
+      <Area id="180306" level="2">韶山市</Area>
+    </City>
+    <City id="1804" name="衡阳市" level="1" pname="">
+      <Area id="180401" level="2">市辖区</Area>
+      <Area id="180402" level="2">珠晖区</Area>
+      <Area id="180403" level="2">雁峰区</Area>
+      <Area id="180404" level="2">石鼓区</Area>
+      <Area id="180405" level="2">蒸湘区</Area>
+      <Area id="180406" level="2">南岳区</Area>
+      <Area id="180407" level="2">衡阳县</Area>
+      <Area id="180408" level="2">衡南县</Area>
+      <Area id="180409" level="2">衡山县</Area>
+      <Area id="180410" level="2">衡东县</Area>
+      <Area id="180411" level="2">祁东县</Area>
+      <Area id="180412" level="2">耒阳市</Area>
+      <Area id="180413" level="2">常宁市</Area>
+    </City>
+    <City id="1805" name="邵阳市" level="1" pname="">
+      <Area id="180501" level="2">市辖区</Area>
+      <Area id="180502" level="2">双清区</Area>
+      <Area id="180503" level="2">大祥区</Area>
+      <Area id="180504" level="2">北塔区</Area>
+      <Area id="180505" level="2">邵东县</Area>
+      <Area id="180506" level="2">新邵县</Area>
+      <Area id="180507" level="2">邵阳县</Area>
+      <Area id="180508" level="2">隆回县</Area>
+      <Area id="180509" level="2">洞口县</Area>
+      <Area id="180510" level="2">绥宁县</Area>
+      <Area id="180511" level="2">新宁县</Area>
+      <Area id="180512" level="2">城步苗族自治县</Area>
+      <Area id="180513" level="2">武冈市</Area>
+    </City>
+    <City id="1806" name="岳阳市" level="1" pname="">
+      <Area id="180601" level="2">市辖区</Area>
+      <Area id="180602" level="2">岳阳楼区</Area>
+      <Area id="180603" level="2">云溪区</Area>
+      <Area id="180604" level="2">君山区</Area>
+      <Area id="180605" level="2">岳阳县</Area>
+      <Area id="180606" level="2">华容县</Area>
+      <Area id="180607" level="2">湘阴县</Area>
+      <Area id="180608" level="2">平江县</Area>
+      <Area id="180609" level="2">汨罗市</Area>
+      <Area id="180610" level="2">临湘市</Area>
+    </City>
+    <City id="1807" name="常德市" level="1" pname="">
+      <Area id="180701" level="2">市辖区</Area>
+      <Area id="180702" level="2">武陵区</Area>
+      <Area id="180703" level="2">鼎城区</Area>
+      <Area id="180704" level="2">安乡县</Area>
+      <Area id="180705" level="2">汉寿县</Area>
+      <Area id="180706" level="2">澧　县</Area>
+      <Area id="180707" level="2">临澧县</Area>
+      <Area id="180708" level="2">桃源县</Area>
+      <Area id="180709" level="2">石门县</Area>
+      <Area id="180710" level="2">津市市</Area>
+    </City>
+    <City id="1808" name="张家界市" level="1" pname="">
+      <Area id="180801" level="2">市辖区</Area>
+      <Area id="180802" level="2">永定区</Area>
+      <Area id="180803" level="2">武陵源区</Area>
+      <Area id="180804" level="2">慈利县</Area>
+      <Area id="180805" level="2">桑植县</Area>
+    </City>
+    <City id="1809" name="益阳市" level="1" pname="">
+      <Area id="180901" level="2">市辖区</Area>
+      <Area id="180902" level="2">资阳区</Area>
+      <Area id="180903" level="2">赫山区</Area>
+      <Area id="180904" level="2">南　县</Area>
+      <Area id="180905" level="2">桃江县</Area>
+      <Area id="180906" level="2">安化县</Area>
+      <Area id="180907" level="2">沅江市</Area>
+    </City>
+    <City id="1810" name="郴州市" level="1" pname="">
+      <Area id="181001" level="2">市辖区</Area>
+      <Area id="181002" level="2">北湖区</Area>
+      <Area id="181003" level="2">苏仙区</Area>
+      <Area id="181004" level="2">桂阳县</Area>
+      <Area id="181005" level="2">宜章县</Area>
+      <Area id="181006" level="2">永兴县</Area>
+      <Area id="181007" level="2">嘉禾县</Area>
+      <Area id="181008" level="2">临武县</Area>
+      <Area id="181009" level="2">汝城县</Area>
+      <Area id="181010" level="2">桂东县</Area>
+      <Area id="181011" level="2">安仁县</Area>
+      <Area id="181012" level="2">资兴市</Area>
+    </City>
+    <City id="1811" name="永州市" level="1" pname="">
+      <Area id="181101" level="2">市辖区</Area>
+      <Area id="181102" level="2">芝山区</Area>
+      <Area id="181103" level="2">冷水滩区</Area>
+      <Area id="181104" level="2">祁阳县</Area>
+      <Area id="181105" level="2">东安县</Area>
+      <Area id="181106" level="2">双牌县</Area>
+      <Area id="181107" level="2">道　县</Area>
+      <Area id="181108" level="2">江永县</Area>
+      <Area id="181109" level="2">宁远县</Area>
+      <Area id="181110" level="2">蓝山县</Area>
+      <Area id="181111" level="2">新田县</Area>
+      <Area id="181112" level="2">江华瑶族自治县</Area>
+    </City>
+    <City id="1812" name="怀化市" level="1" pname="">
+      <Area id="181201" level="2">市辖区</Area>
+      <Area id="181202" level="2">鹤城区</Area>
+      <Area id="181203" level="2">中方县</Area>
+      <Area id="181204" level="2">沅陵县</Area>
+      <Area id="181205" level="2">辰溪县</Area>
+      <Area id="181206" level="2">溆浦县</Area>
+      <Area id="181207" level="2">会同县</Area>
+      <Area id="181208" level="2">麻阳苗族自治县</Area>
+      <Area id="181209" level="2">新晃侗族自治县</Area>
+      <Area id="181210" level="2">芷江侗族自治县</Area>
+      <Area id="181211" level="2">靖州苗族侗族自治县</Area>
+      <Area id="181212" level="2">通道侗族自治县</Area>
+      <Area id="181213" level="2">洪江市</Area>
+    </City>
+    <City id="1813" name="娄底市" level="1" pname="">
+      <Area id="181301" level="2">市辖区</Area>
+      <Area id="181302" level="2">娄星区</Area>
+      <Area id="181303" level="2">双峰县</Area>
+      <Area id="181304" level="2">新化县</Area>
+      <Area id="181305" level="2">冷水江市</Area>
+      <Area id="181306" level="2">涟源市</Area>
+    </City>
+    <City id="1814" name="湘西土家族苗族自治州" level="1" pname="">
+      <Area id="181401" level="2">吉首市</Area>
+      <Area id="181402" level="2">泸溪县</Area>
+      <Area id="181403" level="2">凤凰县</Area>
+      <Area id="181404" level="2">花垣县</Area>
+      <Area id="181405" level="2">保靖县</Area>
+      <Area id="181406" level="2">古丈县</Area>
+      <Area id="181407" level="2">永顺县</Area>
+      <Area id="181408" level="2">龙山县</Area>
+    </City>
+  </Province>
+  <Province id="19" name="广东省" level="0">
+    <City id="1901" name="广州市" level="1" pname="">
+      <Area id="190101" level="2">市辖区</Area>
+      <Area id="190102" level="2">东山区</Area>
+      <Area id="190103" level="2">荔湾区</Area>
+      <Area id="190104" level="2">越秀区</Area>
+      <Area id="190105" level="2">海珠区</Area>
+      <Area id="190106" level="2">天河区</Area>
+      <Area id="190107" level="2">芳村区</Area>
+      <Area id="190108" level="2">白云区</Area>
+      <Area id="190109" level="2">黄埔区</Area>
+      <Area id="190110" level="2">番禺区</Area>
+      <Area id="190111" level="2">花都区</Area>
+      <Area id="190112" level="2">增城市</Area>
+      <Area id="190113" level="2">从化市</Area>
+    </City>
+    <City id="1902" name="韶关市" level="1" pname="">
+      <Area id="190201" level="2">市辖区</Area>
+      <Area id="190202" level="2">武江区</Area>
+      <Area id="190203" level="2">浈江区</Area>
+      <Area id="190204" level="2">曲江区</Area>
+      <Area id="190205" level="2">始兴县</Area>
+      <Area id="190206" level="2">仁化县</Area>
+      <Area id="190207" level="2">翁源县</Area>
+      <Area id="190208" level="2">乳源瑶族自治县</Area>
+      <Area id="190209" level="2">新丰县</Area>
+      <Area id="190210" level="2">乐昌市</Area>
+      <Area id="190211" level="2">南雄市</Area>
+    </City>
+    <City id="1903" name="深圳市" level="1" pname="">
+      <Area id="190301" level="2">市辖区</Area>
+      <Area id="190302" level="2">罗湖区</Area>
+      <Area id="190303" level="2">福田区</Area>
+      <Area id="190304" level="2">南山区</Area>
+      <Area id="190305" level="2">宝安区</Area>
+      <Area id="190306" level="2">龙岗区</Area>
+      <Area id="190307" level="2">盐田区</Area>
+    </City>
+    <City id="1904" name="珠海市" level="1" pname="">
+      <Area id="190401" level="2">市辖区</Area>
+      <Area id="190402" level="2">香洲区</Area>
+      <Area id="190403" level="2">斗门区</Area>
+      <Area id="190404" level="2">金湾区</Area>
+    </City>
+    <City id="1905" name="汕头市" level="1" pname="">
+      <Area id="190501" level="2">市辖区</Area>
+      <Area id="190502" level="2">龙湖区</Area>
+      <Area id="190503" level="2">金平区</Area>
+      <Area id="190504" level="2">濠江区</Area>
+      <Area id="190505" level="2">潮阳区</Area>
+      <Area id="190506" level="2">潮南区</Area>
+      <Area id="190507" level="2">澄海区</Area>
+      <Area id="190508" level="2">南澳县</Area>
+    </City>
+    <City id="1906" name="佛山市" level="1" pname="">
+      <Area id="190601" level="2">市辖区</Area>
+      <Area id="190602" level="2">禅城区</Area>
+      <Area id="190603" level="2">南海区</Area>
+      <Area id="190604" level="2">顺德区</Area>
+      <Area id="190605" level="2">三水区</Area>
+      <Area id="190606" level="2">高明区</Area>
+    </City>
+    <City id="1907" name="江门市" level="1" pname="">
+      <Area id="190701" level="2">市辖区</Area>
+      <Area id="190702" level="2">蓬江区</Area>
+      <Area id="190703" level="2">江海区</Area>
+      <Area id="190704" level="2">新会区</Area>
+      <Area id="190705" level="2">台山市</Area>
+      <Area id="190706" level="2">开平市</Area>
+      <Area id="190707" level="2">鹤山市</Area>
+      <Area id="190708" level="2">恩平市</Area>
+    </City>
+    <City id="1908" name="湛江市" level="1" pname="">
+      <Area id="190801" level="2">市辖区</Area>
+      <Area id="190802" level="2">赤坎区</Area>
+      <Area id="190803" level="2">霞山区</Area>
+      <Area id="190804" level="2">坡头区</Area>
+      <Area id="190805" level="2">麻章区</Area>
+      <Area id="190806" level="2">遂溪县</Area>
+      <Area id="190807" level="2">徐闻县</Area>
+      <Area id="190808" level="2">廉江市</Area>
+      <Area id="190809" level="2">雷州市</Area>
+      <Area id="190810" level="2">吴川市</Area>
+    </City>
+    <City id="1909" name="茂名市" level="1" pname="">
+      <Area id="190901" level="2">市辖区</Area>
+      <Area id="190902" level="2">茂南区</Area>
+      <Area id="190903" level="2">茂港区</Area>
+      <Area id="190904" level="2">电白县</Area>
+      <Area id="190905" level="2">高州市</Area>
+      <Area id="190906" level="2">化州市</Area>
+      <Area id="190907" level="2">信宜市</Area>
+    </City>
+    <City id="1910" name="肇庆市" level="1" pname="">
+      <Area id="191001" level="2">市辖区</Area>
+      <Area id="191002" level="2">端州区</Area>
+      <Area id="191003" level="2">鼎湖区</Area>
+      <Area id="191004" level="2">广宁县</Area>
+      <Area id="191005" level="2">怀集县</Area>
+      <Area id="191006" level="2">封开县</Area>
+      <Area id="191007" level="2">德庆县</Area>
+      <Area id="191008" level="2">高要市</Area>
+      <Area id="191009" level="2">四会市</Area>
+    </City>
+    <City id="1911" name="惠州市" level="1" pname="">
+      <Area id="191101" level="2">市辖区</Area>
+      <Area id="191102" level="2">惠城区</Area>
+      <Area id="191103" level="2">惠阳区</Area>
+      <Area id="191104" level="2">博罗县</Area>
+      <Area id="191105" level="2">惠东县</Area>
+      <Area id="191106" level="2">龙门县</Area>
+    </City>
+    <City id="1912" name="梅州市" level="1" pname="">
+      <Area id="191201" level="2">市辖区</Area>
+      <Area id="191202" level="2">梅江区</Area>
+      <Area id="191203" level="2">梅　县</Area>
+      <Area id="191204" level="2">大埔县</Area>
+      <Area id="191205" level="2">丰顺县</Area>
+      <Area id="191206" level="2">五华县</Area>
+      <Area id="191207" level="2">平远县</Area>
+      <Area id="191208" level="2">蕉岭县</Area>
+      <Area id="191209" level="2">兴宁市</Area>
+    </City>
+    <City id="1913" name="汕尾市" level="1" pname="">
+      <Area id="191301" level="2">市辖区</Area>
+      <Area id="191302" level="2">城　区</Area>
+      <Area id="191303" level="2">海丰县</Area>
+      <Area id="191304" level="2">陆河县</Area>
+      <Area id="191305" level="2">陆丰市</Area>
+    </City>
+    <City id="1914" name="河源市" level="1" pname="">
+      <Area id="191401" level="2">市辖区</Area>
+      <Area id="191402" level="2">源城区</Area>
+      <Area id="191403" level="2">紫金县</Area>
+      <Area id="191404" level="2">龙川县</Area>
+      <Area id="191405" level="2">连平县</Area>
+      <Area id="191406" level="2">和平县</Area>
+      <Area id="191407" level="2">东源县</Area>
+    </City>
+    <City id="1915" name="阳江市" level="1" pname="">
+      <Area id="191501" level="2">市辖区</Area>
+      <Area id="191502" level="2">江城区</Area>
+      <Area id="191503" level="2">阳西县</Area>
+      <Area id="191504" level="2">阳东县</Area>
+      <Area id="191505" level="2">阳春市</Area>
+    </City>
+    <City id="1916" name="清远市" level="1" pname="">
+      <Area id="191601" level="2">市辖区</Area>
+      <Area id="191602" level="2">清城区</Area>
+      <Area id="191603" level="2">佛冈县</Area>
+      <Area id="191604" level="2">阳山县</Area>
+      <Area id="191605" level="2">连山壮族瑶族自治县</Area>
+      <Area id="191606" level="2">连南瑶族自治县</Area>
+      <Area id="191607" level="2">清新县</Area>
+      <Area id="191608" level="2">英德市</Area>
+      <Area id="191609" level="2">连州市</Area>
+    </City>
+    <City id="1917" name="东莞市" level="1" />
+    <City id="1918" name="中山市" level="1" />
+    <City id="1919" name="潮州市" level="1" pname="">
+      <Area id="191901" level="2">市辖区</Area>
+      <Area id="191902" level="2">湘桥区</Area>
+      <Area id="191903" level="2">潮安县</Area>
+      <Area id="191904" level="2">饶平县</Area>
+    </City>
+    <City id="1920" name="揭阳市" level="1" pname="">
+      <Area id="192001" level="2">市辖区</Area>
+      <Area id="192002" level="2">榕城区</Area>
+      <Area id="192003" level="2">揭东县</Area>
+      <Area id="192004" level="2">揭西县</Area>
+      <Area id="192005" level="2">惠来县</Area>
+      <Area id="192006" level="2">普宁市</Area>
+    </City>
+    <City id="1921" name="云浮市" level="1" pname="">
+      <Area id="192101" level="2">市辖区</Area>
+      <Area id="192102" level="2">云城区</Area>
+      <Area id="192103" level="2">新兴县</Area>
+      <Area id="192104" level="2">郁南县</Area>
+      <Area id="192105" level="2">云安县</Area>
+      <Area id="192106" level="2">罗定市</Area>
+    </City>
+  </Province>
+  <Province id="20" name="广西壮族自治区" level="0">
+    <City id="2001" name="南宁市" level="1" pname="">
+      <Area id="200101" level="2">市辖区</Area>
+      <Area id="200102" level="2">兴宁区</Area>
+      <Area id="200103" level="2">青秀区</Area>
+      <Area id="200104" level="2">江南区</Area>
+      <Area id="200105" level="2">西乡塘区</Area>
+      <Area id="200106" level="2">良庆区</Area>
+      <Area id="200107" level="2">邕宁区</Area>
+      <Area id="200108" level="2">武鸣县</Area>
+      <Area id="200109" level="2">隆安县</Area>
+      <Area id="200110" level="2">马山县</Area>
+      <Area id="200111" level="2">上林县</Area>
+      <Area id="200112" level="2">宾阳县</Area>
+      <Area id="200113" level="2">横　县</Area>
+    </City>
+    <City id="2002" name="柳州市" level="1" pname="">
+      <Area id="200201" level="2">市辖区</Area>
+      <Area id="200202" level="2">城中区</Area>
+      <Area id="200203" level="2">鱼峰区</Area>
+      <Area id="200204" level="2">柳南区</Area>
+      <Area id="200205" level="2">柳北区</Area>
+      <Area id="200206" level="2">柳江县</Area>
+      <Area id="200207" level="2">柳城县</Area>
+      <Area id="200208" level="2">鹿寨县</Area>
+      <Area id="200209" level="2">融安县</Area>
+      <Area id="200210" level="2">融水苗族自治县</Area>
+      <Area id="200211" level="2">三江侗族自治县</Area>
+    </City>
+    <City id="2003" name="桂林市" level="1" pname="">
+      <Area id="200301" level="2">市辖区</Area>
+      <Area id="200302" level="2">秀峰区</Area>
+      <Area id="200303" level="2">叠彩区</Area>
+      <Area id="200304" level="2">象山区</Area>
+      <Area id="200305" level="2">七星区</Area>
+      <Area id="200306" level="2">雁山区</Area>
+      <Area id="200307" level="2">阳朔县</Area>
+      <Area id="200308" level="2">临桂县</Area>
+      <Area id="200309" level="2">灵川县</Area>
+      <Area id="200310" level="2">全州县</Area>
+      <Area id="200311" level="2">兴安县</Area>
+      <Area id="200312" level="2">永福县</Area>
+      <Area id="200313" level="2">灌阳县</Area>
+      <Area id="200314" level="2">龙胜各族自治县</Area>
+      <Area id="200315" level="2">资源县</Area>
+      <Area id="200316" level="2">平乐县</Area>
+      <Area id="200317" level="2">荔蒲县</Area>
+      <Area id="200318" level="2">恭城瑶族自治县</Area>
+    </City>
+    <City id="2004" name="梧州市" level="1" pname="">
+      <Area id="200401" level="2">市辖区</Area>
+      <Area id="200402" level="2">万秀区</Area>
+      <Area id="200403" level="2">蝶山区</Area>
+      <Area id="200404" level="2">长洲区</Area>
+      <Area id="200405" level="2">苍梧县</Area>
+      <Area id="200406" level="2">藤　县</Area>
+      <Area id="200407" level="2">蒙山县</Area>
+      <Area id="200408" level="2">岑溪市</Area>
+    </City>
+    <City id="2005" name="北海市" level="1" pname="">
+      <Area id="200501" level="2">市辖区</Area>
+      <Area id="200502" level="2">海城区</Area>
+      <Area id="200503" level="2">银海区</Area>
+      <Area id="200504" level="2">铁山港区</Area>
+      <Area id="200505" level="2">合浦县</Area>
+    </City>
+    <City id="2006" name="防城港市" level="1" pname="">
+      <Area id="200601" level="2">市辖区</Area>
+      <Area id="200602" level="2">港口区</Area>
+      <Area id="200603" level="2">防城区</Area>
+      <Area id="200604" level="2">上思县</Area>
+      <Area id="200605" level="2">东兴市</Area>
+    </City>
+    <City id="2007" name="钦州市" level="1" pname="">
+      <Area id="200701" level="2">市辖区</Area>
+      <Area id="200702" level="2">钦南区</Area>
+      <Area id="200703" level="2">钦北区</Area>
+      <Area id="200704" level="2">灵山县</Area>
+      <Area id="200705" level="2">浦北县</Area>
+    </City>
+    <City id="2008" name="贵港市" level="1" pname="">
+      <Area id="200801" level="2">市辖区</Area>
+      <Area id="200802" level="2">港北区</Area>
+      <Area id="200803" level="2">港南区</Area>
+      <Area id="200804" level="2">覃塘区</Area>
+      <Area id="200805" level="2">平南县</Area>
+      <Area id="200806" level="2">桂平市</Area>
+    </City>
+    <City id="2009" name="玉林市" level="1" pname="">
+      <Area id="200901" level="2">市辖区</Area>
+      <Area id="200902" level="2">玉州区</Area>
+      <Area id="200903" level="2">容　县</Area>
+      <Area id="200904" level="2">陆川县</Area>
+      <Area id="200905" level="2">博白县</Area>
+      <Area id="200906" level="2">兴业县</Area>
+      <Area id="200907" level="2">北流市</Area>
+    </City>
+    <City id="2010" name="百色市" level="1" pname="">
+      <Area id="201001" level="2">市辖区</Area>
+      <Area id="201002" level="2">右江区</Area>
+      <Area id="201003" level="2">田阳县</Area>
+      <Area id="201004" level="2">田东县</Area>
+      <Area id="201005" level="2">平果县</Area>
+      <Area id="201006" level="2">德保县</Area>
+      <Area id="201007" level="2">靖西县</Area>
+      <Area id="201008" level="2">那坡县</Area>
+      <Area id="201009" level="2">凌云县</Area>
+      <Area id="201010" level="2">乐业县</Area>
+      <Area id="201011" level="2">田林县</Area>
+      <Area id="201012" level="2">西林县</Area>
+      <Area id="201013" level="2">隆林各族自治县</Area>
+    </City>
+    <City id="2011" name="贺州市" level="1" pname="">
+      <Area id="201101" level="2">市辖区</Area>
+      <Area id="201102" level="2">八步区</Area>
+      <Area id="201103" level="2">昭平县</Area>
+      <Area id="201104" level="2">钟山县</Area>
+      <Area id="201105" level="2">富川瑶族自治县</Area>
+    </City>
+    <City id="2012" name="河池市" level="1" pname="">
+      <Area id="201201" level="2">市辖区</Area>
+      <Area id="201202" level="2">金城江区</Area>
+      <Area id="201203" level="2">南丹县</Area>
+      <Area id="201204" level="2">天峨县</Area>
+      <Area id="201205" level="2">凤山县</Area>
+      <Area id="201206" level="2">东兰县</Area>
+      <Area id="201207" level="2">罗城仫佬族自治县</Area>
+      <Area id="201208" level="2">环江毛南族自治县</Area>
+      <Area id="201209" level="2">巴马瑶族自治县</Area>
+      <Area id="201210" level="2">都安瑶族自治县</Area>
+      <Area id="201211" level="2">大化瑶族自治县</Area>
+      <Area id="201212" level="2">宜州市</Area>
+    </City>
+    <City id="2013" name="来宾市" level="1" pname="">
+      <Area id="201301" level="2">市辖区</Area>
+      <Area id="201302" level="2">兴宾区</Area>
+      <Area id="201303" level="2">忻城县</Area>
+      <Area id="201304" level="2">象州县</Area>
+      <Area id="201305" level="2">武宣县</Area>
+      <Area id="201306" level="2">金秀瑶族自治县</Area>
+      <Area id="201307" level="2">合山市</Area>
+    </City>
+    <City id="2014" name="崇左市" level="1" pname="">
+      <Area id="201401" level="2">市辖区</Area>
+      <Area id="201402" level="2">江洲区</Area>
+      <Area id="201403" level="2">扶绥县</Area>
+      <Area id="201404" level="2">宁明县</Area>
+      <Area id="201405" level="2">龙州县</Area>
+      <Area id="201406" level="2">大新县</Area>
+      <Area id="201407" level="2">天等县</Area>
+      <Area id="201408" level="2">凭祥市</Area>
+    </City>
+  </Province>
+  <Province id="21" name="海南省" level="0">
+    <City id="2101" name="海口市" level="1" pname="">
+      <Area id="210101" level="2">市辖区</Area>
+      <Area id="210102" level="2">秀英区</Area>
+      <Area id="210103" level="2">龙华区</Area>
+      <Area id="210104" level="2">琼山区</Area>
+      <Area id="210105" level="2">美兰区</Area>
+    </City>
+    <City id="2102" name="三亚市" level="1" pname="">
+      <Area id="210201" level="2">市辖区</Area>
+    </City>
+    <City id="2103" name="省直辖县级行政单位" level="1" pname="">
+      <Area id="210301" level="2">五指山市</Area>
+      <Area id="210302" level="2">琼海市</Area>
+      <Area id="210303" level="2">儋州市</Area>
+      <Area id="210304" level="2">文昌市</Area>
+      <Area id="210305" level="2">万宁市</Area>
+      <Area id="210306" level="2">东方市</Area>
+      <Area id="210307" level="2">定安县</Area>
+      <Area id="210308" level="2">屯昌县</Area>
+      <Area id="210309" level="2">澄迈县</Area>
+      <Area id="210310" level="2">临高县</Area>
+      <Area id="210311" level="2">白沙黎族自治县</Area>
+      <Area id="210312" level="2">昌江黎族自治县</Area>
+      <Area id="210313" level="2">乐东黎族自治县</Area>
+      <Area id="210314" level="2">陵水黎族自治县</Area>
+      <Area id="210315" level="2">保亭黎族苗族自治县</Area>
+      <Area id="210316" level="2">琼中黎族苗族自治县</Area>
+      <Area id="210317" level="2">西沙群岛</Area>
+      <Area id="210318" level="2">南沙群岛</Area>
+      <Area id="210319" level="2">中沙群岛的岛礁及其海域</Area>
+    </City>
+  </Province>
+  <Province id="22" name="重庆" level="0">
+    <City id="2201" name="重庆市" level="1" pname="">
+      <Area id="220101" level="2">万州区</Area>
+      <Area id="220102" level="2">涪陵区</Area>
+      <Area id="220103" level="2">渝中区</Area>
+      <Area id="220104" level="2">大渡口区</Area>
+      <Area id="220105" level="2">江北区</Area>
+      <Area id="220106" level="2">沙坪坝区</Area>
+      <Area id="220107" level="2">九龙坡区</Area>
+      <Area id="220108" level="2">南岸区</Area>
+      <Area id="220109" level="2">北碚区</Area>
+      <Area id="220110" level="2">万盛区</Area>
+      <Area id="220111" level="2">双桥区</Area>
+      <Area id="220112" level="2">渝北区</Area>
+      <Area id="220113" level="2">巴南区</Area>
+      <Area id="220114" level="2">黔江区</Area>
+      <Area id="220115" level="2">长寿区</Area>
+       <Area id="220116" level="2">綦江县</Area>
+      <Area id="220117" level="2">潼南县</Area>
+      <Area id="220118" level="2">铜梁县</Area>
+      <Area id="220119" level="2">大足县</Area>
+      <Area id="220120" level="2">荣昌县</Area>
+      <Area id="220121" level="2">璧山县</Area>
+      <Area id="220122" level="2">梁平县</Area>
+      <Area id="220123" level="2">城口县</Area>
+      <Area id="220124" level="2">丰都县</Area>
+      <Area id="220125" level="2">垫江县</Area>
+      <Area id="220126" level="2">武隆县</Area>
+      <Area id="220127" level="2">忠　县</Area>
+      <Area id="220128" level="2">开　县</Area>
+      <Area id="220129" level="2">云阳县</Area>
+      <Area id="220130" level="2">奉节县</Area>
+      <Area id="220131" level="2">巫山县</Area>
+      <Area id="220132" level="2">巫溪县</Area>
+      <Area id="220133" level="2">石柱土家族自治县</Area>
+      <Area id="220134" level="2">秀山土家族苗族自治县</Area>
+      <Area id="220135" level="2">酉阳土家族苗族自治县</Area>
+      <Area id="220136" level="2">彭水苗族土家族自治县</Area>
+       <Area id="220137" level="2">江津市</Area>
+      <Area id="220138" level="2">合川市</Area>
+      <Area id="220139" level="2">永川市</Area>
+      <Area id="220140" level="2">南川市</Area>
+    </City>
+  </Province>
+  <Province id="23" name="四川省" level="0">
+    <City id="2301" name="成都市" level="1" pname="">
+      <Area id="230101" level="2">市辖区</Area>
+      <Area id="230102" level="2">锦江区</Area>
+      <Area id="230103" level="2">青羊区</Area>
+      <Area id="230104" level="2">金牛区</Area>
+      <Area id="230105" level="2">武侯区</Area>
+      <Area id="230106" level="2">成华区</Area>
+      <Area id="230107" level="2">龙泉驿区</Area>
+      <Area id="230108" level="2">青白江区</Area>
+      <Area id="230109" level="2">新都区</Area>
+      <Area id="230110" level="2">温江区</Area>
+      <Area id="230111" level="2">金堂县</Area>
+      <Area id="230112" level="2">双流县</Area>
+      <Area id="230113" level="2">郫　县</Area>
+      <Area id="230114" level="2">大邑县</Area>
+      <Area id="230115" level="2">蒲江县</Area>
+      <Area id="230116" level="2">新津县</Area>
+      <Area id="230117" level="2">都江堰市</Area>
+      <Area id="230118" level="2">彭州市</Area>
+      <Area id="230119" level="2">邛崃市</Area>
+      <Area id="230120" level="2">崇州市</Area>
+    </City>
+    <City id="2302" name="自贡市" level="1" pname="">
+      <Area id="230201" level="2">市辖区</Area>
+      <Area id="230202" level="2">自流井区</Area>
+      <Area id="230203" level="2">贡井区</Area>
+      <Area id="230204" level="2">大安区</Area>
+      <Area id="230205" level="2">沿滩区</Area>
+      <Area id="230206" level="2">荣　县</Area>
+      <Area id="230207" level="2">富顺县</Area>
+    </City>
+    <City id="2303" name="攀枝花市" level="1" pname="">
+      <Area id="230301" level="2">市辖区</Area>
+      <Area id="230302" level="2">东　区</Area>
+      <Area id="230303" level="2">西　区</Area>
+      <Area id="230304" level="2">仁和区</Area>
+      <Area id="230305" level="2">米易县</Area>
+      <Area id="230306" level="2">盐边县</Area>
+    </City>
+    <City id="2304" name="泸州市" level="1" pname="">
+      <Area id="230401" level="2">市辖区</Area>
+      <Area id="230402" level="2">江阳区</Area>
+      <Area id="230403" level="2">纳溪区</Area>
+      <Area id="230404" level="2">龙马潭区</Area>
+      <Area id="230405" level="2">泸　县</Area>
+      <Area id="230406" level="2">合江县</Area>
+      <Area id="230407" level="2">叙永县</Area>
+      <Area id="230408" level="2">古蔺县</Area>
+    </City>
+    <City id="2305" name="德阳市" level="1" pname="">
+      <Area id="230501" level="2">市辖区</Area>
+      <Area id="230502" level="2">旌阳区</Area>
+      <Area id="230503" level="2">中江县</Area>
+      <Area id="230504" level="2">罗江县</Area>
+      <Area id="230505" level="2">广汉市</Area>
+      <Area id="230506" level="2">什邡市</Area>
+      <Area id="230507" level="2">绵竹市</Area>
+    </City>
+    <City id="2306" name="绵阳市" level="1" pname="">
+      <Area id="230601" level="2">市辖区</Area>
+      <Area id="230602" level="2">涪城区</Area>
+      <Area id="230603" level="2">游仙区</Area>
+      <Area id="230604" level="2">三台县</Area>
+      <Area id="230605" level="2">盐亭县</Area>
+      <Area id="230606" level="2">安　县</Area>
+      <Area id="230607" level="2">梓潼县</Area>
+      <Area id="230608" level="2">北川羌族自治县</Area>
+      <Area id="230609" level="2">平武县</Area>
+      <Area id="230610" level="2">江油市</Area>
+    </City>
+    <City id="2307" name="广元市" level="1" pname="">
+      <Area id="230701" level="2">市辖区</Area>
+      <Area id="230702" level="2">市中区</Area>
+      <Area id="230703" level="2">元坝区</Area>
+      <Area id="230704" level="2">朝天区</Area>
+      <Area id="230705" level="2">旺苍县</Area>
+      <Area id="230706" level="2">青川县</Area>
+      <Area id="230707" level="2">剑阁县</Area>
+      <Area id="230708" level="2">苍溪县</Area>
+    </City>
+    <City id="2308" name="遂宁市" level="1" pname="">
+      <Area id="230801" level="2">市辖区</Area>
+      <Area id="230802" level="2">船山区</Area>
+      <Area id="230803" level="2">安居区</Area>
+      <Area id="230804" level="2">蓬溪县</Area>
+      <Area id="230805" level="2">射洪县</Area>
+      <Area id="230806" level="2">大英县</Area>
+    </City>
+    <City id="2309" name="内江市" level="1" pname="">
+      <Area id="230901" level="2">市辖区</Area>
+      <Area id="230902" level="2">市中区</Area>
+      <Area id="230903" level="2">东兴区</Area>
+      <Area id="230904" level="2">威远县</Area>
+      <Area id="230905" level="2">资中县</Area>
+      <Area id="230906" level="2">隆昌县</Area>
+    </City>
+    <City id="2310" name="乐山市" level="1" pname="">
+      <Area id="231001" level="2">市辖区</Area>
+      <Area id="231002" level="2">市中区</Area>
+      <Area id="231003" level="2">沙湾区</Area>
+      <Area id="231004" level="2">五通桥区</Area>
+      <Area id="231005" level="2">金口河区</Area>
+      <Area id="231006" level="2">犍为县</Area>
+      <Area id="231007" level="2">井研县</Area>
+      <Area id="231008" level="2">夹江县</Area>
+      <Area id="231009" level="2">沐川县</Area>
+      <Area id="231010" level="2">峨边彝族自治县</Area>
+      <Area id="231011" level="2">马边彝族自治县</Area>
+      <Area id="231012" level="2">峨眉山市</Area>
+    </City>
+    <City id="2311" name="南充市" level="1" pname="">
+      <Area id="231101" level="2">市辖区</Area>
+      <Area id="231102" level="2">顺庆区</Area>
+      <Area id="231103" level="2">高坪区</Area>
+      <Area id="231104" level="2">嘉陵区</Area>
+      <Area id="231105" level="2">南部县</Area>
+      <Area id="231106" level="2">营山县</Area>
+      <Area id="231107" level="2">蓬安县</Area>
+      <Area id="231108" level="2">仪陇县</Area>
+      <Area id="231109" level="2">西充县</Area>
+      <Area id="231110" level="2">阆中市</Area>
+    </City>
+    <City id="2312" name="眉山市" level="1" pname="">
+      <Area id="231201" level="2">市辖区</Area>
+      <Area id="231202" level="2">东坡区</Area>
+      <Area id="231203" level="2">仁寿县</Area>
+      <Area id="231204" level="2">彭山县</Area>
+      <Area id="231205" level="2">洪雅县</Area>
+      <Area id="231206" level="2">丹棱县</Area>
+      <Area id="231207" level="2">青神县</Area>
+    </City>
+    <City id="2313" name="宜宾市" level="1" pname="">
+      <Area id="231301" level="2">市辖区</Area>
+      <Area id="231302" level="2">翠屏区</Area>
+      <Area id="231303" level="2">宜宾县</Area>
+      <Area id="231304" level="2">南溪县</Area>
+      <Area id="231305" level="2">江安县</Area>
+      <Area id="231306" level="2">长宁县</Area>
+      <Area id="231307" level="2">高　县</Area>
+      <Area id="231308" level="2">珙　县</Area>
+      <Area id="231309" level="2">筠连县</Area>
+      <Area id="231310" level="2">兴文县</Area>
+      <Area id="231311" level="2">屏山县</Area>
+    </City>
+    <City id="2314" name="广安市" level="1" pname="">
+      <Area id="231401" level="2">市辖区</Area>
+      <Area id="231402" level="2">广安区</Area>
+      <Area id="231403" level="2">岳池县</Area>
+      <Area id="231404" level="2">武胜县</Area>
+      <Area id="231405" level="2">邻水县</Area>
+      <Area id="231406" level="2">华莹市</Area>
+    </City>
+    <City id="2315" name="达州市" level="1" pname="">
+      <Area id="231501" level="2">市辖区</Area>
+      <Area id="231502" level="2">通川区</Area>
+      <Area id="231503" level="2">达　县</Area>
+      <Area id="231504" level="2">宣汉县</Area>
+      <Area id="231505" level="2">开江县</Area>
+      <Area id="231506" level="2">大竹县</Area>
+      <Area id="231507" level="2">渠　县</Area>
+      <Area id="231508" level="2">万源市</Area>
+    </City>
+    <City id="2316" name="雅安市" level="1" pname="">
+      <Area id="231601" level="2">市辖区</Area>
+      <Area id="231602" level="2">雨城区</Area>
+      <Area id="231603" level="2">名山县</Area>
+      <Area id="231604" level="2">荥经县</Area>
+      <Area id="231605" level="2">汉源县</Area>
+      <Area id="231606" level="2">石棉县</Area>
+      <Area id="231607" level="2">天全县</Area>
+      <Area id="231608" level="2">芦山县</Area>
+      <Area id="231609" level="2">宝兴县</Area>
+    </City>
+    <City id="2317" name="巴中市" level="1" pname="">
+      <Area id="231701" level="2">市辖区</Area>
+      <Area id="231702" level="2">巴州区</Area>
+      <Area id="231703" level="2">通江县</Area>
+      <Area id="231704" level="2">南江县</Area>
+      <Area id="231705" level="2">平昌县</Area>
+    </City>
+    <City id="2318" name="资阳市" level="1" pname="">
+      <Area id="231801" level="2">市辖区</Area>
+      <Area id="231802" level="2">雁江区</Area>
+      <Area id="231803" level="2">安岳县</Area>
+      <Area id="231804" level="2">乐至县</Area>
+      <Area id="231805" level="2">简阳市</Area>
+    </City>
+    <City id="2319" name="阿坝藏族羌族自治州" level="1" pname="">
+      <Area id="231901" level="2">汶川县</Area>
+      <Area id="231902" level="2">理　县</Area>
+      <Area id="231903" level="2">茂　县</Area>
+      <Area id="231904" level="2">松潘县</Area>
+      <Area id="231905" level="2">九寨沟县</Area>
+      <Area id="231906" level="2">金川县</Area>
+      <Area id="231907" level="2">小金县</Area>
+      <Area id="231908" level="2">黑水县</Area>
+      <Area id="231909" level="2">马尔康县</Area>
+      <Area id="231910" level="2">壤塘县</Area>
+      <Area id="231911" level="2">阿坝县</Area>
+      <Area id="231912" level="2">若尔盖县</Area>
+      <Area id="231913" level="2">红原县</Area>
+    </City>
+    <City id="2320" name="甘孜藏族自治州" level="1" pname="">
+      <Area id="232001" level="2">康定县</Area>
+      <Area id="232002" level="2">泸定县</Area>
+      <Area id="232003" level="2">丹巴县</Area>
+      <Area id="232004" level="2">九龙县</Area>
+      <Area id="232005" level="2">雅江县</Area>
+      <Area id="232006" level="2">道孚县</Area>
+      <Area id="232007" level="2">炉霍县</Area>
+      <Area id="232008" level="2">甘孜县</Area>
+      <Area id="232009" level="2">新龙县</Area>
+      <Area id="232010" level="2">德格县</Area>
+      <Area id="232011" level="2">白玉县</Area>
+      <Area id="232012" level="2">石渠县</Area>
+      <Area id="232013" level="2">色达县</Area>
+      <Area id="232014" level="2">理塘县</Area>
+      <Area id="232015" level="2">巴塘县</Area>
+      <Area id="232016" level="2">乡城县</Area>
+      <Area id="232017" level="2">稻城县</Area>
+      <Area id="232018" level="2">得荣县</Area>
+    </City>
+    <City id="2321" name="凉山彝族自治州" level="1" pname="">
+      <Area id="232101" level="2">西昌市</Area>
+      <Area id="232102" level="2">木里藏族自治县</Area>
+      <Area id="232103" level="2">盐源县</Area>
+      <Area id="232104" level="2">德昌县</Area>
+      <Area id="232105" level="2">会理县</Area>
+      <Area id="232106" level="2">会东县</Area>
+      <Area id="232107" level="2">宁南县</Area>
+      <Area id="232108" level="2">普格县</Area>
+      <Area id="232109" level="2">布拖县</Area>
+      <Area id="232110" level="2">金阳县</Area>
+      <Area id="232111" level="2">昭觉县</Area>
+      <Area id="232112" level="2">喜德县</Area>
+      <Area id="232113" level="2">冕宁县</Area>
+      <Area id="232114" level="2">越西县</Area>
+      <Area id="232115" level="2">甘洛县</Area>
+      <Area id="232116" level="2">美姑县</Area>
+      <Area id="232117" level="2">雷波县</Area>
+    </City>
+  </Province>
+  <Province id="24" name="贵州省" level="0">
+    <City id="2401" name="贵阳市" level="1" pname="">
+      <Area id="240101" level="2">市辖区</Area>
+      <Area id="240102" level="2">南明区</Area>
+      <Area id="240103" level="2">云岩区</Area>
+      <Area id="240104" level="2">花溪区</Area>
+      <Area id="240105" level="2">乌当区</Area>
+      <Area id="240106" level="2">白云区</Area>
+      <Area id="240107" level="2">小河区</Area>
+      <Area id="240108" level="2">开阳县</Area>
+      <Area id="240109" level="2">息烽县</Area>
+      <Area id="240110" level="2">修文县</Area>
+      <Area id="240111" level="2">清镇市</Area>
+    </City>
+    <City id="2402" name="六盘水市" level="1" pname="">
+      <Area id="240201" level="2">钟山区</Area>
+      <Area id="240202" level="2">六枝特区</Area>
+      <Area id="240203" level="2">水城县</Area>
+      <Area id="240204" level="2">盘　县</Area>
+    </City>
+    <City id="2403" name="遵义市" level="1" pname="">
+      <Area id="240301" level="2">市辖区</Area>
+      <Area id="240302" level="2">红花岗区</Area>
+      <Area id="240303" level="2">汇川区</Area>
+      <Area id="240304" level="2">遵义县</Area>
+      <Area id="240305" level="2">桐梓县</Area>
+      <Area id="240306" level="2">绥阳县</Area>
+      <Area id="240307" level="2">正安县</Area>
+      <Area id="240308" level="2">道真仡佬族苗族自治县</Area>
+      <Area id="240309" level="2">务川仡佬族苗族自治县</Area>
+      <Area id="240310" level="2">凤冈县</Area>
+      <Area id="240311" level="2">湄潭县</Area>
+      <Area id="240312" level="2">余庆县</Area>
+      <Area id="240313" level="2">习水县</Area>
+      <Area id="240314" level="2">赤水市</Area>
+      <Area id="240315" level="2">仁怀市</Area>
+    </City>
+    <City id="2404" name="安顺市" level="1" pname="">
+      <Area id="240401" level="2">市辖区</Area>
+      <Area id="240402" level="2">西秀区</Area>
+      <Area id="240403" level="2">平坝县</Area>
+      <Area id="240404" level="2">普定县</Area>
+      <Area id="240405" level="2">镇宁布依族苗族自治县</Area>
+      <Area id="240406" level="2">关岭布依族苗族自治县</Area>
+      <Area id="240407" level="2">紫云苗族布依族自治县</Area>
+    </City>
+    <City id="2405" name="铜仁地区" level="1" pname="">
+      <Area id="240501" level="2">铜仁市</Area>
+      <Area id="240502" level="2">江口县</Area>
+      <Area id="240503" level="2">玉屏侗族自治县</Area>
+      <Area id="240504" level="2">石阡县</Area>
+      <Area id="240505" level="2">思南县</Area>
+      <Area id="240506" level="2">印江土家族苗族自治县</Area>
+      <Area id="240507" level="2">德江县</Area>
+      <Area id="240508" level="2">沿河土家族自治县</Area>
+      <Area id="240509" level="2">松桃苗族自治县</Area>
+      <Area id="240510" level="2">万山特区</Area>
+    </City>
+    <City id="2406" name="黔西南布依族苗族自治州" level="1" pname="">
+      <Area id="240601" level="2">兴义市</Area>
+      <Area id="240602" level="2">兴仁县</Area>
+      <Area id="240603" level="2">普安县</Area>
+      <Area id="240604" level="2">晴隆县</Area>
+      <Area id="240605" level="2">贞丰县</Area>
+      <Area id="240606" level="2">望谟县</Area>
+      <Area id="240607" level="2">册亨县</Area>
+      <Area id="240608" level="2">安龙县</Area>
+    </City>
+    <City id="2407" name="毕节地区" level="1" pname="">
+      <Area id="240701" level="2">毕节市</Area>
+      <Area id="240702" level="2">大方县</Area>
+      <Area id="240703" level="2">黔西县</Area>
+      <Area id="240704" level="2">金沙县</Area>
+      <Area id="240705" level="2">织金县</Area>
+      <Area id="240706" level="2">纳雍县</Area>
+      <Area id="240707" level="2">威宁彝族回族苗族自治县</Area>
+      <Area id="240708" level="2">赫章县</Area>
+    </City>
+    <City id="2408" name="黔东南苗族侗族自治州" level="1" pname="">
+      <Area id="240801" level="2">凯里市</Area>
+      <Area id="240802" level="2">黄平县</Area>
+      <Area id="240803" level="2">施秉县</Area>
+      <Area id="240804" level="2">三穗县</Area>
+      <Area id="240805" level="2">镇远县</Area>
+      <Area id="240806" level="2">岑巩县</Area>
+      <Area id="240807" level="2">天柱县</Area>
+      <Area id="240808" level="2">锦屏县</Area>
+      <Area id="240809" level="2">剑河县</Area>
+      <Area id="240810" level="2">台江县</Area>
+      <Area id="240811" level="2">黎平县</Area>
+      <Area id="240812" level="2">榕江县</Area>
+      <Area id="240813" level="2">从江县</Area>
+      <Area id="240814" level="2">雷山县</Area>
+      <Area id="240815" level="2">麻江县</Area>
+      <Area id="240816" level="2">丹寨县</Area>
+    </City>
+    <City id="2409" name="黔南布依族苗族自治州" level="1" pname="">
+      <Area id="240901" level="2">都匀市</Area>
+      <Area id="240902" level="2">福泉市</Area>
+      <Area id="240903" level="2">荔波县</Area>
+      <Area id="240904" level="2">贵定县</Area>
+      <Area id="240905" level="2">瓮安县</Area>
+      <Area id="240906" level="2">独山县</Area>
+      <Area id="240907" level="2">平塘县</Area>
+      <Area id="240908" level="2">罗甸县</Area>
+      <Area id="240909" level="2">长顺县</Area>
+      <Area id="240910" level="2">龙里县</Area>
+      <Area id="240911" level="2">惠水县</Area>
+      <Area id="240912" level="2">三都水族自治县</Area>
+    </City>
+  </Province>
+  <Province id="25" name="云南省" level="0">
+    <City id="2501" name="昆明市" level="1" pname="">
+      <Area id="250101" level="2">市辖区</Area>
+      <Area id="250102" level="2">五华区</Area>
+      <Area id="250103" level="2">盘龙区</Area>
+      <Area id="250104" level="2">官渡区</Area>
+      <Area id="250105" level="2">西山区</Area>
+      <Area id="250106" level="2">东川区</Area>
+      <Area id="250107" level="2">呈贡县</Area>
+      <Area id="250108" level="2">晋宁县</Area>
+      <Area id="250109" level="2">富民县</Area>
+      <Area id="250110" level="2">宜良县</Area>
+      <Area id="250111" level="2">石林彝族自治县</Area>
+      <Area id="250112" level="2">嵩明县</Area>
+      <Area id="250113" level="2">禄劝彝族苗族自治县</Area>
+      <Area id="250114" level="2">寻甸回族彝族自治县</Area>
+      <Area id="250115" level="2">安宁市</Area>
+    </City>
+    <City id="2502" name="曲靖市" level="1" pname="">
+      <Area id="250201" level="2">市辖区</Area>
+      <Area id="250202" level="2">麒麟区</Area>
+      <Area id="250203" level="2">马龙县</Area>
+      <Area id="250204" level="2">陆良县</Area>
+      <Area id="250205" level="2">师宗县</Area>
+      <Area id="250206" level="2">罗平县</Area>
+      <Area id="250207" level="2">富源县</Area>
+      <Area id="250208" level="2">会泽县</Area>
+      <Area id="250209" level="2">沾益县</Area>
+      <Area id="250210" level="2">宣威市</Area>
+    </City>
+    <City id="2503" name="玉溪市" level="1" pname="">
+      <Area id="250301" level="2">市辖区</Area>
+      <Area id="250302" level="2">红塔区</Area>
+      <Area id="250303" level="2">江川县</Area>
+      <Area id="250304" level="2">澄江县</Area>
+      <Area id="250305" level="2">通海县</Area>
+      <Area id="250306" level="2">华宁县</Area>
+      <Area id="250307" level="2">易门县</Area>
+      <Area id="250308" level="2">峨山彝族自治县</Area>
+      <Area id="250309" level="2">新平彝族傣族自治县</Area>
+      <Area id="250310" level="2">元江哈尼族彝族傣族自治县</Area>
+    </City>
+    <City id="2504" name="保山市" level="1" pname="">
+      <Area id="250401" level="2">市辖区</Area>
+      <Area id="250402" level="2">隆阳区</Area>
+      <Area id="250403" level="2">施甸县</Area>
+      <Area id="250404" level="2">腾冲县</Area>
+      <Area id="250405" level="2">龙陵县</Area>
+      <Area id="250406" level="2">昌宁县</Area>
+    </City>
+    <City id="2505" name="昭通市" level="1" pname="">
+      <Area id="250501" level="2">市辖区</Area>
+      <Area id="250502" level="2">昭阳区</Area>
+      <Area id="250503" level="2">鲁甸县</Area>
+      <Area id="250504" level="2">巧家县</Area>
+      <Area id="250505" level="2">盐津县</Area>
+      <Area id="250506" level="2">大关县</Area>
+      <Area id="250507" level="2">永善县</Area>
+      <Area id="250508" level="2">绥江县</Area>
+      <Area id="250509" level="2">镇雄县</Area>
+      <Area id="250510" level="2">彝良县</Area>
+      <Area id="250511" level="2">威信县</Area>
+      <Area id="250512" level="2">水富县</Area>
+    </City>
+    <City id="2506" name="丽江市" level="1" pname="">
+      <Area id="250601" level="2">市辖区</Area>
+      <Area id="250602" level="2">古城区</Area>
+      <Area id="250603" level="2">玉龙纳西族自治县</Area>
+      <Area id="250604" level="2">永胜县</Area>
+      <Area id="250605" level="2">华坪县</Area>
+      <Area id="250606" level="2">宁蒗彝族自治县</Area>
+    </City>
+    <City id="2507" name="思茅市" level="1" pname="">
+      <Area id="250701" level="2">市辖区</Area>
+      <Area id="250702" level="2">翠云区</Area>
+      <Area id="250703" level="2">普洱哈尼族彝族自治县</Area>
+      <Area id="250704" level="2">墨江哈尼族自治县</Area>
+      <Area id="250705" level="2">景东彝族自治县</Area>
+      <Area id="250706" level="2">景谷傣族彝族自治县</Area>
+      <Area id="250707" level="2">镇沅彝族哈尼族拉祜族自治县</Area>
+      <Area id="250708" level="2">江城哈尼族彝族自治县</Area>
+      <Area id="250709" level="2">孟连傣族拉祜族佤族自治县</Area>
+      <Area id="250710" level="2">澜沧拉祜族自治县</Area>
+      <Area id="250711" level="2">西盟佤族自治县</Area>
+    </City>
+    <City id="2508" name="临沧市" level="1" pname="">
+      <Area id="250801" level="2">市辖区</Area>
+      <Area id="250802" level="2">临翔区</Area>
+      <Area id="250803" level="2">凤庆县</Area>
+      <Area id="250804" level="2">云　县</Area>
+      <Area id="250805" level="2">永德县</Area>
+      <Area id="250806" level="2">镇康县</Area>
+      <Area id="250807" level="2">双江拉祜族佤族布朗族傣族自治县</Area>
+      <Area id="250808" level="2">耿马傣族佤族自治县</Area>
+      <Area id="250809" level="2">沧源佤族自治县</Area>
+    </City>
+    <City id="2509" name="楚雄彝族自治州" level="1" pname="">
+      <Area id="250901" level="2">楚雄市</Area>
+      <Area id="250902" level="2">双柏县</Area>
+      <Area id="250903" level="2">牟定县</Area>
+      <Area id="250904" level="2">南华县</Area>
+      <Area id="250905" level="2">姚安县</Area>
+      <Area id="250906" level="2">大姚县</Area>
+      <Area id="250907" level="2">永仁县</Area>
+      <Area id="250908" level="2">元谋县</Area>
+      <Area id="250909" level="2">武定县</Area>
+      <Area id="250910" level="2">禄丰县</Area>
+    </City>
+    <City id="2510" name="红河哈尼族彝族自治州" level="1" pname="">
+      <Area id="251001" level="2">个旧市</Area>
+      <Area id="251002" level="2">开远市</Area>
+      <Area id="251003" level="2">蒙自县</Area>
+      <Area id="251004" level="2">屏边苗族自治县</Area>
+      <Area id="251005" level="2">建水县</Area>
+      <Area id="251006" level="2">石屏县</Area>
+      <Area id="251007" level="2">弥勒县</Area>
+      <Area id="251008" level="2">泸西县</Area>
+      <Area id="251009" level="2">元阳县</Area>
+      <Area id="251010" level="2">红河县</Area>
+      <Area id="251011" level="2">金平苗族瑶族傣族自治县</Area>
+      <Area id="251012" level="2">绿春县</Area>
+      <Area id="251013" level="2">河口瑶族自治县</Area>
+    </City>
+    <City id="2511" name="文山壮族苗族自治州" level="1" pname="">
+      <Area id="251101" level="2">文山县</Area>
+      <Area id="251102" level="2">砚山县</Area>
+      <Area id="251103" level="2">西畴县</Area>
+      <Area id="251104" level="2">麻栗坡县</Area>
+      <Area id="251105" level="2">马关县</Area>
+      <Area id="251106" level="2">丘北县</Area>
+      <Area id="251107" level="2">广南县</Area>
+      <Area id="251108" level="2">富宁县</Area>
+    </City>
+    <City id="2512" name="西双版纳傣族自治州" level="1" pname="">
+      <Area id="251201" level="2">景洪市</Area>
+      <Area id="251202" level="2">勐海县</Area>
+      <Area id="251203" level="2">勐腊县</Area>
+    </City>
+    <City id="2513" name="大理白族自治州" level="1" pname="">
+      <Area id="251301" level="2">大理市</Area>
+      <Area id="251302" level="2">漾濞彝族自治县</Area>
+      <Area id="251303" level="2">祥云县</Area>
+      <Area id="251304" level="2">宾川县</Area>
+      <Area id="251305" level="2">弥渡县</Area>
+      <Area id="251306" level="2">南涧彝族自治县</Area>
+      <Area id="251307" level="2">巍山彝族回族自治县</Area>
+      <Area id="251308" level="2">永平县</Area>
+      <Area id="251309" level="2">云龙县</Area>
+      <Area id="251310" level="2">洱源县</Area>
+      <Area id="251311" level="2">剑川县</Area>
+      <Area id="251312" level="2">鹤庆县</Area>
+    </City>
+    <City id="2514" name="德宏傣族景颇族自治州" level="1" pname="">
+      <Area id="251401" level="2">瑞丽市</Area>
+      <Area id="251402" level="2">潞西市</Area>
+      <Area id="251403" level="2">梁河县</Area>
+      <Area id="251404" level="2">盈江县</Area>
+      <Area id="251405" level="2">陇川县</Area>
+    </City>
+    <City id="2515" name="怒江傈僳族自治州" level="1" pname="">
+      <Area id="251501" level="2">泸水县</Area>
+      <Area id="251502" level="2">福贡县</Area>
+      <Area id="251503" level="2">贡山独龙族怒族自治县</Area>
+      <Area id="251504" level="2">兰坪白族普米族自治县</Area>
+    </City>
+    <City id="2516" name="迪庆藏族自治州" level="1" pname="">
+      <Area id="251601" level="2">香格里拉县</Area>
+      <Area id="251602" level="2">德钦县</Area>
+      <Area id="251603" level="2">维西傈僳族自治县</Area>
+    </City>
+  </Province>
+  <Province id="26" name="西藏自治区" level="0">
+    <City id="2601" name="拉萨市" level="1" pname="">
+      <Area id="260101" level="2">市辖区</Area>
+      <Area id="260102" level="2">城关区</Area>
+      <Area id="260103" level="2">林周县</Area>
+      <Area id="260104" level="2">当雄县</Area>
+      <Area id="260105" level="2">尼木县</Area>
+      <Area id="260106" level="2">曲水县</Area>
+      <Area id="260107" level="2">堆龙德庆县</Area>
+      <Area id="260108" level="2">达孜县</Area>
+      <Area id="260109" level="2">墨竹工卡县</Area>
+    </City>
+    <City id="2602" name="昌都地区" level="1" pname="">
+      <Area id="260201" level="2">昌都县</Area>
+      <Area id="260202" level="2">江达县</Area>
+      <Area id="260203" level="2">贡觉县</Area>
+      <Area id="260204" level="2">类乌齐县</Area>
+      <Area id="260205" level="2">丁青县</Area>
+      <Area id="260206" level="2">察雅县</Area>
+      <Area id="260207" level="2">八宿县</Area>
+      <Area id="260208" level="2">左贡县</Area>
+      <Area id="260209" level="2">芒康县</Area>
+      <Area id="260210" level="2">洛隆县</Area>
+      <Area id="260211" level="2">边坝县</Area>
+    </City>
+    <City id="2603" name="山南地区" level="1" pname="">
+      <Area id="260301" level="2">乃东县</Area>
+      <Area id="260302" level="2">扎囊县</Area>
+      <Area id="260303" level="2">贡嘎县</Area>
+      <Area id="260304" level="2">桑日县</Area>
+      <Area id="260305" level="2">琼结县</Area>
+      <Area id="260306" level="2">曲松县</Area>
+      <Area id="260307" level="2">措美县</Area>
+      <Area id="260308" level="2">洛扎县</Area>
+      <Area id="260309" level="2">加查县</Area>
+      <Area id="260310" level="2">隆子县</Area>
+      <Area id="260311" level="2">错那县</Area>
+      <Area id="260312" level="2">浪卡子县</Area>
+    </City>
+    <City id="2604" name="日喀则地区" level="1" pname="">
+      <Area id="260401" level="2">日喀则市</Area>
+      <Area id="260402" level="2">南木林县</Area>
+      <Area id="260403" level="2">江孜县</Area>
+      <Area id="260404" level="2">定日县</Area>
+      <Area id="260405" level="2">萨迦县</Area>
+      <Area id="260406" level="2">拉孜县</Area>
+      <Area id="260407" level="2">昂仁县</Area>
+      <Area id="260408" level="2">谢通门县</Area>
+      <Area id="260409" level="2">白朗县</Area>
+      <Area id="260410" level="2">仁布县</Area>
+      <Area id="260411" level="2">康马县</Area>
+      <Area id="260412" level="2">定结县</Area>
+      <Area id="260413" level="2">仲巴县</Area>
+      <Area id="260414" level="2">亚东县</Area>
+      <Area id="260415" level="2">吉隆县</Area>
+      <Area id="260416" level="2">聂拉木县</Area>
+      <Area id="260417" level="2">萨嘎县</Area>
+      <Area id="260418" level="2">岗巴县</Area>
+    </City>
+    <City id="2605" name="那曲地区" level="1" pname="">
+      <Area id="260501" level="2">那曲县</Area>
+      <Area id="260502" level="2">嘉黎县</Area>
+      <Area id="260503" level="2">比如县</Area>
+      <Area id="260504" level="2">聂荣县</Area>
+      <Area id="260505" level="2">安多县</Area>
+      <Area id="260506" level="2">申扎县</Area>
+      <Area id="260507" level="2">索　县</Area>
+      <Area id="260508" level="2">班戈县</Area>
+      <Area id="260509" level="2">巴青县</Area>
+      <Area id="260510" level="2">尼玛县</Area>
+    </City>
+    <City id="2606" name="阿里地区" level="1" pname="">
+      <Area id="260601" level="2">普兰县</Area>
+      <Area id="260602" level="2">札达县</Area>
+      <Area id="260603" level="2">噶尔县</Area>
+      <Area id="260604" level="2">日土县</Area>
+      <Area id="260605" level="2">革吉县</Area>
+      <Area id="260606" level="2">改则县</Area>
+      <Area id="260607" level="2">措勤县</Area>
+    </City>
+    <City id="2607" name="林芝地区" level="1" pname="">
+      <Area id="260701" level="2">林芝县</Area>
+      <Area id="260702" level="2">工布江达县</Area>
+      <Area id="260703" level="2">米林县</Area>
+      <Area id="260704" level="2">墨脱县</Area>
+      <Area id="260705" level="2">波密县</Area>
+      <Area id="260706" level="2">察隅县</Area>
+      <Area id="260707" level="2">朗　县</Area>
+    </City>
+  </Province>
+  <Province id="27" name="陕西省" level="0">
+    <City id="2701" name="西安市" level="1" pname="">
+      <Area id="270101" level="2">市辖区</Area>
+      <Area id="270102" level="2">新城区</Area>
+      <Area id="270103" level="2">碑林区</Area>
+      <Area id="270104" level="2">莲湖区</Area>
+      <Area id="270105" level="2">灞桥区</Area>
+      <Area id="270106" level="2">未央区</Area>
+      <Area id="270107" level="2">雁塔区</Area>
+      <Area id="270108" level="2">阎良区</Area>
+      <Area id="270109" level="2">临潼区</Area>
+      <Area id="270110" level="2">长安区</Area>
+      <Area id="270111" level="2">蓝田县</Area>
+      <Area id="270112" level="2">周至县</Area>
+      <Area id="270113" level="2">户　县</Area>
+      <Area id="270114" level="2">高陵县</Area>
+    </City>
+    <City id="2702" name="铜川市" level="1" pname="">
+      <Area id="270201" level="2">市辖区</Area>
+      <Area id="270202" level="2">王益区</Area>
+      <Area id="270203" level="2">印台区</Area>
+      <Area id="270204" level="2">耀州区</Area>
+      <Area id="270205" level="2">宜君县</Area>
+    </City>
+    <City id="2703" name="宝鸡市" level="1" pname="">
+      <Area id="270301" level="2">市辖区</Area>
+      <Area id="270302" level="2">渭滨区</Area>
+      <Area id="270303" level="2">金台区</Area>
+      <Area id="270304" level="2">陈仓区</Area>
+      <Area id="270305" level="2">凤翔县</Area>
+      <Area id="270306" level="2">岐山县</Area>
+      <Area id="270307" level="2">扶风县</Area>
+      <Area id="270308" level="2">眉　县</Area>
+      <Area id="270309" level="2">陇　县</Area>
+      <Area id="270310" level="2">千阳县</Area>
+      <Area id="270311" level="2">麟游县</Area>
+      <Area id="270312" level="2">凤　县</Area>
+      <Area id="270313" level="2">太白县</Area>
+    </City>
+    <City id="2704" name="咸阳市" level="1" pname="">
+      <Area id="270401" level="2">市辖区</Area>
+      <Area id="270402" level="2">秦都区</Area>
+      <Area id="270403" level="2">杨凌区</Area>
+      <Area id="270404" level="2">渭城区</Area>
+      <Area id="270405" level="2">三原县</Area>
+      <Area id="270406" level="2">泾阳县</Area>
+      <Area id="270407" level="2">乾　县</Area>
+      <Area id="270408" level="2">礼泉县</Area>
+      <Area id="270409" level="2">永寿县</Area>
+      <Area id="270410" level="2">彬　县</Area>
+      <Area id="270411" level="2">长武县</Area>
+      <Area id="270412" level="2">旬邑县</Area>
+      <Area id="270413" level="2">淳化县</Area>
+      <Area id="270414" level="2">武功县</Area>
+      <Area id="270415" level="2">兴平市</Area>
+    </City>
+    <City id="2705" name="渭南市" level="1" pname="">
+      <Area id="270501" level="2">市辖区</Area>
+      <Area id="270502" level="2">临渭区</Area>
+      <Area id="270503" level="2">华　县</Area>
+      <Area id="270504" level="2">潼关县</Area>
+      <Area id="270505" level="2">大荔县</Area>
+      <Area id="270506" level="2">合阳县</Area>
+      <Area id="270507" level="2">澄城县</Area>
+      <Area id="270508" level="2">蒲城县</Area>
+      <Area id="270509" level="2">白水县</Area>
+      <Area id="270510" level="2">富平县</Area>
+      <Area id="270511" level="2">韩城市</Area>
+      <Area id="270512" level="2">华阴市</Area>
+    </City>
+    <City id="2706" name="延安市" level="1" pname="">
+      <Area id="270601" level="2">市辖区</Area>
+      <Area id="270602" level="2">宝塔区</Area>
+      <Area id="270603" level="2">延长县</Area>
+      <Area id="270604" level="2">延川县</Area>
+      <Area id="270605" level="2">子长县</Area>
+      <Area id="270606" level="2">安塞县</Area>
+      <Area id="270607" level="2">志丹县</Area>
+      <Area id="270608" level="2">吴旗县</Area>
+      <Area id="270609" level="2">甘泉县</Area>
+      <Area id="270610" level="2">富　县</Area>
+      <Area id="270611" level="2">洛川县</Area>
+      <Area id="270612" level="2">宜川县</Area>
+      <Area id="270613" level="2">黄龙县</Area>
+      <Area id="270614" level="2">黄陵县</Area>
+    </City>
+    <City id="2707" name="汉中市" level="1" pname="">
+      <Area id="270701" level="2">市辖区</Area>
+      <Area id="270702" level="2">汉台区</Area>
+      <Area id="270703" level="2">南郑县</Area>
+      <Area id="270704" level="2">城固县</Area>
+      <Area id="270705" level="2">洋　县</Area>
+      <Area id="270706" level="2">西乡县</Area>
+      <Area id="270707" level="2">勉　县</Area>
+      <Area id="270708" level="2">宁强县</Area>
+      <Area id="270709" level="2">略阳县</Area>
+      <Area id="270710" level="2">镇巴县</Area>
+      <Area id="270711" level="2">留坝县</Area>
+      <Area id="270712" level="2">佛坪县</Area>
+    </City>
+    <City id="2708" name="榆林市" level="1" pname="">
+      <Area id="270801" level="2">市辖区</Area>
+      <Area id="270802" level="2">榆阳区</Area>
+      <Area id="270803" level="2">神木县</Area>
+      <Area id="270804" level="2">府谷县</Area>
+      <Area id="270805" level="2">横山县</Area>
+      <Area id="270806" level="2">靖边县</Area>
+      <Area id="270807" level="2">定边县</Area>
+      <Area id="270808" level="2">绥德县</Area>
+      <Area id="270809" level="2">米脂县</Area>
+      <Area id="270810" level="2">佳　县</Area>
+      <Area id="270811" level="2">吴堡县</Area>
+      <Area id="270812" level="2">清涧县</Area>
+      <Area id="270813" level="2">子洲县</Area>
+    </City>
+    <City id="2709" name="安康市" level="1" pname="">
+      <Area id="270901" level="2">市辖区</Area>
+      <Area id="270902" level="2">汉滨区</Area>
+      <Area id="270903" level="2">汉阴县</Area>
+      <Area id="270904" level="2">石泉县</Area>
+      <Area id="270905" level="2">宁陕县</Area>
+      <Area id="270906" level="2">紫阳县</Area>
+      <Area id="270907" level="2">岚皋县</Area>
+      <Area id="270908" level="2">平利县</Area>
+      <Area id="270909" level="2">镇坪县</Area>
+      <Area id="270910" level="2">旬阳县</Area>
+      <Area id="270911" level="2">白河县</Area>
+    </City>
+    <City id="2710" name="商洛市" level="1" pname="">
+      <Area id="271001" level="2">市辖区</Area>
+      <Area id="271002" level="2">商州区</Area>
+      <Area id="271003" level="2">洛南县</Area>
+      <Area id="271004" level="2">丹凤县</Area>
+      <Area id="271005" level="2">商南县</Area>
+      <Area id="271006" level="2">山阳县</Area>
+      <Area id="271007" level="2">镇安县</Area>
+      <Area id="271008" level="2">柞水县</Area>
+    </City>
+  </Province>
+  <Province id="28" name="甘肃省" level="0">
+    <City id="2801" name="兰州市" level="1" pname="">
+      <Area id="280101" level="2">市辖区</Area>
+      <Area id="280102" level="2">城关区</Area>
+      <Area id="280103" level="2">七里河区</Area>
+      <Area id="280104" level="2">西固区</Area>
+      <Area id="280105" level="2">安宁区</Area>
+      <Area id="280106" level="2">红古区</Area>
+      <Area id="280107" level="2">永登县</Area>
+      <Area id="280108" level="2">皋兰县</Area>
+      <Area id="280109" level="2">榆中县</Area>
+    </City>
+    <City id="2802" name="嘉峪关市" level="1" pname="">
+      <Area id="280201" level="2">市辖区</Area>
+    </City>
+    <City id="2803" name="金昌市" level="1" pname="">
+      <Area id="280301" level="2">市辖区</Area>
+      <Area id="280302" level="2">金川区</Area>
+      <Area id="280303" level="2">永昌县</Area>
+    </City>
+    <City id="2804" name="白银市" level="1" pname="">
+      <Area id="280401" level="2">市辖区</Area>
+      <Area id="280402" level="2">白银区</Area>
+      <Area id="280403" level="2">平川区</Area>
+      <Area id="280404" level="2">靖远县</Area>
+      <Area id="280405" level="2">会宁县</Area>
+      <Area id="280406" level="2">景泰县</Area>
+    </City>
+    <City id="2805" name="天水市" level="1" pname="">
+      <Area id="280501" level="2">市辖区</Area>
+      <Area id="280502" level="2">秦城区</Area>
+      <Area id="280503" level="2">北道区</Area>
+      <Area id="280504" level="2">清水县</Area>
+      <Area id="280505" level="2">秦安县</Area>
+      <Area id="280506" level="2">甘谷县</Area>
+      <Area id="280507" level="2">武山县</Area>
+      <Area id="280508" level="2">张家川回族自治县</Area>
+    </City>
+    <City id="2806" name="武威市" level="1" pname="">
+      <Area id="280601" level="2">市辖区</Area>
+      <Area id="280602" level="2">凉州区</Area>
+      <Area id="280603" level="2">民勤县</Area>
+      <Area id="280604" level="2">古浪县</Area>
+      <Area id="280605" level="2">天祝藏族自治县</Area>
+    </City>
+    <City id="2807" name="张掖市" level="1" pname="">
+      <Area id="280701" level="2">市辖区</Area>
+      <Area id="280702" level="2">甘州区</Area>
+      <Area id="280703" level="2">肃南裕固族自治县</Area>
+      <Area id="280704" level="2">民乐县</Area>
+      <Area id="280705" level="2">临泽县</Area>
+      <Area id="280706" level="2">高台县</Area>
+      <Area id="280707" level="2">山丹县</Area>
+    </City>
+    <City id="2808" name="平凉市" level="1" pname="">
+      <Area id="280801" level="2">市辖区</Area>
+      <Area id="280802" level="2">崆峒区</Area>
+      <Area id="280803" level="2">泾川县</Area>
+      <Area id="280804" level="2">灵台县</Area>
+      <Area id="280805" level="2">崇信县</Area>
+      <Area id="280806" level="2">华亭县</Area>
+      <Area id="280807" level="2">庄浪县</Area>
+      <Area id="280808" level="2">静宁县</Area>
+    </City>
+    <City id="2809" name="酒泉市" level="1" pname="">
+      <Area id="280901" level="2">市辖区</Area>
+      <Area id="280902" level="2">肃州区</Area>
+      <Area id="280903" level="2">金塔县</Area>
+      <Area id="280904" level="2">安西县</Area>
+      <Area id="280905" level="2">肃北蒙古族自治县</Area>
+      <Area id="280906" level="2">阿克塞哈萨克族自治县</Area>
+      <Area id="280907" level="2">玉门市</Area>
+      <Area id="280908" level="2">敦煌市</Area>
+    </City>
+    <City id="2810" name="庆阳市" level="1" pname="">
+      <Area id="281001" level="2">市辖区</Area>
+      <Area id="281002" level="2">西峰区</Area>
+      <Area id="281003" level="2">庆城县</Area>
+      <Area id="281004" level="2">环　县</Area>
+      <Area id="281005" level="2">华池县</Area>
+      <Area id="281006" level="2">合水县</Area>
+      <Area id="281007" level="2">正宁县</Area>
+      <Area id="281008" level="2">宁　县</Area>
+      <Area id="281009" level="2">镇原县</Area>
+    </City>
+    <City id="2811" name="定西市" level="1" pname="">
+      <Area id="281101" level="2">市辖区</Area>
+      <Area id="281102" level="2">安定区</Area>
+      <Area id="281103" level="2">通渭县</Area>
+      <Area id="281104" level="2">陇西县</Area>
+      <Area id="281105" level="2">渭源县</Area>
+      <Area id="281106" level="2">临洮县</Area>
+      <Area id="281107" level="2">漳　县</Area>
+      <Area id="281108" level="2">岷　县</Area>
+    </City>
+    <City id="2812" name="陇南市" level="1" pname="">
+      <Area id="281201" level="2">市辖区</Area>
+      <Area id="281202" level="2">武都区</Area>
+      <Area id="281203" level="2">成　县</Area>
+      <Area id="281204" level="2">文　县</Area>
+      <Area id="281205" level="2">宕昌县</Area>
+      <Area id="281206" level="2">康　县</Area>
+      <Area id="281207" level="2">西和县</Area>
+      <Area id="281208" level="2">礼　县</Area>
+      <Area id="281209" level="2">徽　县</Area>
+      <Area id="281210" level="2">两当县</Area>
+    </City>
+    <City id="2813" name="临夏回族自治州" level="1" pname="">
+      <Area id="281301" level="2">临夏市</Area>
+      <Area id="281302" level="2">临夏县</Area>
+      <Area id="281303" level="2">康乐县</Area>
+      <Area id="281304" level="2">永靖县</Area>
+      <Area id="281305" level="2">广河县</Area>
+      <Area id="281306" level="2">和政县</Area>
+      <Area id="281307" level="2">东乡族自治县</Area>
+      <Area id="281308" level="2">积石山保安族东乡族撒拉族自治县</Area>
+    </City>
+    <City id="2814" name="甘南藏族自治州" level="1" pname="">
+      <Area id="281401" level="2">合作市</Area>
+      <Area id="281402" level="2">临潭县</Area>
+      <Area id="281403" level="2">卓尼县</Area>
+      <Area id="281404" level="2">舟曲县</Area>
+      <Area id="281405" level="2">迭部县</Area>
+      <Area id="281406" level="2">玛曲县</Area>
+      <Area id="281407" level="2">碌曲县</Area>
+      <Area id="281408" level="2">夏河县</Area>
+    </City>
+  </Province>
+  <Province id="29" name="青海省" level="0">
+    <City id="2901" name="西宁市" level="1" pname="">
+      <Area id="290101" level="2">市辖区</Area>
+      <Area id="290102" level="2">城东区</Area>
+      <Area id="290103" level="2">城中区</Area>
+      <Area id="290104" level="2">城西区</Area>
+      <Area id="290105" level="2">城北区</Area>
+      <Area id="290106" level="2">大通回族土族自治县</Area>
+      <Area id="290107" level="2">湟中县</Area>
+      <Area id="290108" level="2">湟源县</Area>
+    </City>
+    <City id="2902" name="海东地区" level="1" pname="">
+      <Area id="290201" level="2">平安县</Area>
+      <Area id="290202" level="2">民和回族土族自治县</Area>
+      <Area id="290203" level="2">乐都县</Area>
+      <Area id="290204" level="2">互助土族自治县</Area>
+      <Area id="290205" level="2">化隆回族自治县</Area>
+      <Area id="290206" level="2">循化撒拉族自治县</Area>
+    </City>
+    <City id="2903" name="海北藏族自治州" level="1" pname="">
+      <Area id="290301" level="2">门源回族自治县</Area>
+      <Area id="290302" level="2">祁连县</Area>
+      <Area id="290303" level="2">海晏县</Area>
+      <Area id="290304" level="2">刚察县</Area>
+    </City>
+    <City id="2904" name="黄南藏族自治州" level="1" pname="">
+      <Area id="290401" level="2">同仁县</Area>
+      <Area id="290402" level="2">尖扎县</Area>
+      <Area id="290403" level="2">泽库县</Area>
+      <Area id="290404" level="2">河南蒙古族自治县</Area>
+    </City>
+    <City id="2905" name="海南藏族自治州" level="1" pname="">
+      <Area id="290501" level="2">共和县</Area>
+      <Area id="290502" level="2">同德县</Area>
+      <Area id="290503" level="2">贵德县</Area>
+      <Area id="290504" level="2">兴海县</Area>
+      <Area id="290505" level="2">贵南县</Area>
+    </City>
+    <City id="2906" name="果洛藏族自治州" level="1" pname="">
+      <Area id="290601" level="2">玛沁县</Area>
+      <Area id="290602" level="2">班玛县</Area>
+      <Area id="290603" level="2">甘德县</Area>
+      <Area id="290604" level="2">达日县</Area>
+      <Area id="290605" level="2">久治县</Area>
+      <Area id="290606" level="2">玛多县</Area>
+    </City>
+    <City id="2907" name="玉树藏族自治州" level="1" pname="">
+      <Area id="290701" level="2">玉树县</Area>
+      <Area id="290702" level="2">杂多县</Area>
+      <Area id="290703" level="2">称多县</Area>
+      <Area id="290704" level="2">治多县</Area>
+      <Area id="290705" level="2">囊谦县</Area>
+      <Area id="290706" level="2">曲麻莱县</Area>
+    </City>
+    <City id="2908" name="海西蒙古族藏族自治州" level="1" pname="">
+      <Area id="290801" level="2">格尔木市</Area>
+      <Area id="290802" level="2">德令哈市</Area>
+      <Area id="290803" level="2">乌兰县</Area>
+      <Area id="290804" level="2">都兰县</Area>
+      <Area id="290805" level="2">天峻县</Area>
+    </City>
+  </Province>
+  <Province id="30" name="宁夏回族自治区" level="0">
+    <City id="3001" name="银川市" level="1" pname="">
+      <Area id="300101" level="2">市辖区</Area>
+      <Area id="300102" level="2">兴庆区</Area>
+      <Area id="300103" level="2">西夏区</Area>
+      <Area id="300104" level="2">金凤区</Area>
+      <Area id="300105" level="2">永宁县</Area>
+      <Area id="300106" level="2">贺兰县</Area>
+      <Area id="300107" level="2">灵武市</Area>
+    </City>
+    <City id="3002" name="石嘴山市" level="1" pname="">
+      <Area id="300201" level="2">市辖区</Area>
+      <Area id="300202" level="2">大武口区</Area>
+      <Area id="300203" level="2">惠农区</Area>
+      <Area id="300204" level="2">平罗县</Area>
+    </City>
+    <City id="3003" name="吴忠市" level="1" pname="">
+      <Area id="300301" level="2">市辖区</Area>
+      <Area id="300302" level="2">利通区</Area>
+      <Area id="300303" level="2">盐池县</Area>
+      <Area id="300304" level="2">同心县</Area>
+      <Area id="300305" level="2">青铜峡市</Area>
+    </City>
+    <City id="3004" name="固原市" level="1" pname="">
+      <Area id="300401" level="2">市辖区</Area>
+      <Area id="300402" level="2">原州区</Area>
+      <Area id="300403" level="2">西吉县</Area>
+      <Area id="300404" level="2">隆德县</Area>
+      <Area id="300405" level="2">泾源县</Area>
+      <Area id="300406" level="2">彭阳县</Area>
+    </City>
+    <City id="3005" name="中卫市" level="1" pname="">
+      <Area id="300501" level="2">市辖区</Area>
+      <Area id="300502" level="2">沙坡头区</Area>
+      <Area id="300503" level="2">中宁县</Area>
+      <Area id="300504" level="2">海原县</Area>
+    </City>
+  </Province>
+  <Province id="31" name="新疆维吾尔自治区" level="0">
+    <City id="3101" name="乌鲁木齐市" level="1" pname="">
+      <Area id="310101" level="2">市辖区</Area>
+      <Area id="310102" level="2">天山区</Area>
+      <Area id="310103" level="2">沙依巴克区</Area>
+      <Area id="310104" level="2">新市区</Area>
+      <Area id="310105" level="2">水磨沟区</Area>
+      <Area id="310106" level="2">头屯河区</Area>
+      <Area id="310107" level="2">达坂城区</Area>
+      <Area id="310108" level="2">东山区</Area>
+      <Area id="310109" level="2">乌鲁木齐县</Area>
+    </City>
+    <City id="3102" name="克拉玛依市" level="1" pname="">
+      <Area id="310201" level="2">市辖区</Area>
+      <Area id="310202" level="2">独山子区</Area>
+      <Area id="310203" level="2">克拉玛依区</Area>
+      <Area id="310204" level="2">白碱滩区</Area>
+      <Area id="310205" level="2">乌尔禾区</Area>
+    </City>
+    <City id="3103" name="吐鲁番地区" level="1" pname="">
+      <Area id="310301" level="2">吐鲁番市</Area>
+      <Area id="310302" level="2">鄯善县</Area>
+      <Area id="310303" level="2">托克逊县</Area>
+    </City>
+    <City id="3104" name="哈密地区" level="1" pname="">
+      <Area id="310401" level="2">哈密市</Area>
+      <Area id="310402" level="2">巴里坤哈萨克自治县</Area>
+      <Area id="310403" level="2">伊吾县</Area>
+    </City>
+    <City id="3105" name="昌吉回族自治州" level="1" pname="">
+      <Area id="310501" level="2">昌吉市</Area>
+      <Area id="310502" level="2">阜康市</Area>
+      <Area id="310503" level="2">米泉市</Area>
+      <Area id="310504" level="2">呼图壁县</Area>
+      <Area id="310505" level="2">玛纳斯县</Area>
+      <Area id="310506" level="2">奇台县</Area>
+      <Area id="310507" level="2">吉木萨尔县</Area>
+      <Area id="310508" level="2">木垒哈萨克自治县</Area>
+    </City>
+    <City id="3106" name="博尔塔拉蒙古自治州" level="1" pname="">
+      <Area id="310601" level="2">博乐市</Area>
+      <Area id="310602" level="2">精河县</Area>
+      <Area id="310603" level="2">温泉县</Area>
+    </City>
+    <City id="3107" name="巴音郭楞蒙古自治州" level="1" pname="">
+      <Area id="310701" level="2">库尔勒市</Area>
+      <Area id="310702" level="2">轮台县</Area>
+      <Area id="310703" level="2">尉犁县</Area>
+      <Area id="310704" level="2">若羌县</Area>
+      <Area id="310705" level="2">且末县</Area>
+      <Area id="310706" level="2">焉耆回族自治县</Area>
+      <Area id="310707" level="2">和静县</Area>
+      <Area id="310708" level="2">和硕县</Area>
+      <Area id="310709" level="2">博湖县</Area>
+    </City>
+    <City id="3108" name="阿克苏地区" level="1" pname="">
+      <Area id="310801" level="2">阿克苏市</Area>
+      <Area id="310802" level="2">温宿县</Area>
+      <Area id="310803" level="2">库车县</Area>
+      <Area id="310804" level="2">沙雅县</Area>
+      <Area id="310805" level="2">新和县</Area>
+      <Area id="310806" level="2">拜城县</Area>
+      <Area id="310807" level="2">乌什县</Area>
+      <Area id="310808" level="2">阿瓦提县</Area>
+      <Area id="310809" level="2">柯坪县</Area>
+    </City>
+    <City id="3109" name="克孜勒苏柯尔克孜自治州" level="1" pname="">
+      <Area id="310901" level="2">阿图什市</Area>
+      <Area id="310902" level="2">阿克陶县</Area>
+      <Area id="310903" level="2">阿合奇县</Area>
+      <Area id="310904" level="2">乌恰县</Area>
+    </City>
+    <City id="3110" name="喀什地区" level="1" pname="">
+      <Area id="311001" level="2">喀什市</Area>
+      <Area id="311002" level="2">疏附县</Area>
+      <Area id="311003" level="2">疏勒县</Area>
+      <Area id="311004" level="2">英吉沙县</Area>
+      <Area id="311005" level="2">泽普县</Area>
+      <Area id="311006" level="2">莎车县</Area>
+      <Area id="311007" level="2">叶城县</Area>
+      <Area id="311008" level="2">麦盖提县</Area>
+      <Area id="311009" level="2">岳普湖县</Area>
+      <Area id="311010" level="2">伽师县</Area>
+      <Area id="311011" level="2">巴楚县</Area>
+      <Area id="311012" level="2">塔什库尔干塔吉克自治县</Area>
+    </City>
+    <City id="3111" name="和田地区" level="1" pname="">
+      <Area id="311101" level="2">和田市</Area>
+      <Area id="311102" level="2">和田县</Area>
+      <Area id="311103" level="2">墨玉县</Area>
+      <Area id="311104" level="2">皮山县</Area>
+      <Area id="311105" level="2">洛浦县</Area>
+      <Area id="311106" level="2">策勒县</Area>
+      <Area id="311107" level="2">于田县</Area>
+      <Area id="311108" level="2">民丰县</Area>
+    </City>
+    <City id="3112" name="伊犁哈萨克自治州" level="1" pname="">
+      <Area id="311201" level="2">伊宁市</Area>
+      <Area id="311202" level="2">奎屯市</Area>
+      <Area id="311203" level="2">伊宁县</Area>
+      <Area id="311204" level="2">察布查尔锡伯自治县</Area>
+      <Area id="311205" level="2">霍城县</Area>
+      <Area id="311206" level="2">巩留县</Area>
+      <Area id="311207" level="2">新源县</Area>
+      <Area id="311208" level="2">昭苏县</Area>
+      <Area id="311209" level="2">特克斯县</Area>
+      <Area id="311210" level="2">尼勒克县</Area>
+    </City>
+    <City id="3113" name="塔城地区" level="1" pname="">
+      <Area id="311301" level="2">塔城市</Area>
+      <Area id="311302" level="2">乌苏市</Area>
+      <Area id="311303" level="2">额敏县</Area>
+      <Area id="311304" level="2">沙湾县</Area>
+      <Area id="311305" level="2">托里县</Area>
+      <Area id="311306" level="2">裕民县</Area>
+      <Area id="311307" level="2">和布克赛尔蒙古自治县</Area>
+    </City>
+    <City id="3114" name="阿勒泰地区" level="1" pname="">
+      <Area id="311401" level="2">阿勒泰市</Area>
+      <Area id="311402" level="2">布尔津县</Area>
+      <Area id="311403" level="2">富蕴县</Area>
+      <Area id="311404" level="2">福海县</Area>
+      <Area id="311405" level="2">哈巴河县</Area>
+      <Area id="311406" level="2">青河县</Area>
+      <Area id="311407" level="2">吉木乃县</Area>
+    </City>
+    <City id="3115" name="省直辖行政单位" level="1" pname="">
+      <Area id="311501" level="2">石河子市</Area>
+      <Area id="311502" level="2">阿拉尔市</Area>
+      <Area id="311503" level="2">图木舒克市</Area>
+      <Area id="311504" level="2">五家渠市</Area>
+    </City>
+  </Province>
+  <Province id="32" name="台湾省" level="0" >
+     <City id="3201" name="台湾" level="1"/>
+  </Province>
+  <Province id="33" name="香港特别行政区" level="0" >
+   <City id="3301" name="香港" level="1"/>
+  </Province>
+  <Province id="34" name="澳门特别行政区" level="0" >
+  <City id="3401" name="澳门" level="1"/>
+  </Province>
+</PCAroot>
