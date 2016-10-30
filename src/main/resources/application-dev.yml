@@ -23,7 +23,7 @@ spring:
     driver: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/lietouerp?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
     username: root
-    password: 
+    password: 123456
 hibernate: 
   dialect: org.hibernate.dialect.MySQLDialect
   show:
@@ -59,4 +59,4 @@ kaptcha:
 web: 
   app:
     static: 
-        path: file:F:/workspace2/LietouErp/static/
+        path: file:/Users/liangcai/git/LietouErp/static/

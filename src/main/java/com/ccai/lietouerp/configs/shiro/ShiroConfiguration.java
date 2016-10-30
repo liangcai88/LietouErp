@@ -5,11 +5,14 @@ import java.util.Map;
 
 import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
 import org.apache.shiro.cache.ehcache.EhCacheManager;
+import org.apache.shiro.session.mgt.SessionManager;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
+import org.apache.shiro.web.filter.authc.FormAuthenticationFilter;
 import org.apache.shiro.web.mgt.CookieRememberMeManager;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.apache.shiro.web.servlet.SimpleCookie;
+import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -66,13 +69,18 @@ public class ShiroConfiguration {
         //未授权界面;
         shiroFilterFactoryBean.setUnauthorizedUrl("/403");
       
-        
-        
        shiroFilterFactoryBean.setFilterChainDefinitionMap(filterChainDefinitionMap);
        
-       shiroFilterFactoryBean.getFilters().put("authc", new ErpFormAuthenticationFilter());
+       shiroFilterFactoryBean.getFilters().put("authc", erpFormAuthenticationFilter());
        return shiroFilterFactoryBean;
     }
+    
+    @Bean
+    public FormAuthenticationFilter erpFormAuthenticationFilter(){
+    	ErpFormAuthenticationFilter erpFormAuthenticationFilter=new ErpFormAuthenticationFilter();
+    	return erpFormAuthenticationFilter;
+    }
+    
    
     @Bean
     public org.apache.shiro.mgt.SecurityManager securityManager(){
@@ -81,8 +89,18 @@ public class ShiroConfiguration {
        //注入缓存管理器;
        securityManager.setCacheManager(ehCacheManager());//这个如果执行多次，也是同样的一个对
        securityManager.setRememberMeManager(rememberMeManager());
+       securityManager.setSessionManager(sessionManager());
        return securityManager;
     }
+    
+    @Bean
+    public SessionManager sessionManager(){
+    	DefaultWebSessionManager sessionManager=new DefaultWebSessionManager();
+    	sessionManager.setGlobalSessionTimeout(1800000l);
+    	return sessionManager;
+    }
+    
+    
     
     
     /**

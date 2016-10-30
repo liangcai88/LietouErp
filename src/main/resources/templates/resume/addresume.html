@@ -1,3 +1,4 @@
+#set($pageTitle="添加建立")
 #if($XMLHttpRequestType=="ajax")
 	#set($layout = "/layout/empty.html") 
 #else
@@ -11,6 +12,9 @@
 }
 .jobhistory-item:HOVER {  
 	background: #fBfBfB;
+}
+.jobhistory-item:last-child(2){  
+	border:none;
 }
 </style>
 <div class="container">
@@ -311,6 +315,19 @@
 									</div>
 								</div>
 								</div>
+								<h4 class="form-section">个人备注</h4>
+								<div class="row-fluid">
+									<div class="span12">
+										<div class="control-group">
+
+										<label class="control-label">备注<span class="required">*</span></label>
+
+										<div class="controls">
+											<textarea rows="3" cols="" class="span10 m-wrap"></textarea>
+										</div>
+									</div>
+									</div>
+								</div>
 									<div class="form-actions">
 
 									<button type="submit" class="btn blue"><i class="icon-ok"></i> 提交</button>
@@ -337,10 +354,14 @@ $(function(){
 	     
 	   function clonejobhisoryitem(){ 
 		   $("#add-jobhistory-item").off();
-		   var cloneitem=  $(".jobhistory-item").first().clone(false); 
+		   var cloneitem=  $(".jobhistory-item").last().clone(false); 
+		   
+		   if($(".jobhistory-item").length==1){
+			   cloneitem.css("border","none");    
+		   }
 		   cloneitem.css("display","none");   
 // 		   cloneitem.find("input").off();  
- if (App.isTouchDevice()) { 
+ 		if (App.isTouchDevice()) { 
 			   cloneitem.find('.tooltips:not(.no-tooltip-on-touch-device)').tooltip();
 	        } else {
 	        	cloneitem.find('.tooltips').tooltip();

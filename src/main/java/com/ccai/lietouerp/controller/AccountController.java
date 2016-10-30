@@ -83,6 +83,9 @@ public class AccountController {
 			}
 			res.put("msg", msg);
 		}else{
+			String username=request.getParameter("username");
+			ErpUser erpuser=erpUserService.findByUserName(username);
+			request.getSession().setAttribute("sessionUser", erpuser);
 			res.put("success", true);
 			res.put("gourl", request.getContextPath() + "/index");
 		}
@@ -134,7 +137,7 @@ public class AccountController {
 				erpUser.setUpdateTime(new Date());
 				ErpUser dbErpUser = erpUserService.save(erpUser); 
 				try {
-					SecurityUtils.getSubject().login(new UsernamePasswordToken(dbErpUser.getUserName(), password));
+					SecurityUtils.getSubject().login(new UsernamePasswordToken(dbErpUser.getUserName(), password,true));
 					res.put("success", true);
 					res.put("gourl", request.getContextPath() + "/index");
 				} catch (AuthenticationException e) {

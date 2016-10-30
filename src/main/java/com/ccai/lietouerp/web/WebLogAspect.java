@@ -1,10 +1,8 @@
 package com.ccai.lietouerp.web;
 
-import java.util.Arrays;
-import java.util.Enumeration;
-
 import javax.servlet.http.HttpServletRequest;
 
+import org.apache.shiro.SecurityUtils;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
@@ -12,15 +10,24 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
+import com.ccai.lietouerp.db.entity.ErpUser;
+import com.ccai.lietouerp.services.ErpUserService;
+
 @Aspect
 @Component
 @Order(-5)
 public class WebLogAspect {
+	
+
+
+	@Autowired
+	private ErpUserService erpUserService;
 
 	private Logger logger =  LoggerFactory.getLogger(this.getClass());
 	   
@@ -43,8 +50,11 @@ public class WebLogAspect {
      @Before("webLog()")
      public void doBefore(JoinPoint joinPoint){
         startTime.set(System.currentTimeMillis());
-        
-        
+        if(!SecurityUtils.getSubject().isAuthenticated() && SecurityUtils.getSubject().isRemembered()){
+    	 	ErpUser erpUser= erpUserService.findByUserName((String)SecurityUtils.getSubject().getPrincipal());
+    	 	SecurityUtils.getSubject().getSession().setAttribute("sessionUser", erpUser);
+
+        }
 //       // 接收到请求，记录请求内容
 //        logger.info("WebLogAspect.doBefore()");
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
