@@ -13,6 +13,7 @@ import org.springframework.web.servlet.view.velocity.VelocityLayoutViewResolver;
 import org.springframework.web.servlet.view.velocity.VelocityViewResolver;
 
 import com.ccai.utils.Tools;
+import com.ccai.utils.file.Word2Html;
 import com.google.code.kaptcha.servlet.KaptchaServlet;
 
 @Configuration  
@@ -97,5 +98,11 @@ public class WebMvcConfig  extends WebMvcConfigurerAdapter {
     	if(Tools.stringIsNotNull(staticPath))
         registry.addResourceHandler("/**").addResourceLocations(staticPath);
         super.addResourceHandlers(registry);
+    }
+    
+    @Bean
+    public Word2Html word2Html(){
+    	Word2Html word2Html=new Word2Html();
+    	return word2Html;
     }
 }

@@ -57,13 +57,13 @@
 					<div class="row-fluid">
 
 					<div class="span12">
-					<form action="#" id="form_sample_2" class="form-horizontal" novalidate="novalidate">
+					<form action="${link.contextPath}/resume/add" id="form_addresume" class="form-horizontal" method="POST">
 
 									<div class="alert alert-error hide">
 
 										<button class="close" data-dismiss="alert"></button>
 
-										You have some form errors. Please check below.
+										请检查你表单的输入
 
 									</div>
 
@@ -71,7 +71,7 @@
 
 										<button class="close" data-dismiss="alert"></button>
 
-										Your form validation is successful!
+										
 									</div>
 									<h4 class="form-section">个人信息</h4>
 									<div class="row-fluid">
@@ -82,7 +82,7 @@
 
 										<div class="controls">
 
-											<input type="text" name="truename" data-required="1" class="span8 m-wrap">
+											<input type="text" name="trueName" data-required="1" class="span8 m-wrap">
 
 										</div>
 									</div>
@@ -94,12 +94,12 @@
 
 										<div class="controls">                                                
 																<label class="radio">
-																<input type="radio" name="optionsRadios2" value="1" />
+																<input type="radio" name="sex" value="1" checked/>
 																男
 																</label>
 																<label class="radio">
 
-																<input type="radio" name="optionsRadios2" value="2"  />
+																<input type="radio" name="sex" value="2"  />
 																女
 																</label>  
 
@@ -115,7 +115,7 @@
 
 										<div class="controls">
 
-											<input type="text" name="mask_date1" id="mask_date1" placeholder="年/月/日" class="span8 m-wrap tooltips"
+											<input type="text" name="birthday"  placeholder="年/月/日" class="span8 m-wrap tooltips mask_date1"
 											 data-trigger="focus" data-original-title="必须以年月日的方式输入，格式：yyyy/mm/dd"/>
 
 										</div>
@@ -129,7 +129,7 @@
 
 															<div class="controls">
 
-																<select  class="m-wrap span8">
+																<select name="marriage" class="m-wrap span8">
 																	<option value="">---</option>
 																	#foreach($marriageType in $marriageTypes)	
 																	<option value="$marriageType">$marriageType.info</option>
@@ -152,7 +152,7 @@
 
 															<div class="controls">
 
-																<select  class="m-wrap span8 select2" id="select2_sample2"  data-placeholder="---">
+																<select  class="m-wrap span8 select2" id="select2_sample2" name="placeOrigin"  data-placeholder="---">
 																	<option></option>
 																	#foreach($privoce in $privoces)	
 																	<option value="$privoce.id">$privoce.name</option>
@@ -172,7 +172,7 @@
 
 															<div class="controls">
 
-																<select  class="m-wrap span8 select2" data-placeholder="---" id="select2_sample1">
+																<select  class="m-wrap span8 select2" data-placeholder="---" name="localCity" id="select2_sample1">
 																	<option></option>
 																	#foreach($privoce in $privoces)	
 																	<optgroup label="$privoce.name">
@@ -198,7 +198,7 @@
 
 															<div class="controls">
 
-																<select  class="m-wrap span8">
+																<select  class="m-wrap span8" name="education">
 																	<option value="">---</option>
 																	#foreach($educationType in $educationTypes)	
 																	<option value="$educationType">$educationType.info</option>
@@ -215,11 +215,11 @@
 									<div class="span6">
 										<div class="control-group">
 
-										<label class="control-label">毕业学校<span class="required">*</span></label>
+										<label class="control-label">毕业学校<span class="required">&nbsp;&nbsp;</span></label>
 
 										<div class="controls">
 
-										<input type="text" class="span8 m-wrap">
+										<input type="text" class="span8 m-wrap" name="gschool"/>
 
 										</div>
 									</div>
@@ -235,14 +235,14 @@
 										<div class="controls">
 
 											<input type="text" name="mobile" data-required="1" class="span8 m-wrap tooltips"
-											 data-trigger="hover" data-original-title="手机号码做为简历的唯一标识，不可随意填写">
+											 data-trigger="hover" data-original-title="手机号码做为简历的唯一标识，不可随意填写"/>
 										</div>
 									</div>
 									</div>
 									<div class="span6">
 										<div class="control-group">
 
-										<label class="control-label">微信号<span class="required">*</span></label>
+										<label class="control-label">微信号<span class="required">&nbsp;&nbsp;</span></label>
 
 										<div class="controls">                                                
 															<input type="text" name="weixin" data-required="1" class="span8 m-wrap">
@@ -254,7 +254,7 @@
 									<div class="span6">
 										<div class="control-group">
 
-										<label class="control-label">邮箱<span class="required">*</span></label>
+										<label class="control-label">邮箱<span class="required">&nbsp;&nbsp;</span></label>
 
 										<div class="controls">
 
@@ -278,7 +278,7 @@
 
 										<div class="controls">
 
-											<input type="text" name="email" data-required="1" class="span8 m-wrap">
+											<input type="text" name="company"  id="resume_company" class="span8 m-wrap"/>
 
 										</div>
 									</div>
@@ -289,60 +289,94 @@
 										<label class="control-label">职位<span class="required">*</span></label>
 
 										<div class="controls">
-
-											<input type="text" name="email" data-required="1" class="span8 m-wrap">
+  
+											<input type="text" name="jobTitle" id="resume_jobTitle"  class="span8 m-wrap"/>
 
 										</div>
 									</div>
 									</div>
 								</div>
 								<div class="row-fluid">
-									<div class="span6">
+									<div class="span12">
 										<div class="control-group">
 
 										<label class="control-label">任职时间<span class="required">*</span></label>
 
 										<div class="controls">
-											<input type="text" name=""  placeholder="开始时间" class="span3 m-wrap tooltips mask_date2"
+											<input type="text" name="startTime"  id="resume_startTime"  placeholder="开始时间" class="span2 m-wrap tooltips mask_date2"
 											 data-trigger="focus" data-original-title="必须以年月的方式输入，格式：yyyy/mm"/>
 											<span class="span1 m-wrap" style="display: inline-block;float: none;line-height: 34px;height: 34px;">至&nbsp;</span>	
-											 <input type="text" name=""  placeholder="结束时间" class="span3 m-wrap tooltips mask_date2"
+											 <input type="text" name="endTime"  id="resume_endTime"  placeholder="结束时间" class="span2 m-wrap tooltips mask_date2"
 											 data-trigger="focus" data-original-title="必须以年月的方式输入，格式：yyyy/mm"/>
-
 										</div>
 									</div>
 									</div>
 									</div>
 								</div>
 								</div>
-								<h4 class="form-section">个人备注</h4>
+								<h4 class="form-section">其他</h4>
 								<div class="row-fluid">
 									<div class="span12">
 										<div class="control-group">
 
-										<label class="control-label">备注<span class="required">*</span></label>
+										<label class="control-label">个人描述</label>
 
 										<div class="controls">
-											<textarea rows="3" cols="" class="span10 m-wrap"></textarea>
+											<textarea rows="3" cols="" name="introduction" class="span10 m-wrap"></textarea>
 										</div>
 									</div>
 									</div>
 								</div>
+									<h4 class="form-section" style="position: relative;">Word简历
+									<div class="actions" style="position: relative;">
+									<a href="javascript:void(0);" id="wordhtmlremove" class="btn red mini icn-only close-item" style="position: absolute;right: 0px;top: 6px;display: none;"><i class="icon-remove icon-white"></i></a>
+ 									<form   method="POST" enctype="multipart/form-data">    
+ 		<span class="btn green tooltips fileinput-button mini" data-original-title="大小不超过10M"  data-placement="left" style="position: absolute;right: 0;top: -20px;">
+  
+									<i class="icon-upload-alt icon-white"></i>
+									<span>&nbsp;上传简历</span>
+       
+									<input type="file" name="file" multiple="" id="resume_fileupload" accept="" style="width: 100px;"/>
+
+									</span>  
+							  
+									</form>   
+										<div class="resume-fileupload-progress" style="position: absolute;right: 0;
+										border: 1px solid #CCC;height: 40px;width: 25rem;  top: 5px;display: none;background: #FFF;">  
+ 			<div class="resume-fileupload-progress-t" style="width:7.5rem;float: left;height: 40px;line-height: 40px;padding-left: 10px;font-size: 0.625rem;"></div>    
+    <div class="progress" style="height: 8px;width: 14.5rem;margin-top: 16px;">      
+        <div class="bar" style="width:0%;"></div>     
+    </div>        
+     <img src="${link.contextPath}/image/select2-spinner.gif" style="  position: absolute; top: 12px; right: 10px;display: none;"/> 
+    <div class="progress-extended"></div>  
+</div>   
+ 		</div>     
+									</h4>
+									
+									<div class="row-fluid">
+									<div class="span12">
+									<div id="resumeHtmContentBody" style="max-height: 300px;overflow: auto;padding: 10px;">
+										<div style="text-align: center;">--暂无word简历--</div>
+									</div>
+									<input name="wordhtml" id="wordhtmlText" type="hidden" value=""/>
+									</div>
+									</div>
 									<div class="form-actions">
-
-									<button type="submit" class="btn blue"><i class="icon-ok"></i> 提交</button>
-
-<!-- 										<button type="button" class="btn">Cancel</button> -->
-
+										<a  class="btn" href="#"><i class="m-icon-swapleft"></i> 返回</a>
+										<button type="submit" id="resumeadd_btn" class="btn blue" style="float: right;"><i class="icon-ok"></i> 提交</button>
 									</div>
 
 								</form>
 					</div>
 					</div>
 </div>
+<script src="${link.contextPath}/js/jquery.iframe-transport.js"></script>
+<script src="${link.contextPath}/js/jquery.ui.widget.js"></script>
+	<script src="${link.contextPath}/js/jquery.nestable.js"></script>    
+<script src="${link.contextPath}/js/jquery.fileupload.js"></script>
 <script type="text/javascript">
 $(function(){
-	 $("#mask_date1").inputmask("y/m/d",{ "placeholder": "_"}); 
+	 $(".mask_date1").inputmask("y/m/d",{ "placeholder": "_"}); 
 	 $(".mask_date2").inputmask("y/m",{ "placeholder": "_"});
 	 
 	   $('#select2_sample1').select2({
@@ -352,15 +386,19 @@ $(function(){
 		   allowClear: true
       });
 	     
-	   function clonejobhisoryitem(){ 
+	   function clonejobhisoryitem(){   
 		   $("#add-jobhistory-item").off();
 		   var cloneitem=  $(".jobhistory-item").last().clone(false); 
-		   
+		   cloneitem. find('.help-inline').remove();  
+			cloneitem. find('.control-group').removeClass('error');
+		   $.each(cloneitem.find("input"),function(index,val){    
+				$(val).attr("id","id"+(Math.random()*100000000));
+				$(val).val("");  
+			}); 
 		   if($(".jobhistory-item").length==1){
 			   cloneitem.css("border","none");    
 		   }
 		   cloneitem.css("display","none");   
-// 		   cloneitem.find("input").off();  
  		if (App.isTouchDevice()) { 
 			   cloneitem.find('.tooltips:not(.no-tooltip-on-touch-device)').tooltip();
 	        } else {
@@ -382,8 +420,260 @@ $(function(){
 		   
 	   }
 	   $("#add-jobhistory-item").click(clonejobhisoryitem); 
-	
+	   
+	   
 	   clonejobhisoryitem(); 
 	   
+	   
+	   var iframe = false;
+       if($.browser.msie  && $.browser.version < 10){ 
+           iframe = true;
+       }  
+			var jqXHR = null;  
+				$('#resume_fileupload').fileupload({ 
+				dataType: 'json',  
+				iframe:iframe,    
+				 autoUpload: true,//是否自动上传      
+			    url: '${link.contextPath}/resume/worduploadtohtml'  ,
+//			     maxChunkSize:1000,              
+			    add: function (e, data) {   
+			    	$('.resume-fileupload-progress img').hide();
+			   	 var file=data.files[0];     
+			   	 if(!iframe){  
+			   		if(file.type.indexOf('word')<0){      
+			       		$(".resume-fileupload-progress").hide();     
+			       		$('<div>请上传word文档，支持格式：doc,docx</div>').showTopbarMessage({ background: "red",height:"30px",foreColor:"#FFF",fontSize:"14px",close:3000 });
+			       		$('#resume_fileupload').fileupload('enable');      
+			          	 $('#resume_fileupload').removeAttr('disabled');  
+			       		return false; 
+			   	 	}   
+			   		if(file.size > 1000*1000*10 || file.size<10){
+			       		$(".resume-fileupload-progress").hide();   
+			       		$('<div>文件大小不要超过10M</div>').showTopbarMessage({ background: "red",height:"30px",foreColor:"#FFF",fontSize:"14px",close:2000 });
+			       		$('#resume_fileupload').fileupload('enable');      
+			          	 $('#resume_fileupload').removeAttr('disabled');  
+			       		return false; 
+			       	}
+			   	 $(".resume-fileupload-progress").show();  
+			       	 var fsize=""; 
+			       	 if(file.size/1000<1000){  
+			       		 fsize=(file.size/1000).toFixed(1)+"KB";
+			       	 }else {    
+			       		 fsize=(file.size/1000/1000).toFixed(1)+"M"; 
+			       	 }   
+			       	 fsize="文件大小："+fsize; 
+			       	    $('.resume-fileupload-progress-t').html(fsize);
+			   	 }else{   
+			   		 $(".resume-fileupload-progress").show();    
+			   	  $('.resume-fileupload-progress-t').html("文件名称："+file.name);
+			  	$('.resume-fileupload-progress .progress').addClass("progress-striped");
+	    		$('.resume-fileupload-progress .progress').addClass("active");
+	    		 $('.resume-fileupload-progress img').show();    
+	    		    $('.resume-fileupload-progress .progress .bar').css( 
+				            'width',
+				             '100%'
+				        );  
+			   	 }
+			   	 	
+			   	 $('#resume_fileupload').fileupload('disable');    
+			   	 $('#resume_fileupload').attr('disabled','disabled');
+			         jqXHR = data.submit();     
+			    }, 
+			    progressall: function (e, data) {  
+			    	if(!iframe){  
+			   	 var progress = parseInt(data.loaded / data.total * 100, 10);
+			   	 if(progress>=100){
+			   		 $('.resume-fileupload-progress img').show();
+			   	 }
+			        $('.resume-fileupload-progress .progress .bar').css( 
+			            'width',
+			            progress + '%'
+			        );  
+			    	}
+			    	 
+			        
+			    } ,  
+			    done: function (e, data) {                 
+			    	if(data.result){     
+							if(data.result.success){     
+								$('<div>'+data.result.msg+'</div>').showTopbarMessage({ background: "green",height:"30px",foreColor:"#FFF",fontSize:"14px",close:5000 });
+								$("#resumeHtmContentBody").html(data.result.html);
+								$("#wordhtmlText").val(data.result.html);
+								$("#wordhtmlremove").show();
+							}else{         
+								$('<div>'+data.result.msg+'</div>').showTopbarMessage({ background: "red",height:"30px",foreColor:"#FFF",fontSize:"14px",close:3000 });
+							}
+						}  
+			   		setTimeout(function(){
+			   		 $('#resume_fileupload').fileupload('enable');      
+			       	 $('#resume_fileupload').removeAttr('disabled');
+			   		  $('.resume-fileupload-progress .progress .bar').css( 
+			   	                 'width',  
+			   	                  '0%'
+			   	             );  
+			   		  $(".resume-fileupload-progress").hide();  
+			   		},1000);
+			    } 
+			});  
+				$("#wordhtmlremove").click(function(){
+					if(confirm("确定要删除word简历吗")){
+						$("#resumeHtmContentBody").html('<div style="text-align: center;">--暂无word简历--</div>');
+						$("#wordhtmlText").val("");
+						$(this).hide();  
+					}
+				});
+				
+				var form= $("#form_addresume");
+			     var error1 = $('.alert-error', form);
+			     var success1 = $('.alert-success', form);   
+			     var formvalidOptions={
+						  errorElement: 'span', 
+					         errorClass: 'help-inline', 
+					         focusInvalid:true, 
+					         focusCleanup:false,  
+					         ignore: "",  
+			           rules: {
+			           	trueName: {   
+			                   required: true, 
+			                   maxlength:15  
+			               },
+			               sex: {
+			                   required: true
+			               }, 
+			               birthday: {
+			                   required: true
+			               }, 
+			               mobile: { 
+			               	required: true,
+			               	mobile:true
+			               },
+			               company:{
+			               	 required: true,
+			               	  maxlength:20  
+			               },
+			               jobTitle:{
+			               	 required: true
+			               },
+			               city:{
+			               	 required: true
+			               },
+			               expectationCity:{
+			               	 required: true
+			               },
+			               experience:{
+			               	required: true  
+			               },
+			               startTime:{
+			               	required: true
+			               },
+			               endTime:{
+			               	required: true
+			               },
+			               company:{
+			               	required: true
+			               }
+			           },
+
+			           messages: {  
+			           	trueName: {    
+			                   required: "请填写姓名" ,  
+			                   maxlength: "姓名输入太长"
+			               },
+			               sex: {  
+			                   required: "请选择性别"
+			               },   
+			               birthday: {  
+			                   required: "请选择性别"
+			               },
+			               mobile: { 
+			               	required: "请填写手机号码",
+			               	mobile:"手机号码格式错误"
+			               },
+			               company:{
+			               	 required: "请填写目前工作单位",
+			               	   maxlength: "目前工作单位输入太长"
+			               },
+			              jobTitle:{
+			               	 required: "请输入职位"
+			               },
+			               city:{  
+			               	 required: "请选择所在地"
+			               },
+			               expectationCity:{
+			               	 required: "请选择期望工作地"
+			               },
+			               startTime:{
+			              	required: "请输入开始时间"
+			                },
+			              endTime:{
+			              	required: "请输入结束时间"  
+			              },
+			              company:{  
+			              	required: "请输入公司名称"
+			              } 
+			           },
+			           invalidHandler: function (event, validator) { //display error alert on form submit              
+			               success1.hide();
+			               error1.show();
+			             },
+			           highlight: function (element) { 
+			               $(element)
+			                   .closest('.help-inline').removeClass('ok'); 
+			               $(element)
+			                   .closest('.control-group').removeClass('success').addClass('error');
+			           },
+			           errorPlacement:function(error,element){
+			          	 $(element).closest('.controls').append(error);  
+			          		
+			           },  
+			           unhighlight: function (element) {
+			               $(element).closest('.control-group').removeClass('error');
+			           },
+
+			           success: function (label) {  
+			           },
+			           submitHandler: function (form) {    
+			           		 $(".microResume_form_submit_btn").button('loading');
+				            	$(form).ajaxSubmit(function(data){  
+				            		if(data && data.success){  
+				            			 success1.show();   
+				        	             error1.hide();           
+				        	             $('#luxeo_microtesume_datatable').dataTable().fnDraw(false) ; 
+				            			  $('<div>保存成功</div>').showTopbarMessage({ background: "green",height:"30px",foreColor:"#FFF",fontSize:"14px",close:2000 });
+				         	             $("#microtesume_modal").modal('hide');       
+				            			 
+				            		}else{    
+					            		 $(".microResume_form_submit_btn").button('reset');
+					        				if(data && !data.success){
+					        					error1.html(data.msg);   
+					           					error1.show();    
+					           					success1.hide();        
+					           				   $('<div>'+data.msg+'</div>').showTopbarMessage({ background: "red",height:"30px",foreColor:"#FFF",fontSize:"14px",close:2000 });
+					        				}   
+				            		}
+				            		return false;  
+				            	});
+			           }    
+			       };
+			     form.validate(formvalidOptions);   
+			     $('#form_addresume').keypress(function (e) {
+			            if (e.which == 13) { 
+			                if ($('#form_addresume').validate().form()) {  
+			                    $('#form_addresume').submit();  
+			                }else{
+			                	$("#form_addresume .error input").first().focus();  
+			                }
+			                return false;
+			            }
+			        }); 
+			     
+			     $('#resumeadd_btn').click(function (e) {    
+		                if ($('#form_addresume').validate().form()) {
+		                    $('#form_addresume').submit();    
+		                } else{
+		                	$("#form_addresume .error input").first().focus();    
+		                } 
+		                return false;
+		        });    
 });
 </script>

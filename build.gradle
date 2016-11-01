@@ -27,6 +27,18 @@ dependencies {
   compile "org.apache.shiro:shiro-ehcache:1.2.2" 
   compile "com.github.penggle:kaptcha:2.3.2"
   compile  files("lib/paoding-analysis.jar")
+  compile("org.apache.poi:poi:3.9"){
+  	exclude group:"commons-logging", module:"commons-logging"
+  	exclude group:"log4j", module:"log4j"
+  	exclude group:"commons-codec", module:"commons-codec"
+  }
+  compile "org.apache.poi:poi-scratchpad:3.9"
+  compile "org.apache.poi:poi-ooxml-schemas:3.9"
+  compile ("org.apache.poi:poi-ooxml:3.9"){
+	  exclude group:"dom4j", module:"dom4j"
+  }
+  compile group: 'fr.opensagres.xdocreport', name: 'org.apache.poi.xwpf.converter.core', version: '1.0.5'
+  compile group: 'fr.opensagres.xdocreport', name: 'org.apache.poi.xwpf.converter.xhtml', version: '1.0.5'
     //compile "org.springframework.boot:spring-boot-starter-tomcat"
   //compile "com.h2database:h2:1.4.184"
 }
