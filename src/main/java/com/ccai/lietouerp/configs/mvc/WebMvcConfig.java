@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.velocity.VelocityProperties;
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 import org.springframework.web.servlet.view.velocity.VelocityLayoutViewResolver;
@@ -105,4 +106,13 @@ public class WebMvcConfig  extends WebMvcConfigurerAdapter {
     	Word2Html word2Html=new Word2Html();
     	return word2Html;
     }
+//    
+//    @Bean
+//    public CommonsMultipartResolver commonsMultipartResolver(){
+//    	CommonsMultipartResolver commonsMultipartResolver=new CommonsMultipartResolver();
+//    	commonsMultipartResolver.setDefaultEncoding("utf8");
+//    	commonsMultipartResolver.setMaxUploadSize(30000000);
+//    	commonsMultipartResolver.setMaxInMemorySize(30000);
+//    	return commonsMultipartResolver;
+//    }
 }

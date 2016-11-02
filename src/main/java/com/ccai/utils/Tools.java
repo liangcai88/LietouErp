@@ -1,6 +1,8 @@
 package com.ccai.utils;
 
 import java.lang.reflect.Method;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
@@ -273,5 +275,56 @@ public class Tools {
     }
     
     
-   
+    public static <T> T getEnumValue(Class<T> enumClass,int value){
+		if(enumClass.isEnum()){
+			T[] ems =enumClass.getEnumConstants();
+			for (int i = 0; i < ems.length; i++) {
+				if(i==value){ 
+					return ems[i];
+				}
+			}
+		}
+		return null;
+	}
+	 
+	public static <T extends Enum<?>> T getEnumValue(Class<T> enumClass,String name){
+		if(enumClass.isEnum()){
+			T[] ems =enumClass.getEnumConstants();
+			for (int i = 0; i < ems.length; i++) {
+				if(ems[i].name().equalsIgnoreCase(name)){ 
+					return ems[i];
+				}
+			}
+		}
+		return null;
+	}
+	
+	private static final String checkPattern = "^([a-z0-9A-Z]+[\\_|\\-|\\.]?)+[a-z0-9A-Z]@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-zA-Z]{2,}$";
+
+	/**
+	 * 判断所给字符串
+	 * @param emailAddress
+	 * @return
+	 */
+	public final static boolean isEmail(String emailAddress)
+	{
+		return emailAddress != null && emailAddress.matches(checkPattern);
+	}
+	
+	/**
+	 * str转date
+	 * @param str
+	 * @param pattern
+	 * @return
+	 */
+	public static Date getDatefromString(String str,String pattern){
+		Date date=null;
+		SimpleDateFormat dateFormat=new SimpleDateFormat(pattern);
+		try {
+			date=dateFormat.parse(str);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return date;
+	}
 }

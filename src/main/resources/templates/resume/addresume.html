@@ -57,7 +57,7 @@
 					<div class="row-fluid">
 
 					<div class="span12">
-					<form action="${link.contextPath}/resume/add" id="form_addresume" class="form-horizontal" method="POST">
+					<form action="${link.contextPath}/resume/add" id="form_addresume" class="form-horizontal" method="POST" enctype="multipart/form-data">
 
 									<div class="alert alert-error hide">
 
@@ -70,7 +70,7 @@
 									<div class="alert alert-success hide">
 
 										<button class="close" data-dismiss="alert"></button>
-
+										提交成功	
 										
 									</div>
 									<h4 class="form-section">个人信息</h4>
@@ -278,7 +278,7 @@
 
 										<div class="controls">
 
-											<input type="text" name="company"  id="resume_company" class="span8 m-wrap"/>
+											<input type="text" name="company"  id="resume_company" class="span8 m-wrap" disabled="disabled"/>
 
 										</div>
 									</div>
@@ -290,7 +290,7 @@
 
 										<div class="controls">
   
-											<input type="text" name="jobTitle" id="resume_jobTitle"  class="span8 m-wrap"/>
+											<input type="text" name="jobTitle" id="resume_jobTitle"  class="span8 m-wrap" disabled="disabled"/>
 
 										</div>
 									</div>
@@ -303,10 +303,10 @@
 										<label class="control-label">任职时间<span class="required">*</span></label>
 
 										<div class="controls">
-											<input type="text" name="startTime"  id="resume_startTime"  placeholder="开始时间" class="span2 m-wrap tooltips mask_date2"
+											<input disabled="disabled" type="text" name="startTime"  id="resume_startTime"  placeholder="开始时间" class="span2 m-wrap tooltips mask_date2"
 											 data-trigger="focus" data-original-title="必须以年月的方式输入，格式：yyyy/mm"/>
 											<span class="span1 m-wrap" style="display: inline-block;float: none;line-height: 34px;height: 34px;">至&nbsp;</span>	
-											 <input type="text" name="endTime"  id="resume_endTime"  placeholder="结束时间" class="span2 m-wrap tooltips mask_date2"
+											 <input disabled="disabled" type="text" name="endTime"  id="resume_endTime"  placeholder="结束时间" class="span2 m-wrap tooltips mask_date2"
 											 data-trigger="focus" data-original-title="必须以年月的方式输入，格式：yyyy/mm"/>
 										</div>
 									</div>
@@ -330,7 +330,7 @@
 									<h4 class="form-section" style="position: relative;">Word简历
 									<div class="actions" style="position: relative;">
 									<a href="javascript:void(0);" id="wordhtmlremove" class="btn red mini icn-only close-item" style="position: absolute;right: 0px;top: 6px;display: none;"><i class="icon-remove icon-white"></i></a>
- 									<form   method="POST" enctype="multipart/form-data">    
+<!--  									<form   method="POST" enctype="multipart/form-data">     -->
  		<span class="btn green tooltips fileinput-button mini" data-original-title="大小不超过10M"  data-placement="left" style="position: absolute;right: 0;top: -20px;">
   
 									<i class="icon-upload-alt icon-white"></i>
@@ -340,7 +340,7 @@
 
 									</span>  
 							  
-									</form>   
+<!-- 									</form>    -->
 										<div class="resume-fileupload-progress" style="position: absolute;right: 0;
 										border: 1px solid #CCC;height: 40px;width: 25rem;  top: 5px;display: none;background: #FFF;">  
  			<div class="resume-fileupload-progress-t" style="width:7.5rem;float: left;height: 40px;line-height: 40px;padding-left: 10px;font-size: 0.625rem;"></div>    
@@ -363,7 +363,7 @@
 									</div>
 									<div class="form-actions">
 										<a  class="btn" href="#"><i class="m-icon-swapleft"></i> 返回</a>
-										<button type="submit" id="resumeadd_btn" class="btn blue" style="float: right;"><i class="icon-ok"></i> 提交</button>
+										<button type="submit" id="resumeadd_btn" class="btn blue" data-loading-text="正在提交..." style="float: right;"><i class="icon-ok"></i> 提交</button>
 									</div>
 
 								</form>
@@ -394,6 +394,7 @@ $(function(){
 		   $.each(cloneitem.find("input"),function(index,val){    
 				$(val).attr("id","id"+(Math.random()*100000000));
 				$(val).val("");  
+				$(val).removeAttr("disabled");
 			}); 
 		   if($(".jobhistory-item").length==1){
 			   cloneitem.css("border","none");    
@@ -633,17 +634,23 @@ $(function(){
 			           success: function (label) {  
 			           },
 			           submitHandler: function (form) {    
-			           		 $(".microResume_form_submit_btn").button('loading');
-				            	$(form).ajaxSubmit(function(data){  
+			        	   $("#resume_fileupload").attr("disabled","disabled");
+			        	   $(form).removeAttr("enctype");
+			           		 $("#resumeadd_btn").button('loading');
+				            	$(form).ajaxSubmit({
+				            		async : true,   
+				            		success:function(data){  
+				            		 $(form).attr("enctype","multipart/form-data");
+				            		 $("#resume_fileupload").removeAttr("disabled");
 				            		if(data && data.success){  
+				            			 $("#resumeadd_btn").button('reset');
 				            			 success1.show();   
 				        	             error1.hide();           
-				        	             $('#luxeo_microtesume_datatable').dataTable().fnDraw(false) ; 
-				            			  $('<div>保存成功</div>').showTopbarMessage({ background: "green",height:"30px",foreColor:"#FFF",fontSize:"14px",close:2000 });
+				            			  $('<div>提交成功</div>').showTopbarMessage({ background: "green",height:"30px",foreColor:"#FFF",fontSize:"14px",close:2000 });
 				         	             $("#microtesume_modal").modal('hide');       
 				            			 
 				            		}else{    
-					            		 $(".microResume_form_submit_btn").button('reset');
+					            		 $("#resumeadd_btn").button('reset');
 					        				if(data && !data.success){
 					        					error1.html(data.msg);   
 					           					error1.show();    
@@ -652,7 +659,7 @@ $(function(){
 					        				}   
 				            		}
 				            		return false;  
-				            	});
+				            	}});
 			           }    
 			       };
 			     form.validate(formvalidOptions);   

@@ -13,6 +13,7 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Index;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
@@ -43,7 +44,7 @@ import com.ccai.lietouerp.db.entity.types.MarriageType;
 @Indexed
 @Analyzer(impl=ChineseAnalyzer.class)
 @Entity
-@Table(name="ResumeInfo")
+@Table(name="ResumeInfo",indexes={@Index(columnList="createUid")})
 public class ResumeInfo implements Serializable{
 
 	private static final long serialVersionUID = 4272754802539710041L;
@@ -53,6 +54,9 @@ public class ResumeInfo implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
+	
+	@Field(analyze=Analyze.NO)
+	private Long createUid;
 	
 	@NotNull
 	@Temporal(TemporalType.TIMESTAMP)
@@ -102,7 +106,6 @@ public class ResumeInfo implements Serializable{
 	private String localRegion;
 	
 	@Field(analyze=Analyze.NO)
-	@Column(length=50)
 	private String placeOrigin;//籍贯
 	
 	@Field(analyze=Analyze.NO)
@@ -305,6 +308,38 @@ public class ResumeInfo implements Serializable{
 
 	public void setWordYears(Integer wordYears) {
 		this.wordYears = wordYears;
+	}
+
+	public String getPlaceOrigin() {
+		return placeOrigin;
+	}
+
+	public void setPlaceOrigin(String placeOrigin) {
+		this.placeOrigin = placeOrigin;
+	}
+
+	public MarriageType getMarriage() {
+		return marriage;
+	}
+
+	public void setMarriage(MarriageType marriage) {
+		this.marriage = marriage;
+	}
+
+	public String getCurJobTitle() {
+		return curJobTitle;
+	}
+
+	public void setCurJobTitle(String curJobTitle) {
+		this.curJobTitle = curJobTitle;
+	}
+
+	public Long getCreateUid() {
+		return createUid;
+	}
+
+	public void setCreateUid(Long createUid) {
+		this.createUid = createUid;
 	} 
 	
 	

@@ -33,12 +33,38 @@ public class ResumeWord implements Serializable{
 	private Long id;
 	
 	@Field(analyze=Analyze.YES)
-	@Column(columnDefinition="Text") 
+	@Column(columnDefinition="Text",length=16777216) 
 	private String content;
 	
 	@OneToOne(cascade=CascadeType.ALL,fetch=FetchType.LAZY)
 	@JoinColumn(name="rid")
 	@ContainedIn//这个注解的作用是告诉Lucene，在word实体类型的索引中需要同时包含对应info的数据。
 	private ResumeInfo info;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public ResumeInfo getInfo() {
+		return info;
+	}
+
+	public void setInfo(ResumeInfo info) {
+		this.info = info;
+	}
+	
+	
 
 }

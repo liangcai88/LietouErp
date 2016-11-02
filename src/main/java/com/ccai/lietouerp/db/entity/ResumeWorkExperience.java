@@ -123,6 +123,15 @@ public class ResumeWorkExperience implements Serializable{
 	public void setDetail(String detail) {
 		this.detail = detail;
 	}
+
+	public ResumeInfo getInfo() {
+		return info;
+	}
+
+	public void setInfo(ResumeInfo info) {
+		this.info = info;
+	}
+	
 	
 	
 }
