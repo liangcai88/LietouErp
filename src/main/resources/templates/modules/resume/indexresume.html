@@ -3,10 +3,10 @@
 <div class="container">
 	<div class="row-fluid">
 		<div class="span12">
-			<h3 class="page-title" style="position: relative;">
+			<h3 class="page-title">
 				人才库 <small>可以根据条件搜索人才</small> 
-				<a 	href="${link.contextPath}/resume/page/add" class="btn blue"
-					style="position:absolute;top:0;right:0;"><i class="icon-plus"></i> 添加简历</a>
+				<a 	href="${link.contextPath}/resume/page/add" class="btn black"
+					style="float: right;"><i class="icon-plus"></i> 添加简历</a>
 			</h3>
 
 			<ul class="breadcrumb">
@@ -73,7 +73,9 @@
 				<tbody>
 					#foreach($item in $pageData.content)
 					<tr>
-						<td><a href="${link.contextPath}/resume/page/detail/$item.id">$!item.trueName</a></td>
+
+						<td><a href="#">$!item.trueName</a></td>
+
 						<td class="hidden-phone">$!item.sex.info</td>
 						#if($item.workExperiences.size()>0)
 						<td class="hidden-phone">$!item.workExperiences.get(0).company</td>

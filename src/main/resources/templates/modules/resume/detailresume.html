@@ -2,11 +2,11 @@
 <div class="container">
 	<div class="row-fluid">
 					<div class="span12">
-		<h3 class="page-title" style="position: relative; "> 
+		<h3 class="page-title"> 
 							简历详情
 							 <small>查看简历详细信息</small>
 <a 	href="${link.contextPath}/resume/page/edit/${info.id}" class="btn blue"
-					style="position:absolute;top:0;right:0;"><i class="icon-edit"></i>&nbsp;编辑简历</a>
+					style="float: right;"><i class="icon-edit"></i>&nbsp;编辑简历</a>
 						</h3>
 
 						<ul class="breadcrumb">
@@ -45,7 +45,7 @@
 											<div class="span8 profile-info">
 
 												<h1>${info.trueName} 
-												<span style="font-size: 18px;"> $info.sex.info | $!info.age()岁 | $!info.marriage.info</span>
+												<span style="font-size: 18px;">（$info.sex.info）| $!info.marriage.info</span>
 												</h1>
 												
 												<p>$!info.introduction
@@ -181,8 +181,8 @@
 
 												</div>
 <div class="tab-pane" id="resume_detail_tab_2">
-#if(!$null.isNull($info.word.content))
-	$!info.word.content
+#if($null.isNull($info.word.content))
+	$info.word.content
 #else
 	<span style=" display: block; width: 100%;text-align: center; padding: 50px 0;">--暂无简历--</span>	
 #end

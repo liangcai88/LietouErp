@@ -15,13 +15,10 @@
 	<div class="row-fluid">
 					<div class="span12">
 		<h3 class="page-title">
-						#if($null.isNull($info))
 							添加简历
+
 							 <small>将简历录入人才库</small>
-						#else
-							编辑简历
-							 <small>将简历录入人才库</small>	
-						#end
+
 						</h3>
 
 						<ul class="breadcrumb">
@@ -44,7 +41,7 @@
 
 							</li>
 
-							<li><a href="#">#if(!$null.isNull($info))编辑#else 添加#end简历</a></li>
+							<li><a href="#">添加简历</a></li>
 
 						</ul>
 					</div>
@@ -55,7 +52,7 @@
 
 					<div class="span12">
 					<form action="${link.contextPath}/resume/add" id="form_addresume" class="form-horizontal" method="POST" enctype="multipart/form-data">
-						<input name="id" type="hidden" value="$!info.id"/>
+
 									<div class="alert alert-error hide">
 
 										<button class="close" data-dismiss="alert"></button>
@@ -381,7 +378,7 @@
 								</div>
 									<h4 class="form-section" style="position: relative;">Word简历
 									<div class="actions" style="position: relative;">
-									<a href="javascript:void(0);" id="wordhtmlremove" class="btn red mini icn-only close-item" style="position: absolute;right: 0px;top: 6px;#if($null.isNull($info.word.content))display: none;#else display:black#end"><i class="icon-remove icon-white"></i></a>
+									<a href="javascript:void(0);" id="wordhtmlremove" class="btn red mini icn-only close-item" style="position: absolute;right: 0px;top: 6px;display: none;"><i class="icon-remove icon-white"></i></a>
 <!--  									<form   method="POST" enctype="multipart/form-data">     -->
  		<span class="btn green tooltips fileinput-button mini" data-original-title="大小不超过10M"  data-placement="left" style="position: absolute;right: 0;top: -20px;">
   
@@ -414,10 +411,7 @@
 											$!info.word.content
 										#end
 									</div>
-<!-- 									<input name="wordhtml" id="wordhtmlText" type="hidden" value="" /> -->
-									<textarea name="wordhtml" id="wordhtmlText" style="display: none;">
-									$!info.word.content
-									</textarea>
+									<input name="wordhtml" id="wordhtmlText" type="hidden" value="$!info.word.getEncodeContent()" />
 									</div>
 									</div> 
 									<div class="form-actions" style="padding-left: 20px;">  
@@ -466,34 +460,19 @@ $(function(){
 		   cloneitem.slideDown("normal",function(){
 			   $("#add-jobhistory-item").click(clonejobhisoryitem);   
 			   cloneitem.find(".close-item").click(function(){
-				   var that=this;
-				   bootbox.confirm("确定要删除吗",function(op){
-					   if(op){
-						   $(that).parent().slideUp("normal",function(){
-							   $(this).remove();  
-						   });
-					   }
-					});
-			   });   
+				   if(confirm("确定要删除吗")){
+					   $(this).parent().slideUp("normal",function(){
+						   $(this).remove();  
+					   })
+				   }
+			   });  
 		   });    
 		
 		   
 	   }
 	   $("#add-jobhistory-item").click(clonejobhisoryitem); 
-	   if($("#jobhistory .jobhistory-item").length==1) 
+	   if($(".jobhistory-item").length==1) 
 	   clonejobhisoryitem(); 
-	   else{ 
-		   $(".jobhistory-item .close-item").click(function(){
-			   var that=this;
-			   bootbox.confirm("确定要删除吗",function(op){
-				   if(op){
-					   $(that).parent().slideUp("normal",function(){
-						   $(this).remove();  
-					   });
-				   }
-				});
-		   });  
-	   }
 	   
 	   
 	   var iframe = false;
@@ -587,14 +566,11 @@ $(function(){
 			    } 
 			});  
 				$("#wordhtmlremove").click(function(){
-						var that=this;
-					   bootbox.confirm("确定要删除word简历吗",function(op){
-						   if(op){
-						   $("#resumeHtmContentBody").html('<div style="text-align: center;">--暂无word简历--</div>');
-							$("#wordhtmlText").val("");
-							$(that).hide(); 
-						   }
-						 });
+					if(confirm("确定要删除word简历吗")){
+						$("#resumeHtmContentBody").html('<div style="text-align: center;">--暂无word简历--</div>');
+						$("#wordhtmlText").val("");
+						$(this).hide();  
+					}
 				});
 				
 				var form= $("#form_addresume");
@@ -620,7 +596,7 @@ $(function(){
 			               mobile: { 
 			               	required: true,
 			               	mobile:true,
-			                remote:'${link.contextPath}/resume/checkmobile?id=$!info.id'
+			                remote:'${link.contextPath}/resume/checkmobile'
 			               },
 			               company:{
 			               	 required: true,
@@ -723,7 +699,7 @@ $(function(){
 				        	             error1.hide();           
 				            			  $('<div>提交成功</div>').showTopbarMessage({ background: "green",height:"30px",foreColor:"#FFF",fontSize:"14px",close:2000 });
 				         	             $("#microtesume_modal").modal('hide');     
-				         				 History.replaceState(null,"简历详情", "${link.contextPath}/resume/page/detail/"+data.id); 
+				         				 History.pushState(null,"人才库", "${link.contextPath}/resume/page/index"); 
 				            		}else{    
 					            		 $("#resumeadd_btn").button('reset');
 					        				if(data && !data.success){

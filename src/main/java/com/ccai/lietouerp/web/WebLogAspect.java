@@ -109,9 +109,9 @@ public class WebLogAspect {
 			ResponseBody responseBody=methodSignature.getMethod().getAnnotation(ResponseBody.class);
     		 if(responseBody==null){
     			 Class<?> returnType = methodSignature.getReturnType(); 
-            	 if(isAjax && returnType==String.class && !resObj.toString().startsWith("redirect")){
+            	 if(isAjax && returnType==String.class){
             		 return "modules/"+resObj.toString();
-            	 }else if(!isAjax && returnType==String.class && !resObj.toString().startsWith("redirect")){
+            	 }else if(!isAjax && returnType==String.class){
             		 return "page/"+resObj.toString();
             	 }else{
             		 return resObj;

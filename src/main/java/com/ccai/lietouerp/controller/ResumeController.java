@@ -68,7 +68,6 @@ public class ResumeController {
     		spec = new Specification<ResumeInfo>() {
 				@Override
 				public Predicate toPredicate(Root<ResumeInfo> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
-					query.distinct(true);
 		              Predicate p3= cb.equal(root.join("workExperiences").get("company").as(String.class), term);
 					   Predicate p1= cb.equal(root.get("mobile").as(String.class),term);
 					   Predicate p2= cb.equal(root.get("trueName").as(String.class),term);
@@ -102,7 +101,6 @@ public class ResumeController {
 		model.put("educationTypes", EducationType.values());
     	model.put("privoces", PCAUtils.getInstance().findPrivoceList());
     	model.put("marriageTypes", MarriageType.values());
-    	model.put("pageTitle","添加简历");
         return "resume/addresume";     
 	}
 
@@ -115,7 +113,6 @@ public class ResumeController {
     	model.put("marriageTypes", MarriageType.values());
     	ResumeInfo info=resumeInfoService.findById(Tools.toLong(id));
     	model.put("info",info);
-    	model.put("pageTitle","编辑简历");
         return "resume/addresume";     
 	}
 	
@@ -196,18 +193,6 @@ public class ResumeController {
 		res.put("success", false);
 		if(Tools.stringIsNotNull(trueName,birthday,mobile)){
 			ResumeInfo resumeInfo=new ResumeInfo();
-			String idstr=request.getParameter("id");
-			Long id=null;
-			if(Tools.stringIsNotNull(idstr) && Tools.toLong(idstr)>0){
-			id=Tools.toLong(idstr);
-			resumeInfo=resumeInfoService.findById(Tools.toLong(idstr));
-			if(resumeInfo==null){
-				if(!Tools.isMobileNum(mobile)){
-					res.put("msg", "编辑的简历不存在");
-					return res;
-				}
-			}
-			}
 			resumeInfo.setTrueName(trueName);
 			if(!Tools.isMobileNum(mobile)){
 				res.put("msg", "手机号码格式不正确");
@@ -265,17 +250,7 @@ public class ResumeController {
 				resumeInfo.setLocalCity(localCityPCA.getName());
 				resumeInfo.setLocalProvince(PCAUtils.getInstance().findById(localCityPCA.getParentId()).getName());
 			}
-			
-			List<ResumeWorkExperience> workExperiences=resumeInfo.getWorkExperiences();
-			if(workExperiences==null)
-				workExperiences=new ArrayList<ResumeWorkExperience>();
-			for (int i = 0; i < workExperiences.size(); i++) {
-				workExperiences.get(i).setInfo(null);
-				resumeInfoService.deleteResumeWorkExperience(workExperiences.get(i).getId());
-				workExperiences.remove(i);
-				i--;
-			}
-			workExperiences=new ArrayList<ResumeWorkExperience>();
+			List<ResumeWorkExperience> workExperiences=new ArrayList<ResumeWorkExperience>();
 			if(company!=null && jobTitle!=null && startTime!=null 
 					&& endTime!=null && startTime.length>0 && startTime.length==endTime.length 
 					&& startTime.length==jobTitle.length && jobTitle.length==company.length){
@@ -310,7 +285,8 @@ public class ResumeController {
 					
 				}
 			}
-			if(!checkmobile(request, response, mobile, id)){
+			ResumeInfo resumeInfo1=resumeInfoService.findByMobile(mobile);
+			if(resumeInfo1!=null){
 				res.put("success", false);
 				res.put("msg", "手机号码已经存在");
 				return res;
@@ -318,14 +294,10 @@ public class ResumeController {
 			resumeInfo.setWorkExperiences(workExperiences);
 			resumeInfo.setIntroduction(introduction);
 			if(Tools.stringIsNotNull(wordhtml)){
-				ResumeWord word=resumeInfo.getWord();
-				if(word==null){
-					word=new ResumeWord();
-					resumeInfo.setWord(word);
-				}
+				ResumeWord word=new ResumeWord();
 				word.setContent(wordhtml);
 				word.setInfo(resumeInfo);
-				
+				resumeInfo.setWord(word);
 			}
 			resumeInfo.setCreateUid(AppUtils.getSessionUser().getId());
 			resumeInfo.setInsertTime(new Date());
@@ -333,12 +305,9 @@ public class ResumeController {
 			if(sex!=null){
 				resumeInfo.setSex(Tools.getEnumValue(ErpSexType.class, sex));
 			}
-			resumeInfo.setGschool(gschool);
-			resumeInfo.setWeixin(weixin);
 			resumeInfoService.save(resumeInfo);
 			res.put("success", true);
 			res.put("msg", "提交成功");
-			res.put("id", resumeInfo.getId());
 		}else{
 			res.put("msg", "表单信息不完整");
 		}
@@ -353,18 +322,8 @@ public class ResumeController {
 	 * @return
 	 */
 	@RequestMapping(value = "/checkmobile")
-	public @ResponseBody boolean checkmobile(HttpServletRequest request, HttpServletResponse response,
-			@RequestParam(value = "mobile", required = false) String mobile,
-			@RequestParam(value = "id", required = false) Long id) {
-		if(!Tools.stringIsNotNull(mobile) || !Tools.isMobileNum(mobile)){
-			return false;
-		}
-		if(id!=null && id>0){
-			ResumeInfo info=resumeInfoService.findById(id);
-			if(info!=null && info.getMobile().equals(mobile.trim())){
-				return true;
-			}
-		}
+	public @ResponseBody Object checkmobile(HttpServletRequest request, HttpServletResponse response,
+			@RequestParam(value = "mobile", required = false) String mobile) {
 		ResumeInfo resumeInfo1=resumeInfoService.findByMobile(mobile);
 		if(resumeInfo1!=null){
 			return false;

@@ -1,7 +1,6 @@
 package com.ccai.lietouerp.db.entity;
 
 import java.io.Serializable;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -344,13 +343,5 @@ public class ResumeInfo implements Serializable{
 	} 
 	
 	
-	public Integer age(){
-		Calendar c=Calendar.getInstance();
-		c.setTime(this.getBirthday());
-		
-		int by=c.get(Calendar.YEAR);
-		c.setTime(new Date());
-		int cy=c.get(Calendar.YEAR);
-		return cy-by;
-	}
+	
 }

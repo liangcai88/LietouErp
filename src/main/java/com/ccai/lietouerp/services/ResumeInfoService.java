@@ -19,7 +19,4 @@ public interface ResumeInfoService {
 	public ResumeInfo findByMobile(String mobile);
 	
 	public Page<ResumeInfo> search(Specification<ResumeInfo> spec,Integer pageNumber,Integer pageSize);
-	
-	
-	public void deleteResumeWorkExperience(Long ... ids);
 }

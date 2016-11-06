@@ -78,23 +78,23 @@
 				<!-- BEGIN HORIZANTAL MENU -->
 				<div class="navbar hor-menu hidden-phone hidden-tablet">
 					<div class="navbar-inner">
-						<ul class="nav"> 
+						<ul class="nav">
 							<li>
-								<a href="${link.contextPath}/resume/page/index">
-								人才库
+								<a href="index.html">
+								首页
 								</a>
 							</li>
-<!-- 							<li> -->
-<!-- 								<a data-toggle="dropdown" class="dropdown-toggle" href="${link.contextPath}/resume/page/">人才库 -->
-<!-- 								<span class="selected"></span> -->
-<!-- 								<span class="arrow"></span> -->
-<!-- 								</a> -->
-<!-- 								<ul class="dropdown-menu"> -->
-<!-- 									<li><a href="${link.contextPath}/resume/page/index">查找人才</a></li> -->
-<!-- 									<li><a href="${link.contextPath}/resume/page/add">添加简历</a></li> -->
-<!-- 								</ul> -->
-<!-- 								<b class="caret-out"></b>                         -->
-<!-- 							</li> -->
+							<li class="active">
+								<a data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);">人才库
+								<span class="selected"></span>
+								<span class="arrow"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li class="active"><a href="${link.contextPath}/resume/page/index">查找人才</a></li>
+									<li><a href="${link.contextPath}/resume/page/add">添加简历</a></li>
+								</ul>
+								<b class="caret-out"></b>                        
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -860,15 +860,14 @@
 	<script src="${link.contextPath}/js/jquery.ui.widget.js"></script>
 	<script src="${link.contextPath}/js/jquery.nestable.js"></script>    
 	<script src="${link.contextPath}/js/jquery.fileupload.js"></script>
-	<script src="${link.contextPath}/js/bootbox.min.js"></script>
-	
 	<!-- END CORE PLUGINS -->  
 
 	<script src="${link.contextPath}/js/app.js"></script>      
 
 	<script>
 
-		jQuery(document).ready(function() { 
+		jQuery(document).ready(function() {    
+
 		   App.init();
 
 		   jQuery('#promo_carousel').carousel({
@@ -879,20 +878,12 @@
 
 		   });
 		 
-		   
 		 function autoSetNavActive(){
 			  var indexend=window.location.href.indexOf("?");
 			  if(indexend<0){
 				  indexend=window.location.href.indexOf("#");  
 			  }
-			  if(indexend<0){
-				  indexend=window.location.href.indexOf(";");  
-			  }
-			   var navurl="$!navurl";
 			   var curPage=window.location.href.substring(window.location.host.length+window.location.protocol.length+2,indexend>0?indexend:window.location.href.length);
-			  	if(navurl){
-			  		curPage=navurl;
-			  	}
 			   $.each( $(".navbar-inner .nav li a"),function(index,val){
 				 if($(val).attr("href")==curPage){  
 					 $(".navbar-inner .nav li").removeClass("active");
@@ -932,9 +923,8 @@
 			    if(curXhr){  
 			    	curXhr.abort();
 			    }
-			    curXhr=$.ajax({ 
+			    curXhr=$.ajax({
 			    	type:'GET',
-			    	cache:false, 
 			        url:state.url,
 			        beforeSend:function(){
 			        	if(progresssto){
@@ -984,7 +974,6 @@
 			    });
 		   });
 		   
- 		   
 		});
 
 	</script>
