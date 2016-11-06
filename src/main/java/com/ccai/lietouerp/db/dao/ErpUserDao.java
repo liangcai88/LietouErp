@@ -9,7 +9,7 @@ import com.ccai.lietouerp.db.entity.ErpUser;
 
 
 @Repository
-public interface ErpUserDao extends PagingAndSortingRepository<ErpUser,String>{
+public interface ErpUserDao extends PagingAndSortingRepository<ErpUser,Long>{
 
 	@Query("select u from ErpUser u where u.userName=:un")
 	public ErpUser findByUserName(@Param("un") String userName);

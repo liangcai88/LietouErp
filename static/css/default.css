@@ -284,4 +284,5 @@ Landscape phone to portrait tablet
   ul.page-sidebar-menu > li:hover > a {
     background: #1e1e1e;
   }
-}
+} 
+ .bootbox-alert,.bootbox-confirm {width:340px;top:30% !important;margin-left: -170px;}

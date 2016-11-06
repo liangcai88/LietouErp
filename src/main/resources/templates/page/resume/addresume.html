@@ -1,0 +1,7 @@
+#set($navurl="${link.contextPath}/resume/page/index")
+#if($XMLHttpRequestType=="ajax")
+	#set($layout = "/layout/empty.html") 
+#else
+	#set($layout = "/layout/layout.html") 
+#end
+#parse("/modules/resume/addresume.html")

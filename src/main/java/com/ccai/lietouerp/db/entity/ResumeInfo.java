@@ -1,6 +1,7 @@
 package com.ccai.lietouerp.db.entity;
 
 import java.io.Serializable;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
@@ -44,7 +45,7 @@ import com.ccai.lietouerp.db.entity.types.MarriageType;
 @Indexed
 @Analyzer(impl=ChineseAnalyzer.class)
 @Entity
-@Table(name="ResumeInfo",indexes={@Index(columnList="createUid")})
+@Table(name="ResumeInfo",indexes={@Index(columnList="createUid"),@Index(columnList="trueName"),@Index(columnList="mobile",unique=true)})
 public class ResumeInfo implements Serializable{
 
 	private static final long serialVersionUID = 4272754802539710041L;
@@ -343,5 +344,13 @@ public class ResumeInfo implements Serializable{
 	} 
 	
 	
-	
+	public Integer age(){
+		Calendar c=Calendar.getInstance();
+		c.setTime(this.getBirthday());
+		
+		int by=c.get(Calendar.YEAR);
+		c.setTime(new Date());
+		int cy=c.get(Calendar.YEAR);
+		return cy-by;
+	}
 }

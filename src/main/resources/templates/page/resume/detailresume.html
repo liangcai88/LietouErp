@@ -1,0 +1,8 @@
+#set($pageTitle="简历详情")
+#set($navurl="${link.contextPath}/resume/page/index")
+#if($XMLHttpRequestType=="ajax")
+	#set($layout = "/layout/empty.html") 
+#else
+	#set($layout = "/layout/layout.html") 
+#end
+#parse("/modules/resume/detailresume.html")

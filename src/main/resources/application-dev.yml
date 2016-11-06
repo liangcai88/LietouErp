@@ -60,3 +60,11 @@ web:
   app:
     static: 
         path: file:/Users/liangcai/git/LietouErp/static/
+    word:
+        media: /Users/liangcai/git/LietouErp/static/image
+        path: /image
+multipart:
+  max-file-size: 10Mb
+  max-request-size: 10Mb
+  
+         

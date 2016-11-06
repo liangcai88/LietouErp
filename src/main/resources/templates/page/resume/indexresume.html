@@ -1,0 +1,7 @@
+#set($pageTitle="添加建立")
+#if($XMLHttpRequestType=="ajax")
+	#set($layout = "/layout/empty.html") 
+#else
+	#set($layout = "/layout/layout.html") 
+#end
+#parse("/modules/resume/indexresume.html")

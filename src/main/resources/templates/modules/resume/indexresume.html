@@ -1,0 +1,162 @@
+<link href="${link.contextPath}/css/search.css" rel="stylesheet"
+	type="text/css" id="style_color" />
+<div class="container">
+	<div class="row-fluid">
+		<div class="span12">
+			<h3 class="page-title" style="position: relative;">
+				人才库 <small>可以根据条件搜索人才</small> 
+				<a 	href="${link.contextPath}/resume/page/add" class="btn blue"
+					style="position:absolute;top:0;right:0;"><i class="icon-plus"></i> 添加简历</a>
+			</h3>
+
+			<ul class="breadcrumb">
+
+				<li><i class="icon-home"></i> <a href="index.html">主页</a> <span
+					class="icon-angle-right"></span></li>
+
+				<li><a href="${link.contextPath}/resume/page/index">人才库</a> <span
+					class="icon-angle-right"></span></li>
+
+				<li><a href="#">查找人才</a></li>
+
+			</ul>
+		</div>
+
+	</div>
+	<div class="row-fluid">
+		<div id="tab_1_2" class="tab-pane active">
+
+			<div class="row-fluid search-forms search-default">
+
+				<form class="form-search" id="resume-form-search" action="${link.contextPath}/resume/page/index">
+
+					<div class="chat-form">
+
+						<div class="input-cont">
+
+							<input type="text" name="term" placeholder="手机号码/姓名/公司名称" class="m-wrap" value="$!params.term"/>
+
+						</div>
+
+						<button type="submit" class="btn green">
+							搜索 &nbsp; <i class="m-icon-swapright m-icon-white"></i>
+						</button>  
+<a  href="javascript:void(0);" class="btn mini remove-search" style="position: absolute;top: 6px;right: 100px;display: none;"><i class="icon-remove"></i> <span class="hidden-phone">清除搜索</span></a>
+					</div>
+
+				</form> 
+
+			</div>
+
+			<table
+				class="table table-striped table-bordered table-advance table-hover">
+
+				<thead>
+
+					<tr>
+
+						<th><i class="icon-user"></i> 姓名</th>
+
+						<th class="hidden-phone">
+							性别</th>
+
+						<th class="hidden-phone">任职公司</th>
+						<th class="hidden-phone">职位</th>
+						<th><i class="icon-phone"></i> 联系方式</th>
+						<th class="hidden-phone"> 所在地</th>
+						<th></th>
+
+					</tr>
+
+				</thead>
+
+				<tbody>
+					#foreach($item in $pageData.content)
+					<tr>
+						<td><a href="${link.contextPath}/resume/page/detail/$item.id">$!item.trueName</a></td>
+						<td class="hidden-phone">$!item.sex.info</td>
+						#if($item.workExperiences.size()>0)
+						<td class="hidden-phone">$!item.workExperiences.get(0).company</td>
+						<td class="hidden-phone">$!item.workExperiences.get(0).jobTitle</td> #else
+						<td  class="hidden-phone"></td>  
+						<td  class="hidden-phone"></td> #end
+						<td><span class="label label-info"><i class="icon-mobile-phone"></i>&nbsp;$!item.mobile</span><br/>
+						<span class="label label-success"><i class="icon-envelope-alt"></i>&nbsp;$!item.email</span></td>
+						<td class="hidden-phone">$!item.localProvince $!item.localCity</td>
+						<td><a class="btn mini green-stripe" href="${link.contextPath}/resume/page/detail/$item.id">查看</a>&nbsp;
+						<a class="btn mini red" href="javascript:void(0);"><i class="icon-trash"></i></a></td>
+
+					</tr>
+					#end
+
+
+				</tbody>
+
+			</table>
+
+			<div class="space5"></div>
+
+			<div class="pagination pagination-right">
+
+				<ul>
+		 
+					<li><a href="${link.contextPath}/resume/page/index">前一页</a></li>
+					 #set($pageList=[1 .. $pageData.getTotalPages()])   
+					#foreach($pindex in $pageList)       
+					#if($pindex==($pageData.getNumber()+1))
+					<li class="active"><a href="${link.contextPath}/resume/page/index?pn=$pindex">$pindex</a></li>
+					#else
+					<li><a href="${link.contextPath}/resume/page/index?pn=$pindex">$pindex</a></li>
+					#end
+					#end
+
+					<li><a href="#">后一页</a></li>
+
+				</ul>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+<script>   
+
+	$(function(){
+		function moveEnd(obj) {
+			obj.focus();
+			var len = obj.value.length;
+			if (document.selection) {
+				var sel = obj.createTextRange();
+				sel.moveStart('character', len);
+				sel.collapse();
+				sel.select();
+			} else if (typeof obj.selectionStart == 'number'
+					&& typeof obj.selectionEnd == 'number') {
+				obj.selectionStart = obj.selectionEnd = len;
+			}
+		}
+		var initterm=$("#resume-form-search").find("input[name='term']").val();
+		if(initterm){  
+			$("#resume-form-search").find(".remove-search").show();
+		}
+		else
+			$("#resume-form-search").find(".remove-search").hide();
+		moveEnd($("#resume-form-search").find("input[name='term']")[0]);  
+		
+		$("#resume-form-search").find(".remove-search").click(function(){   
+			History.pushState(null,"人才库", "${link.contextPath}/resume/page/index"); 
+			return false;  
+		});
+		
+		$("#resume-form-search").submit(function(){  
+			var term=$(this).find("input[name='term']").val();
+			if(term && $.trim(term)){
+				History.pushState(null,"人才库", "${link.contextPath}/resume/page/index?term="+term); 
+			}else{ 
+				$(this).find("input[name='term']").val("")
+				$(this).find("input[name='term']").focus();  
+			} 
+	  		return false;
+		});
+	});
+</script>

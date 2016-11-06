@@ -1,6 +1,8 @@
 package com.ccai.lietouerp.db.entity;
 
 import java.io.Serializable;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -16,6 +18,8 @@ import javax.persistence.Table;
 import org.hibernate.search.annotations.Analyze;
 import org.hibernate.search.annotations.ContainedIn;
 import org.hibernate.search.annotations.Field;
+
+import com.ccai.utils.Tools;
 
 /**
  * word简历
@@ -65,6 +69,16 @@ public class ResumeWord implements Serializable{
 		this.info = info;
 	}
 	
+	public String getEncodeContent(){
+		if(Tools.stringIsNotNull(this.getContent())){
+			try {
+				return URLEncoder.encode(this.getContent(), "utf8");
+			} catch (UnsupportedEncodingException e) {
+				e.printStackTrace();
+			}
+		}
+		return null;
+	}
 	
 
 }

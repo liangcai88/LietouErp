@@ -11,12 +11,19 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Predicate;
+import javax.persistence.criteria.Root;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.shiro.SecurityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -27,6 +34,7 @@ import com.ccai.lietouerp.db.entity.ResumeInfo;
 import com.ccai.lietouerp.db.entity.ResumeWord;
 import com.ccai.lietouerp.db.entity.ResumeWorkExperience;
 import com.ccai.lietouerp.db.entity.types.EducationType;
+import com.ccai.lietouerp.db.entity.types.ErpSexType;
 import com.ccai.lietouerp.db.entity.types.MarriageType;
 import com.ccai.lietouerp.services.ResumeInfoService;
 import com.ccai.utils.Tools;
@@ -43,6 +51,74 @@ public class ResumeController {
 	
 	@Autowired
 	private ResumeInfoService resumeInfoService;
+	
+	
+	@RequestMapping(value = "/page/index")
+	public String index(HttpServletRequest request, HttpServletResponse response,Map<String, Object> model,
+			@RequestParam(value = "pn", required = false) Integer pn,
+			@RequestParam(value = "term", required = false) String term){
+		if(pn==null || pn<1){
+			pn=1;
+		}
+		model.put("educationTypes", EducationType.values());
+    	model.put("privoces", PCAUtils.getInstance().findPrivoceList());
+    	model.put("marriageTypes", MarriageType.values());
+    	Specification<ResumeInfo> spec =null;
+    	if(Tools.stringIsNotNull(term)){
+    		spec = new Specification<ResumeInfo>() {
+				@Override
+				public Predicate toPredicate(Root<ResumeInfo> root, CriteriaQuery<?> query, CriteriaBuilder cb) {
+					query.distinct(true);
+		              Predicate p3= cb.equal(root.join("workExperiences").get("company").as(String.class), term);
+					   Predicate p1= cb.equal(root.get("mobile").as(String.class),term);
+					   Predicate p2= cb.equal(root.get("trueName").as(String.class),term);
+					   
+					return cb.or(p1,p2,p3); 
+				}
+		};  
+    	}
+    	Page<ResumeInfo> pageData=resumeInfoService.search(spec, pn, 10);
+    	if((pageData.getContent()==null || pageData.getContent().size()==0) && pageData.getTotalPages()>0){
+    		 pn=1;
+    		 pageData=resumeInfoService.search(spec, pn, 10);    
+    	}
+    	model.put("pageData", pageData);
+        return "resume/indexresume";     
+	}
+	
+	@RequestMapping(value = "/page/detail/{id}")
+	public String detail(HttpServletRequest request, HttpServletResponse response,Map<String, Object> model,
+			@PathVariable("id") String id){
+		model.put("educationTypes", EducationType.values());
+    	model.put("privoces", PCAUtils.getInstance().findPrivoceList());
+    	model.put("marriageTypes", MarriageType.values());
+    	ResumeInfo info=resumeInfoService.findById(Tools.toLong(id));
+    	model.put("info",info);
+        return "resume/detailresume";     
+	}
+	
+	@RequestMapping(value = "/page/add")
+	public String add(HttpServletRequest request, HttpServletResponse response,Map<String, Object> model){
+		model.put("educationTypes", EducationType.values());
+    	model.put("privoces", PCAUtils.getInstance().findPrivoceList());
+    	model.put("marriageTypes", MarriageType.values());
+    	model.put("pageTitle","添加简历");
+        return "resume/addresume";     
+	}
+
+	
+	@RequestMapping(value = "/page/edit/{id}")
+	public String edit(HttpServletRequest request, HttpServletResponse response,Map<String, Object> model,
+			@PathVariable("id") String id){
+		model.put("educationTypes", EducationType.values());
+    	model.put("privoces", PCAUtils.getInstance().findPrivoceList());
+    	model.put("marriageTypes", MarriageType.values());
+    	ResumeInfo info=resumeInfoService.findById(Tools.toLong(id));
+    	model.put("info",info);
+    	model.put("pageTitle","编辑简历");
+        return "resume/addresume";     
+	}
+	
 
 	/**
 	 * 上传word简历
@@ -63,7 +139,7 @@ public class ResumeController {
 		BufferedOutputStream bufferedOutput =null;
 		File file2=null;
 		try {
-			 file2=new File(file.getOriginalFilename());
+			 file2=new File("static/tmp/"+file.getOriginalFilename());
 			output= new FileOutputStream(file2);
 			bufferedOutput= new BufferedOutputStream(output);
 			bufferedOutput.write(file.getBytes());
@@ -74,9 +150,6 @@ public class ResumeController {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}finally {
-			if(file2!=null){
-				file2.delete();
-			}
 			if(bufferedOutput!=null){
 				try{
 					bufferedOutput.close();
@@ -85,6 +158,9 @@ public class ResumeController {
 					e.printStackTrace();
 				}
 			} 
+			if(file2!=null){
+				file2.delete();
+			}
 		}
 		return resData;
 	}
@@ -120,6 +196,18 @@ public class ResumeController {
 		res.put("success", false);
 		if(Tools.stringIsNotNull(trueName,birthday,mobile)){
 			ResumeInfo resumeInfo=new ResumeInfo();
+			String idstr=request.getParameter("id");
+			Long id=null;
+			if(Tools.stringIsNotNull(idstr) && Tools.toLong(idstr)>0){
+			id=Tools.toLong(idstr);
+			resumeInfo=resumeInfoService.findById(Tools.toLong(idstr));
+			if(resumeInfo==null){
+				if(!Tools.isMobileNum(mobile)){
+					res.put("msg", "编辑的简历不存在");
+					return res;
+				}
+			}
+			}
 			resumeInfo.setTrueName(trueName);
 			if(!Tools.isMobileNum(mobile)){
 				res.put("msg", "手机号码格式不正确");
@@ -165,7 +253,7 @@ public class ResumeController {
 				}
 			}
 			if(placeOriginPCA!=null)
-			resumeInfo.setPlaceOrigin(localCityPCA.getName());
+			resumeInfo.setPlaceOrigin(placeOriginPCA.getName());
 			if(localCity!=null){
 				localCityPCA=PCAUtils.getInstance().findById(localCity.longValue());
 				if(localCityPCA==null){
@@ -177,7 +265,17 @@ public class ResumeController {
 				resumeInfo.setLocalCity(localCityPCA.getName());
 				resumeInfo.setLocalProvince(PCAUtils.getInstance().findById(localCityPCA.getParentId()).getName());
 			}
-			List<ResumeWorkExperience> workExperiences=new ArrayList<ResumeWorkExperience>();
+			
+			List<ResumeWorkExperience> workExperiences=resumeInfo.getWorkExperiences();
+			if(workExperiences==null)
+				workExperiences=new ArrayList<ResumeWorkExperience>();
+			for (int i = 0; i < workExperiences.size(); i++) {
+				workExperiences.get(i).setInfo(null);
+				resumeInfoService.deleteResumeWorkExperience(workExperiences.get(i).getId());
+				workExperiences.remove(i);
+				i--;
+			}
+			workExperiences=new ArrayList<ResumeWorkExperience>();
 			if(company!=null && jobTitle!=null && startTime!=null 
 					&& endTime!=null && startTime.length>0 && startTime.length==endTime.length 
 					&& startTime.length==jobTitle.length && jobTitle.length==company.length){
@@ -212,24 +310,66 @@ public class ResumeController {
 					
 				}
 			}
+			if(!checkmobile(request, response, mobile, id)){
+				res.put("success", false);
+				res.put("msg", "手机号码已经存在");
+				return res;
+			}
 			resumeInfo.setWorkExperiences(workExperiences);
 			resumeInfo.setIntroduction(introduction);
 			if(Tools.stringIsNotNull(wordhtml)){
-				ResumeWord word=new ResumeWord();
+				ResumeWord word=resumeInfo.getWord();
+				if(word==null){
+					word=new ResumeWord();
+					resumeInfo.setWord(word);
+				}
 				word.setContent(wordhtml);
 				word.setInfo(resumeInfo);
-				resumeInfo.setWord(word);
+				
 			}
 			resumeInfo.setCreateUid(AppUtils.getSessionUser().getId());
 			resumeInfo.setInsertTime(new Date());
 			resumeInfo.setUpdateTime(new Date());
+			if(sex!=null){
+				resumeInfo.setSex(Tools.getEnumValue(ErpSexType.class, sex));
+			}
+			resumeInfo.setGschool(gschool);
+			resumeInfo.setWeixin(weixin);
 			resumeInfoService.save(resumeInfo);
 			res.put("success", true);
 			res.put("msg", "提交成功");
+			res.put("id", resumeInfo.getId());
 		}else{
 			res.put("msg", "表单信息不完整");
 		}
 		return res;
+	}
+	
+	/**
+	 * 检查手机号码是否存在
+	 * @param request
+	 * @param response
+	 * @param mobile
+	 * @return
+	 */
+	@RequestMapping(value = "/checkmobile")
+	public @ResponseBody boolean checkmobile(HttpServletRequest request, HttpServletResponse response,
+			@RequestParam(value = "mobile", required = false) String mobile,
+			@RequestParam(value = "id", required = false) Long id) {
+		if(!Tools.stringIsNotNull(mobile) || !Tools.isMobileNum(mobile)){
+			return false;
+		}
+		if(id!=null && id>0){
+			ResumeInfo info=resumeInfoService.findById(id);
+			if(info!=null && info.getMobile().equals(mobile.trim())){
+				return true;
+			}
+		}
+		ResumeInfo resumeInfo1=resumeInfoService.findByMobile(mobile);
+		if(resumeInfo1!=null){
+			return false;
+		}
+		return true;
 	}
 	
 //	public static void main(String[] args){

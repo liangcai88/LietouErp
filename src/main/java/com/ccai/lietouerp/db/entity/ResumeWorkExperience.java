@@ -1,6 +1,9 @@
 package com.ccai.lietouerp.db.entity;
 
 import java.io.Serializable;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -133,5 +136,24 @@ public class ResumeWorkExperience implements Serializable{
 	}
 	
 	
+	public Date getStartDate(){
+		SimpleDateFormat format=new SimpleDateFormat("yyyy/MM");
+		try {
+			return format.parse(this.getStartYear()+"/"+this.getStartMonth());
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
 	
+	
+	public Date getEndDate(){
+		SimpleDateFormat format=new SimpleDateFormat("yyyy/MM");
+		try {
+			return format.parse(this.getEndYear()+"/"+this.getEndMonth());
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
 }
